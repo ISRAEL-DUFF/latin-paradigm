@@ -1,0 +1,141 @@
+{
+  "chapter": 25,
+  "title": "Infinitives and indirect statement",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "verb.laudo.inf",
+      "kind": "verb",
+      "lemma": "laudō",
+      "system": "infinitives",
+      "label": "laudō — The Six Infinitives",
+      "short": "Infinitives",
+      "chapterIntroduced": 25,
+      "layout": {
+        "rowLabels": [
+          "Present",
+          "Perfect",
+          "Future"
+        ],
+        "colLabels": [
+          "active",
+          "passive"
+        ]
+      },
+      "notes": "The scaffolding of indirect statement. Two are single words each way (laudāre/laudārī, laudāvisse); the rest are participle + esse — and the rare future passive laudātum īrī.",
+      "cells": [
+        {
+          "id": "pra",
+          "r": 0,
+          "c": 0,
+          "form": "laudāre",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "re",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 25,
+          "freqTier": 1,
+          "homographs": [
+            "pp.laudo:ii"
+          ]
+        },
+        {
+          "id": "prp",
+          "r": 0,
+          "c": 1,
+          "form": "laudārī",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "rī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 25,
+          "freqTier": 1
+        },
+        {
+          "id": "pfa",
+          "r": 1,
+          "c": 0,
+          "form": "laudāvisse",
+          "pieces": [
+            {
+              "text": "laudāv",
+              "role": "stem"
+            },
+            {
+              "text": "isse",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 25,
+          "freqTier": 1
+        },
+        {
+          "id": "pfp",
+          "r": 1,
+          "c": 1,
+          "form": "laudātus esse",
+          "pieces": [
+            {
+              "text": "laudātus ",
+              "role": "participle"
+            },
+            {
+              "text": "esse",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 25,
+          "freqTier": 1
+        },
+        {
+          "id": "fua",
+          "r": 2,
+          "c": 0,
+          "form": "laudātūrus esse",
+          "pieces": [
+            {
+              "text": "laudātūrus ",
+              "role": "participle"
+            },
+            {
+              "text": "esse",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 25,
+          "freqTier": 2
+        },
+        {
+          "id": "fup",
+          "r": 2,
+          "c": 1,
+          "form": "laudātum īrī",
+          "pieces": [
+            {
+              "text": "laudātum ",
+              "role": "participle"
+            },
+            {
+              "text": "īrī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 25,
+          "freqTier": 3
+        }
+      ]
+    }
+  ]
+}

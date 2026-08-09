@@ -1,0 +1,649 @@
+{
+  "chapter": 19,
+  "title": "The perfect passive system; the interrogative quis",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "verb.laudo.perf.pass.ind",
+      "kind": "verb",
+      "lemma": "laudō",
+      "system": "perfect indicative passive",
+      "label": "laudō — Perfect Passive",
+      "short": "PerfPass laudō",
+      "chapterIntroduced": 19,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "Two words, one tense: the perfect participle plus sum. laudātus est — 'he was praised / has been praised'. The participle agrees: laudāta est, laudātī sunt.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "laudātus sum",
+          "pieces": [
+            {
+              "text": "laudātus ",
+              "role": "participle"
+            },
+            {
+              "text": "sum",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 19,
+          "freqTier": 1
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "laudātus es",
+          "pieces": [
+            {
+              "text": "laudātus ",
+              "role": "participle"
+            },
+            {
+              "text": "es",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 19,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "laudātus est",
+          "pieces": [
+            {
+              "text": "laudātus ",
+              "role": "participle"
+            },
+            {
+              "text": "est",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 19,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "laudātī sumus",
+          "pieces": [
+            {
+              "text": "laudātī ",
+              "role": "participle"
+            },
+            {
+              "text": "sumus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 19,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "laudātī estis",
+          "pieces": [
+            {
+              "text": "laudātī ",
+              "role": "participle"
+            },
+            {
+              "text": "estis",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 19,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "laudātī sunt",
+          "pieces": [
+            {
+              "text": "laudātī ",
+              "role": "participle"
+            },
+            {
+              "text": "sunt",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 19,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "verb.laudo.plup.pass.ind",
+      "kind": "verb",
+      "lemma": "laudō",
+      "system": "pluperfect indicative passive",
+      "label": "laudō — Pluperfect Passive",
+      "short": "PlupPass laudō",
+      "chapterIntroduced": 19,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "Participle + eram: laudātus erat, 'he had been praised'.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "laudātus eram",
+          "pieces": [
+            {
+              "text": "laudātus ",
+              "role": "participle"
+            },
+            {
+              "text": "eram",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 19,
+          "freqTier": 1
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "laudātus erās",
+          "pieces": [
+            {
+              "text": "laudātus ",
+              "role": "participle"
+            },
+            {
+              "text": "erās",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 19,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "laudātus erat",
+          "pieces": [
+            {
+              "text": "laudātus ",
+              "role": "participle"
+            },
+            {
+              "text": "erat",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 19,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "laudātī erāmus",
+          "pieces": [
+            {
+              "text": "laudātī ",
+              "role": "participle"
+            },
+            {
+              "text": "erāmus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 19,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "laudātī erātis",
+          "pieces": [
+            {
+              "text": "laudātī ",
+              "role": "participle"
+            },
+            {
+              "text": "erātis",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 19,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "laudātī erant",
+          "pieces": [
+            {
+              "text": "laudātī ",
+              "role": "participle"
+            },
+            {
+              "text": "erant",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 19,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "verb.laudo.futperf.pass.ind",
+      "kind": "verb",
+      "lemma": "laudō",
+      "system": "future perfect indicative passive",
+      "label": "laudō — Future Perfect Passive",
+      "short": "FutPerfPass laudō",
+      "chapterIntroduced": 19,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "Participle + erō: laudātus erit, 'he will have been praised'.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "laudātus erō",
+          "pieces": [
+            {
+              "text": "laudātus ",
+              "role": "participle"
+            },
+            {
+              "text": "erō",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 19,
+          "freqTier": 2
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "laudātus eris",
+          "pieces": [
+            {
+              "text": "laudātus ",
+              "role": "participle"
+            },
+            {
+              "text": "eris",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 19,
+          "freqTier": 2
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "laudātus erit",
+          "pieces": [
+            {
+              "text": "laudātus ",
+              "role": "participle"
+            },
+            {
+              "text": "erit",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 19,
+          "freqTier": 2
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "laudātī erimus",
+          "pieces": [
+            {
+              "text": "laudātī ",
+              "role": "participle"
+            },
+            {
+              "text": "erimus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 19,
+          "freqTier": 2
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "laudātī eritis",
+          "pieces": [
+            {
+              "text": "laudātī ",
+              "role": "participle"
+            },
+            {
+              "text": "eritis",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 19,
+          "freqTier": 2
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "laudātī erunt",
+          "pieces": [
+            {
+              "text": "laudātī ",
+              "role": "participle"
+            },
+            {
+              "text": "erunt",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 19,
+          "freqTier": 2
+        }
+      ]
+    },
+    {
+      "id": "pron.quis.sg",
+      "kind": "pron",
+      "lemma": "quis",
+      "system": "interrogative pronoun",
+      "label": "quis — who? what? (singular)",
+      "short": "quis",
+      "chapterIntroduced": 19,
+      "drillClass": "wholeForm",
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "masc/fem",
+          "neuter"
+        ]
+      },
+      "notes": "quis, quid — the question words. Identical to the relative except in the nominative (quis for quī) and neuter (quid for quod); the plural simply IS the relative's.",
+      "cells": [
+        {
+          "id": "nc",
+          "r": 0,
+          "c": 0,
+          "form": "quis",
+          "pieces": [
+            {
+              "text": "quis",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 19,
+          "freqTier": 1
+        },
+        {
+          "id": "nn",
+          "r": 0,
+          "c": 1,
+          "form": "quid",
+          "pieces": [
+            {
+              "text": "quid",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 19,
+          "freqTier": 1,
+          "homographs": [
+            "pron.quis.sg:an"
+          ]
+        },
+        {
+          "id": "gc",
+          "r": 1,
+          "c": 0,
+          "form": "cuius",
+          "pieces": [
+            {
+              "text": "cuius",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 19,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.sg:gf",
+            "pron.qui.sg:gm",
+            "pron.qui.sg:gn",
+            "pron.quis.sg:gn"
+          ]
+        },
+        {
+          "id": "gn",
+          "r": 1,
+          "c": 1,
+          "form": "cuius",
+          "pieces": [
+            {
+              "text": "cuius",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 19,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.sg:gf",
+            "pron.qui.sg:gm",
+            "pron.qui.sg:gn",
+            "pron.quis.sg:gc"
+          ]
+        },
+        {
+          "id": "dc",
+          "r": 2,
+          "c": 0,
+          "form": "cui",
+          "pieces": [
+            {
+              "text": "cui",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 19,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.sg:df",
+            "pron.qui.sg:dm",
+            "pron.qui.sg:dn",
+            "pron.quis.sg:dn"
+          ]
+        },
+        {
+          "id": "dn",
+          "r": 2,
+          "c": 1,
+          "form": "cui",
+          "pieces": [
+            {
+              "text": "cui",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 19,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.sg:df",
+            "pron.qui.sg:dm",
+            "pron.qui.sg:dn",
+            "pron.quis.sg:dc"
+          ]
+        },
+        {
+          "id": "ac",
+          "r": 3,
+          "c": 0,
+          "form": "quem",
+          "pieces": [
+            {
+              "text": "quem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 19,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.sg:am"
+          ]
+        },
+        {
+          "id": "an",
+          "r": 3,
+          "c": 1,
+          "form": "quid",
+          "pieces": [
+            {
+              "text": "quid",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 19,
+          "freqTier": 1,
+          "homographs": [
+            "pron.quis.sg:nn"
+          ]
+        },
+        {
+          "id": "bc",
+          "r": 4,
+          "c": 0,
+          "form": "quō",
+          "pieces": [
+            {
+              "text": "quō",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 19,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.sg:bm",
+            "pron.qui.sg:bn",
+            "pron.quis.sg:bn"
+          ]
+        },
+        {
+          "id": "bn",
+          "r": 4,
+          "c": 1,
+          "form": "quō",
+          "pieces": [
+            {
+              "text": "quō",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 19,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.sg:bm",
+            "pron.qui.sg:bn",
+            "pron.quis.sg:bc"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,811 @@
+{
+  "chapter": 3,
+  "title": "Second declension masculines — amīcus, puer, and the -ius vocative",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "noun.amicus.decl2m",
+      "kind": "noun",
+      "lemma": "amīcus",
+      "system": "second declension, masculine",
+      "label": "amīcus — Second Declension Masculine",
+      "short": "amīcus",
+      "chapterIntroduced": 3,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl",
+          "Voc"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "The vocative amīce is the one place -us nouns have their own vocative form. Dative and ablative are identical in both numbers — context decides.",
+      "cells": [
+        {
+          "id": "ns",
+          "r": 0,
+          "c": 0,
+          "form": "amīcus",
+          "pieces": [
+            {
+              "text": "amīc",
+              "role": "stem"
+            },
+            {
+              "text": "us",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 1
+        },
+        {
+          "id": "gs",
+          "r": 1,
+          "c": 0,
+          "form": "amīcī",
+          "pieces": [
+            {
+              "text": "amīc",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 1,
+          "homographs": [
+            "noun.amicus.decl2m:np",
+            "noun.amicus.decl2m:vp"
+          ]
+        },
+        {
+          "id": "ds",
+          "r": 2,
+          "c": 0,
+          "form": "amīcō",
+          "pieces": [
+            {
+              "text": "amīc",
+              "role": "stem"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 1,
+          "homographs": [
+            "noun.amicus.decl2m:bs"
+          ]
+        },
+        {
+          "id": "as",
+          "r": 3,
+          "c": 0,
+          "form": "amīcum",
+          "pieces": [
+            {
+              "text": "amīc",
+              "role": "stem"
+            },
+            {
+              "text": "um",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 1
+        },
+        {
+          "id": "bs",
+          "r": 4,
+          "c": 0,
+          "form": "amīcō",
+          "pieces": [
+            {
+              "text": "amīc",
+              "role": "stem"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 1,
+          "homographs": [
+            "noun.amicus.decl2m:ds"
+          ]
+        },
+        {
+          "id": "vs",
+          "r": 5,
+          "c": 0,
+          "form": "amīce",
+          "pieces": [
+            {
+              "text": "amīc",
+              "role": "stem"
+            },
+            {
+              "text": "e",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 2
+        },
+        {
+          "id": "np",
+          "r": 0,
+          "c": 1,
+          "form": "amīcī",
+          "pieces": [
+            {
+              "text": "amīc",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 1,
+          "homographs": [
+            "noun.amicus.decl2m:gs",
+            "noun.amicus.decl2m:vp"
+          ]
+        },
+        {
+          "id": "gp",
+          "r": 1,
+          "c": 1,
+          "form": "amīcōrum",
+          "pieces": [
+            {
+              "text": "amīc",
+              "role": "stem"
+            },
+            {
+              "text": "ōrum",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 1
+        },
+        {
+          "id": "dp",
+          "r": 2,
+          "c": 1,
+          "form": "amīcīs",
+          "pieces": [
+            {
+              "text": "amīc",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 1,
+          "homographs": [
+            "noun.amicus.decl2m:bp"
+          ]
+        },
+        {
+          "id": "ap",
+          "r": 3,
+          "c": 1,
+          "form": "amīcōs",
+          "pieces": [
+            {
+              "text": "amīc",
+              "role": "stem"
+            },
+            {
+              "text": "ōs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 1
+        },
+        {
+          "id": "bp",
+          "r": 4,
+          "c": 1,
+          "form": "amīcīs",
+          "pieces": [
+            {
+              "text": "amīc",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 1,
+          "homographs": [
+            "noun.amicus.decl2m:dp"
+          ]
+        },
+        {
+          "id": "vp",
+          "r": 5,
+          "c": 1,
+          "form": "amīcī",
+          "pieces": [
+            {
+              "text": "amīc",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 2,
+          "homographs": [
+            "noun.amicus.decl2m:gs",
+            "noun.amicus.decl2m:np"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "noun.puer.decl2r",
+      "kind": "noun",
+      "lemma": "puer",
+      "system": "second declension, -er masculine",
+      "label": "puer — Second Declension in -er",
+      "short": "puer",
+      "chapterIntroduced": 3,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl",
+          "Voc"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "No -us in the nominative — puer is the bare stem, and the e stays throughout (unlike ager, agrī).",
+      "cells": [
+        {
+          "id": "ns",
+          "r": 0,
+          "c": 0,
+          "form": "puer",
+          "pieces": [
+            {
+              "text": "puer",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 1,
+          "homographs": [
+            "noun.puer.decl2r:vs"
+          ]
+        },
+        {
+          "id": "gs",
+          "r": 1,
+          "c": 0,
+          "form": "puerī",
+          "pieces": [
+            {
+              "text": "puer",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 1,
+          "homographs": [
+            "noun.puer.decl2r:np",
+            "noun.puer.decl2r:vp"
+          ]
+        },
+        {
+          "id": "ds",
+          "r": 2,
+          "c": 0,
+          "form": "puerō",
+          "pieces": [
+            {
+              "text": "puer",
+              "role": "stem"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 1,
+          "homographs": [
+            "noun.puer.decl2r:bs"
+          ]
+        },
+        {
+          "id": "as",
+          "r": 3,
+          "c": 0,
+          "form": "puerum",
+          "pieces": [
+            {
+              "text": "puer",
+              "role": "stem"
+            },
+            {
+              "text": "um",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 1
+        },
+        {
+          "id": "bs",
+          "r": 4,
+          "c": 0,
+          "form": "puerō",
+          "pieces": [
+            {
+              "text": "puer",
+              "role": "stem"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 1,
+          "homographs": [
+            "noun.puer.decl2r:ds"
+          ]
+        },
+        {
+          "id": "vs",
+          "r": 5,
+          "c": 0,
+          "form": "puer",
+          "pieces": [
+            {
+              "text": "puer",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 2,
+          "homographs": [
+            "noun.puer.decl2r:ns"
+          ]
+        },
+        {
+          "id": "np",
+          "r": 0,
+          "c": 1,
+          "form": "puerī",
+          "pieces": [
+            {
+              "text": "puer",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 1,
+          "homographs": [
+            "noun.puer.decl2r:gs",
+            "noun.puer.decl2r:vp"
+          ]
+        },
+        {
+          "id": "gp",
+          "r": 1,
+          "c": 1,
+          "form": "puerōrum",
+          "pieces": [
+            {
+              "text": "puer",
+              "role": "stem"
+            },
+            {
+              "text": "ōrum",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 1
+        },
+        {
+          "id": "dp",
+          "r": 2,
+          "c": 1,
+          "form": "puerīs",
+          "pieces": [
+            {
+              "text": "puer",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 1,
+          "homographs": [
+            "noun.puer.decl2r:bp"
+          ]
+        },
+        {
+          "id": "ap",
+          "r": 3,
+          "c": 1,
+          "form": "puerōs",
+          "pieces": [
+            {
+              "text": "puer",
+              "role": "stem"
+            },
+            {
+              "text": "ōs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 1
+        },
+        {
+          "id": "bp",
+          "r": 4,
+          "c": 1,
+          "form": "puerīs",
+          "pieces": [
+            {
+              "text": "puer",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 1,
+          "homographs": [
+            "noun.puer.decl2r:dp"
+          ]
+        },
+        {
+          "id": "vp",
+          "r": 5,
+          "c": 1,
+          "form": "puerī",
+          "pieces": [
+            {
+              "text": "puer",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 2,
+          "homographs": [
+            "noun.puer.decl2r:gs",
+            "noun.puer.decl2r:np"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "noun.filius.decl2ius",
+      "kind": "noun",
+      "lemma": "fīlius",
+      "system": "second declension in -ius",
+      "label": "fīlius — Second Declension in -ius",
+      "short": "fīlius",
+      "chapterIntroduced": 3,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl",
+          "Voc"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "The -ius wrinkle: the vocative is fīlī — a single ī, no -e. (Older Latin also wrote the genitive fīlī; Wheelock's paradigm form is fīliī.)",
+      "cells": [
+        {
+          "id": "ns",
+          "r": 0,
+          "c": 0,
+          "form": "fīlius",
+          "pieces": [
+            {
+              "text": "fīli",
+              "role": "stem"
+            },
+            {
+              "text": "us",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 1
+        },
+        {
+          "id": "gs",
+          "r": 1,
+          "c": 0,
+          "form": "fīliī",
+          "pieces": [
+            {
+              "text": "fīli",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 1,
+          "homographs": [
+            "noun.filius.decl2ius:np",
+            "noun.filius.decl2ius:vp"
+          ]
+        },
+        {
+          "id": "ds",
+          "r": 2,
+          "c": 0,
+          "form": "fīliō",
+          "pieces": [
+            {
+              "text": "fīli",
+              "role": "stem"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 1,
+          "homographs": [
+            "noun.filius.decl2ius:bs"
+          ]
+        },
+        {
+          "id": "as",
+          "r": 3,
+          "c": 0,
+          "form": "fīlium",
+          "pieces": [
+            {
+              "text": "fīli",
+              "role": "stem"
+            },
+            {
+              "text": "um",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 1
+        },
+        {
+          "id": "bs",
+          "r": 4,
+          "c": 0,
+          "form": "fīliō",
+          "pieces": [
+            {
+              "text": "fīli",
+              "role": "stem"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 1,
+          "homographs": [
+            "noun.filius.decl2ius:ds"
+          ]
+        },
+        {
+          "id": "vs",
+          "r": 5,
+          "c": 0,
+          "form": "fīlī",
+          "pieces": [
+            {
+              "text": "fīlī",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 2
+        },
+        {
+          "id": "np",
+          "r": 0,
+          "c": 1,
+          "form": "fīliī",
+          "pieces": [
+            {
+              "text": "fīli",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 1,
+          "homographs": [
+            "noun.filius.decl2ius:gs",
+            "noun.filius.decl2ius:vp"
+          ]
+        },
+        {
+          "id": "gp",
+          "r": 1,
+          "c": 1,
+          "form": "fīliōrum",
+          "pieces": [
+            {
+              "text": "fīli",
+              "role": "stem"
+            },
+            {
+              "text": "ōrum",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 1
+        },
+        {
+          "id": "dp",
+          "r": 2,
+          "c": 1,
+          "form": "fīliīs",
+          "pieces": [
+            {
+              "text": "fīli",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 1,
+          "homographs": [
+            "noun.filius.decl2ius:bp"
+          ]
+        },
+        {
+          "id": "ap",
+          "r": 3,
+          "c": 1,
+          "form": "fīliōs",
+          "pieces": [
+            {
+              "text": "fīli",
+              "role": "stem"
+            },
+            {
+              "text": "ōs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 1
+        },
+        {
+          "id": "bp",
+          "r": 4,
+          "c": 1,
+          "form": "fīliīs",
+          "pieces": [
+            {
+              "text": "fīli",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 1,
+          "homographs": [
+            "noun.filius.decl2ius:dp"
+          ]
+        },
+        {
+          "id": "vp",
+          "r": 5,
+          "c": 1,
+          "form": "fīliī",
+          "pieces": [
+            {
+              "text": "fīli",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 3,
+          "freqTier": 2,
+          "homographs": [
+            "noun.filius.decl2ius:gs",
+            "noun.filius.decl2ius:np"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "chapter": 34,
+  "title": "Deponent verbs — passive shapes, active meanings",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "verb.hortor.pres.ind",
+      "kind": "verb",
+      "lemma": "hortor",
+      "system": "deponent, 1st conjugation",
+      "label": "hortor — Present Indicative (deponent)",
+      "short": "hortor",
+      "chapterIntroduced": 34,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "Passive shapes, active meaning: hortātur = 'he urges', never 'he is urged'. An active-looking hortat CANNOT EXIST — which is exactly what Impostor will try on you.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "hortor",
+          "pieces": [
+            {
+              "text": "hortā",
+              "role": "stem"
+            },
+            {
+              "text": "or",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "āo",
+              "to": "o"
+            }
+          ],
+          "chapterMax": 34,
+          "freqTier": 1,
+          "homographs": [
+            "pp.hortor:i"
+          ]
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "hortāris",
+          "pieces": [
+            {
+              "text": "hortā",
+              "role": "stem"
+            },
+            {
+              "text": "ris",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 34,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "hortātur",
+          "pieces": [
+            {
+              "text": "hortā",
+              "role": "stem"
+            },
+            {
+              "text": "tur",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 34,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "hortāmur",
+          "pieces": [
+            {
+              "text": "hortā",
+              "role": "stem"
+            },
+            {
+              "text": "mur",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 34,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "hortāminī",
+          "pieces": [
+            {
+              "text": "hortā",
+              "role": "stem"
+            },
+            {
+              "text": "minī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 34,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "hortantur",
+          "pieces": [
+            {
+              "text": "hortā",
+              "role": "stem"
+            },
+            {
+              "text": "ntur",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "āntur",
+              "to": "antur"
+            }
+          ],
+          "chapterMax": 34,
+          "freqTier": 1
+        }
+      ],
+      "isDeponent": true
+    },
+    {
+      "id": "verb.sequor.pres.ind",
+      "kind": "verb",
+      "lemma": "sequor",
+      "system": "deponent, 3rd conjugation",
+      "label": "sequor — Present Indicative (deponent)",
+      "short": "sequor",
+      "chapterIntroduced": 34,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "sequitur — 'he follows'. The third conjugation wearing its passive endings with a straight face.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "sequor",
+          "pieces": [
+            {
+              "text": "sequ",
+              "role": "stem"
+            },
+            {
+              "text": "or",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 34,
+          "freqTier": 1,
+          "homographs": [
+            "pp.sequor:i"
+          ]
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "sequeris",
+          "pieces": [
+            {
+              "text": "sequ",
+              "role": "stem"
+            },
+            {
+              "text": "eris",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 34,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "sequitur",
+          "pieces": [
+            {
+              "text": "sequ",
+              "role": "stem"
+            },
+            {
+              "text": "itur",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 34,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "sequimur",
+          "pieces": [
+            {
+              "text": "sequ",
+              "role": "stem"
+            },
+            {
+              "text": "imur",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 34,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "sequiminī",
+          "pieces": [
+            {
+              "text": "sequ",
+              "role": "stem"
+            },
+            {
+              "text": "iminī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 34,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "sequuntur",
+          "pieces": [
+            {
+              "text": "sequ",
+              "role": "stem"
+            },
+            {
+              "text": "untur",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 34,
+          "freqTier": 1
+        }
+      ],
+      "isDeponent": true
+    },
+    {
+      "id": "pp.hortor",
+      "kind": "verb",
+      "lemma": "hortor",
+      "drillClass": "principalParts",
+      "system": "principal parts",
+      "label": "hortor — Principal Parts",
+      "short": "PP hortor",
+      "chapterIntroduced": 34,
+      "layout": {
+        "rowLabels": [
+          "I",
+          "II",
+          "III"
+        ],
+        "colLabels": [
+          "form"
+        ]
+      },
+      "notes": "Three parts, the third two words — deponents have no fourth part; the perfect participle IS part three.",
+      "cells": [
+        {
+          "id": "i",
+          "r": 0,
+          "c": 0,
+          "form": "hortor",
+          "pieces": [
+            {
+              "text": "hortor",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 34,
+          "freqTier": 1,
+          "homographs": [
+            "verb.hortor.pres.ind:1s"
+          ]
+        },
+        {
+          "id": "ii",
+          "r": 1,
+          "c": 0,
+          "form": "hortārī",
+          "pieces": [
+            {
+              "text": "hortārī",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 34,
+          "freqTier": 1
+        },
+        {
+          "id": "iii",
+          "r": 2,
+          "c": 0,
+          "form": "hortātus sum",
+          "pieces": [
+            {
+              "text": "hortātus sum",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 34,
+          "freqTier": 1
+        }
+      ],
+      "isDeponent": true
+    },
+    {
+      "id": "pp.sequor",
+      "kind": "verb",
+      "lemma": "sequor",
+      "drillClass": "principalParts",
+      "system": "principal parts",
+      "label": "sequor — Principal Parts",
+      "short": "PP sequor",
+      "chapterIntroduced": 34,
+      "layout": {
+        "rowLabels": [
+          "I",
+          "II",
+          "III"
+        ],
+        "colLabels": [
+          "form"
+        ]
+      },
+      "notes": null,
+      "cells": [
+        {
+          "id": "i",
+          "r": 0,
+          "c": 0,
+          "form": "sequor",
+          "pieces": [
+            {
+              "text": "sequor",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 34,
+          "freqTier": 1,
+          "homographs": [
+            "verb.sequor.pres.ind:1s"
+          ]
+        },
+        {
+          "id": "ii",
+          "r": 1,
+          "c": 0,
+          "form": "sequī",
+          "pieces": [
+            {
+              "text": "sequī",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 34,
+          "freqTier": 1
+        },
+        {
+          "id": "iii",
+          "r": 2,
+          "c": 0,
+          "form": "secūtus sum",
+          "pieces": [
+            {
+              "text": "secūtus sum",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 34,
+          "freqTier": 1
+        }
+      ],
+      "isDeponent": true
+    }
+  ]
+}

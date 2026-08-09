@@ -1,0 +1,671 @@
+{
+  "chapter": 39,
+  "title": "Gerund and gerundive",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "verb.laudo.gerund",
+      "kind": "verb",
+      "lemma": "laudō",
+      "system": "gerund",
+      "label": "laudō — Gerund",
+      "short": "Gerund",
+      "chapterIntroduced": 39,
+      "layout": {
+        "rowLabels": [
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "form"
+        ]
+      },
+      "notes": "The verbal NOUN — neuter, singular, no nominative: ars laudandī, 'the art of praising'. Where the gerundIVE agrees with a noun, the gerund stands alone.",
+      "cells": [
+        {
+          "id": "g",
+          "r": 0,
+          "c": 0,
+          "form": "laudandī",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "nd",
+              "role": "participialMorpheme"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 39,
+          "freqTier": 1,
+          "sandhi": [
+            {
+              "seq": "ānd",
+              "to": "and"
+            }
+          ],
+          "homographs": [
+            "ptcp.laudandus.sg:gm",
+            "ptcp.laudandus.sg:gn"
+          ]
+        },
+        {
+          "id": "d",
+          "r": 1,
+          "c": 0,
+          "form": "laudandō",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "nd",
+              "role": "participialMorpheme"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 39,
+          "freqTier": 1,
+          "sandhi": [
+            {
+              "seq": "ānd",
+              "to": "and"
+            }
+          ],
+          "homographs": [
+            "ptcp.laudandus.sg:bm",
+            "ptcp.laudandus.sg:bn",
+            "ptcp.laudandus.sg:dm",
+            "ptcp.laudandus.sg:dn",
+            "verb.laudo.gerund:b"
+          ]
+        },
+        {
+          "id": "a",
+          "r": 2,
+          "c": 0,
+          "form": "laudandum",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "nd",
+              "role": "participialMorpheme"
+            },
+            {
+              "text": "um",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 39,
+          "freqTier": 1,
+          "sandhi": [
+            {
+              "seq": "ānd",
+              "to": "and"
+            }
+          ],
+          "homographs": [
+            "ptcp.laudandus.sg:am",
+            "ptcp.laudandus.sg:an",
+            "ptcp.laudandus.sg:nn"
+          ]
+        },
+        {
+          "id": "b",
+          "r": 3,
+          "c": 0,
+          "form": "laudandō",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "nd",
+              "role": "participialMorpheme"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 39,
+          "freqTier": 1,
+          "sandhi": [
+            {
+              "seq": "ānd",
+              "to": "and"
+            }
+          ],
+          "homographs": [
+            "ptcp.laudandus.sg:bm",
+            "ptcp.laudandus.sg:bn",
+            "ptcp.laudandus.sg:dm",
+            "ptcp.laudandus.sg:dn",
+            "verb.laudo.gerund:d"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ptcp.laudandus.sg",
+      "kind": "participle",
+      "lemma": "laudandus",
+      "system": "gerundive (future passive participle)",
+      "label": "laudandus — gerundive (singular)",
+      "short": "laudandus sg",
+      "chapterIntroduced": 39,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ]
+      },
+      "notes": "The §2.4 assembly: stem + -nd- + adjective ending, three chips. laudandā (ablative feminine) vs laudanda (nominative) — the macron again.",
+      "cells": [
+        {
+          "id": "nm",
+          "r": 0,
+          "c": 0,
+          "form": "laudandus",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "nd",
+              "role": "participialMorpheme"
+            },
+            {
+              "text": "us",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ānd",
+              "to": "and"
+            }
+          ],
+          "chapterMax": 39,
+          "freqTier": 1,
+          "homographs": [
+            "verb.laudo.ptcp.sys:futp"
+          ]
+        },
+        {
+          "id": "nf",
+          "r": 0,
+          "c": 1,
+          "form": "laudanda",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "nd",
+              "role": "participialMorpheme"
+            },
+            {
+              "text": "a",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ānd",
+              "to": "and"
+            }
+          ],
+          "chapterMax": 39,
+          "freqTier": 1
+        },
+        {
+          "id": "nn",
+          "r": 0,
+          "c": 2,
+          "form": "laudandum",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "nd",
+              "role": "participialMorpheme"
+            },
+            {
+              "text": "um",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ānd",
+              "to": "and"
+            }
+          ],
+          "chapterMax": 39,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudandus.sg:am",
+            "ptcp.laudandus.sg:an",
+            "verb.laudo.gerund:a"
+          ]
+        },
+        {
+          "id": "gm",
+          "r": 1,
+          "c": 0,
+          "form": "laudandī",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "nd",
+              "role": "participialMorpheme"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ānd",
+              "to": "and"
+            }
+          ],
+          "chapterMax": 39,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudandus.sg:gn",
+            "verb.laudo.gerund:g"
+          ]
+        },
+        {
+          "id": "gf",
+          "r": 1,
+          "c": 1,
+          "form": "laudandae",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "nd",
+              "role": "participialMorpheme"
+            },
+            {
+              "text": "ae",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ānd",
+              "to": "and"
+            }
+          ],
+          "chapterMax": 39,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudandus.sg:df"
+          ]
+        },
+        {
+          "id": "gn",
+          "r": 1,
+          "c": 2,
+          "form": "laudandī",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "nd",
+              "role": "participialMorpheme"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ānd",
+              "to": "and"
+            }
+          ],
+          "chapterMax": 39,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudandus.sg:gm",
+            "verb.laudo.gerund:g"
+          ]
+        },
+        {
+          "id": "dm",
+          "r": 2,
+          "c": 0,
+          "form": "laudandō",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "nd",
+              "role": "participialMorpheme"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ānd",
+              "to": "and"
+            }
+          ],
+          "chapterMax": 39,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudandus.sg:bm",
+            "ptcp.laudandus.sg:bn",
+            "ptcp.laudandus.sg:dn",
+            "verb.laudo.gerund:b",
+            "verb.laudo.gerund:d"
+          ]
+        },
+        {
+          "id": "df",
+          "r": 2,
+          "c": 1,
+          "form": "laudandae",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "nd",
+              "role": "participialMorpheme"
+            },
+            {
+              "text": "ae",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ānd",
+              "to": "and"
+            }
+          ],
+          "chapterMax": 39,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudandus.sg:gf"
+          ]
+        },
+        {
+          "id": "dn",
+          "r": 2,
+          "c": 2,
+          "form": "laudandō",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "nd",
+              "role": "participialMorpheme"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ānd",
+              "to": "and"
+            }
+          ],
+          "chapterMax": 39,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudandus.sg:bm",
+            "ptcp.laudandus.sg:bn",
+            "ptcp.laudandus.sg:dm",
+            "verb.laudo.gerund:b",
+            "verb.laudo.gerund:d"
+          ]
+        },
+        {
+          "id": "am",
+          "r": 3,
+          "c": 0,
+          "form": "laudandum",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "nd",
+              "role": "participialMorpheme"
+            },
+            {
+              "text": "um",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ānd",
+              "to": "and"
+            }
+          ],
+          "chapterMax": 39,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudandus.sg:an",
+            "ptcp.laudandus.sg:nn",
+            "verb.laudo.gerund:a"
+          ]
+        },
+        {
+          "id": "af",
+          "r": 3,
+          "c": 1,
+          "form": "laudandam",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "nd",
+              "role": "participialMorpheme"
+            },
+            {
+              "text": "am",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ānd",
+              "to": "and"
+            }
+          ],
+          "chapterMax": 39,
+          "freqTier": 1
+        },
+        {
+          "id": "an",
+          "r": 3,
+          "c": 2,
+          "form": "laudandum",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "nd",
+              "role": "participialMorpheme"
+            },
+            {
+              "text": "um",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ānd",
+              "to": "and"
+            }
+          ],
+          "chapterMax": 39,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudandus.sg:am",
+            "ptcp.laudandus.sg:nn",
+            "verb.laudo.gerund:a"
+          ]
+        },
+        {
+          "id": "bm",
+          "r": 4,
+          "c": 0,
+          "form": "laudandō",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "nd",
+              "role": "participialMorpheme"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ānd",
+              "to": "and"
+            }
+          ],
+          "chapterMax": 39,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudandus.sg:bn",
+            "ptcp.laudandus.sg:dm",
+            "ptcp.laudandus.sg:dn",
+            "verb.laudo.gerund:b",
+            "verb.laudo.gerund:d"
+          ]
+        },
+        {
+          "id": "bf",
+          "r": 4,
+          "c": 1,
+          "form": "laudandā",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "nd",
+              "role": "participialMorpheme"
+            },
+            {
+              "text": "ā",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ānd",
+              "to": "and"
+            }
+          ],
+          "chapterMax": 39,
+          "freqTier": 1
+        },
+        {
+          "id": "bn",
+          "r": 4,
+          "c": 2,
+          "form": "laudandō",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "nd",
+              "role": "participialMorpheme"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ānd",
+              "to": "and"
+            }
+          ],
+          "chapterMax": 39,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudandus.sg:bm",
+            "ptcp.laudandus.sg:dm",
+            "ptcp.laudandus.sg:dn",
+            "verb.laudo.gerund:b",
+            "verb.laudo.gerund:d"
+          ]
+        }
+      ]
+    }
+  ]
+}

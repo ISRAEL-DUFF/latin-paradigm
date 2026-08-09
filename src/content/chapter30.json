@@ -1,0 +1,359 @@
+{
+  "chapter": 30,
+  "title": "Perfect and pluperfect subjunctive; sequence of tenses",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "verb.laudo.perf.act.subj",
+      "kind": "verb",
+      "lemma": "laudō",
+      "system": "perfect subjunctive active",
+      "label": "laudō — Perfect Subjunctive",
+      "short": "PerfSubj laudō",
+      "chapterIntroduced": 30,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "laudāverit — identical to the future perfect indicative except in the 1st singular (-erim vs -erō). Sequence of tenses decides which you are reading.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "laudāverim",
+          "pieces": [
+            {
+              "text": "laudāv",
+              "role": "stem"
+            },
+            {
+              "text": "erī",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "m",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "īm",
+              "to": "im"
+            }
+          ],
+          "chapterMax": 30,
+          "freqTier": 2
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "laudāverīs",
+          "pieces": [
+            {
+              "text": "laudāv",
+              "role": "stem"
+            },
+            {
+              "text": "erī",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "s",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 30,
+          "freqTier": 2
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "laudāverit",
+          "pieces": [
+            {
+              "text": "laudāv",
+              "role": "stem"
+            },
+            {
+              "text": "erī",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "t",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "īt",
+              "to": "it"
+            }
+          ],
+          "chapterMax": 30,
+          "freqTier": 2,
+          "homographs": [
+            "verb.laudo.futperf.act.ind:3s"
+          ]
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "laudāverīmus",
+          "pieces": [
+            {
+              "text": "laudāv",
+              "role": "stem"
+            },
+            {
+              "text": "erī",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "mus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 30,
+          "freqTier": 2
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "laudāverītis",
+          "pieces": [
+            {
+              "text": "laudāv",
+              "role": "stem"
+            },
+            {
+              "text": "erī",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "tis",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 30,
+          "freqTier": 2
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "laudāverint",
+          "pieces": [
+            {
+              "text": "laudāv",
+              "role": "stem"
+            },
+            {
+              "text": "erī",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "nt",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "īnt",
+              "to": "int"
+            }
+          ],
+          "chapterMax": 30,
+          "freqTier": 2,
+          "homographs": [
+            "verb.laudo.futperf.act.ind:3p"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verb.laudo.plup.act.subj",
+      "kind": "verb",
+      "lemma": "laudō",
+      "system": "pluperfect subjunctive active",
+      "label": "laudō — Pluperfect Subjunctive",
+      "short": "PlupSubj laudō",
+      "chapterIntroduced": 30,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "Perfect infinitive + endings — laudāvisse + m: the infinitive rule again.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "laudāvissem",
+          "pieces": [
+            {
+              "text": "laudāv",
+              "role": "stem"
+            },
+            {
+              "text": "issē",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "m",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ēm",
+              "to": "em"
+            }
+          ],
+          "chapterMax": 30,
+          "freqTier": 2
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "laudāvissēs",
+          "pieces": [
+            {
+              "text": "laudāv",
+              "role": "stem"
+            },
+            {
+              "text": "issē",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "s",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 30,
+          "freqTier": 2
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "laudāvisset",
+          "pieces": [
+            {
+              "text": "laudāv",
+              "role": "stem"
+            },
+            {
+              "text": "issē",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "t",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ēt",
+              "to": "et"
+            }
+          ],
+          "chapterMax": 30,
+          "freqTier": 2
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "laudāvissēmus",
+          "pieces": [
+            {
+              "text": "laudāv",
+              "role": "stem"
+            },
+            {
+              "text": "issē",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "mus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 30,
+          "freqTier": 2
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "laudāvissētis",
+          "pieces": [
+            {
+              "text": "laudāv",
+              "role": "stem"
+            },
+            {
+              "text": "issē",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "tis",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 30,
+          "freqTier": 2
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "laudāvissent",
+          "pieces": [
+            {
+              "text": "laudāv",
+              "role": "stem"
+            },
+            {
+              "text": "issē",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "nt",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ēnt",
+              "to": "ent"
+            }
+          ],
+          "chapterMax": 30,
+          "freqTier": 2
+        }
+      ]
+    }
+  ]
+}

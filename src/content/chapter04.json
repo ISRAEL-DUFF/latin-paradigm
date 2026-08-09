@@ -1,0 +1,1277 @@
+{
+  "chapter": 4,
+  "title": "Second declension neuters; the adjective magnus; sum",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "noun.donum.decl2n",
+      "kind": "noun",
+      "lemma": "dōnum",
+      "system": "second declension, neuter",
+      "label": "dōnum — Second Declension Neuter",
+      "short": "dōnum",
+      "chapterIntroduced": 4,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl",
+          "Voc"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "Neuter law: nominative, accusative and vocative are always identical — dōnum in the singular, dōna in the plural.",
+      "cells": [
+        {
+          "id": "ns",
+          "r": 0,
+          "c": 0,
+          "form": "dōnum",
+          "pieces": [
+            {
+              "text": "dōn",
+              "role": "stem"
+            },
+            {
+              "text": "um",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "noun.donum.decl2n:as",
+            "noun.donum.decl2n:vs"
+          ]
+        },
+        {
+          "id": "gs",
+          "r": 1,
+          "c": 0,
+          "form": "dōnī",
+          "pieces": [
+            {
+              "text": "dōn",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1
+        },
+        {
+          "id": "ds",
+          "r": 2,
+          "c": 0,
+          "form": "dōnō",
+          "pieces": [
+            {
+              "text": "dōn",
+              "role": "stem"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "noun.donum.decl2n:bs"
+          ]
+        },
+        {
+          "id": "as",
+          "r": 3,
+          "c": 0,
+          "form": "dōnum",
+          "pieces": [
+            {
+              "text": "dōn",
+              "role": "stem"
+            },
+            {
+              "text": "um",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "noun.donum.decl2n:ns",
+            "noun.donum.decl2n:vs"
+          ]
+        },
+        {
+          "id": "bs",
+          "r": 4,
+          "c": 0,
+          "form": "dōnō",
+          "pieces": [
+            {
+              "text": "dōn",
+              "role": "stem"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "noun.donum.decl2n:ds"
+          ]
+        },
+        {
+          "id": "vs",
+          "r": 5,
+          "c": 0,
+          "form": "dōnum",
+          "pieces": [
+            {
+              "text": "dōn",
+              "role": "stem"
+            },
+            {
+              "text": "um",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 3,
+          "homographs": [
+            "noun.donum.decl2n:as",
+            "noun.donum.decl2n:ns"
+          ]
+        },
+        {
+          "id": "np",
+          "r": 0,
+          "c": 1,
+          "form": "dōna",
+          "pieces": [
+            {
+              "text": "dōn",
+              "role": "stem"
+            },
+            {
+              "text": "a",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "noun.donum.decl2n:ap",
+            "noun.donum.decl2n:vp"
+          ]
+        },
+        {
+          "id": "gp",
+          "r": 1,
+          "c": 1,
+          "form": "dōnōrum",
+          "pieces": [
+            {
+              "text": "dōn",
+              "role": "stem"
+            },
+            {
+              "text": "ōrum",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1
+        },
+        {
+          "id": "dp",
+          "r": 2,
+          "c": 1,
+          "form": "dōnīs",
+          "pieces": [
+            {
+              "text": "dōn",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "noun.donum.decl2n:bp"
+          ]
+        },
+        {
+          "id": "ap",
+          "r": 3,
+          "c": 1,
+          "form": "dōna",
+          "pieces": [
+            {
+              "text": "dōn",
+              "role": "stem"
+            },
+            {
+              "text": "a",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "noun.donum.decl2n:np",
+            "noun.donum.decl2n:vp"
+          ]
+        },
+        {
+          "id": "bp",
+          "r": 4,
+          "c": 1,
+          "form": "dōnīs",
+          "pieces": [
+            {
+              "text": "dōn",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "noun.donum.decl2n:dp"
+          ]
+        },
+        {
+          "id": "vp",
+          "r": 5,
+          "c": 1,
+          "form": "dōna",
+          "pieces": [
+            {
+              "text": "dōn",
+              "role": "stem"
+            },
+            {
+              "text": "a",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 3,
+          "homographs": [
+            "noun.donum.decl2n:ap",
+            "noun.donum.decl2n:np"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adj.magnus.sg",
+      "kind": "adj",
+      "lemma": "magnus",
+      "system": "first/second-declension adjective",
+      "label": "magnus — great (singular)",
+      "short": "magnus sg",
+      "chapterIntroduced": 4,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl",
+          "Voc"
+        ],
+        "colLabels": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ]
+      },
+      "notes": "Masculine like amīcus, feminine like puella, neuter like dōnum — one adjective, three declensions at once. magnum fills five cells of this table.",
+      "cells": [
+        {
+          "id": "nm",
+          "r": 0,
+          "c": 0,
+          "form": "magnus",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "us",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1
+        },
+        {
+          "id": "nf",
+          "r": 0,
+          "c": 1,
+          "form": "magna",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "a",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "adj.magnus.pl:an",
+            "adj.magnus.pl:nn",
+            "adj.magnus.pl:vn",
+            "adj.magnus.sg:vf"
+          ]
+        },
+        {
+          "id": "nn",
+          "r": 0,
+          "c": 2,
+          "form": "magnum",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "um",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "adj.magnus.sg:am",
+            "adj.magnus.sg:an",
+            "adj.magnus.sg:vn"
+          ]
+        },
+        {
+          "id": "gm",
+          "r": 1,
+          "c": 0,
+          "form": "magnī",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "adj.magnus.pl:nm",
+            "adj.magnus.pl:vm",
+            "adj.magnus.sg:gn"
+          ]
+        },
+        {
+          "id": "gf",
+          "r": 1,
+          "c": 1,
+          "form": "magnae",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "ae",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "adj.magnus.pl:nf",
+            "adj.magnus.pl:vf",
+            "adj.magnus.sg:df"
+          ]
+        },
+        {
+          "id": "gn",
+          "r": 1,
+          "c": 2,
+          "form": "magnī",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "adj.magnus.pl:nm",
+            "adj.magnus.pl:vm",
+            "adj.magnus.sg:gm"
+          ]
+        },
+        {
+          "id": "dm",
+          "r": 2,
+          "c": 0,
+          "form": "magnō",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "adj.magnus.sg:bm",
+            "adj.magnus.sg:bn",
+            "adj.magnus.sg:dn"
+          ]
+        },
+        {
+          "id": "df",
+          "r": 2,
+          "c": 1,
+          "form": "magnae",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "ae",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "adj.magnus.pl:nf",
+            "adj.magnus.pl:vf",
+            "adj.magnus.sg:gf"
+          ]
+        },
+        {
+          "id": "dn",
+          "r": 2,
+          "c": 2,
+          "form": "magnō",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "adj.magnus.sg:bm",
+            "adj.magnus.sg:bn",
+            "adj.magnus.sg:dm"
+          ]
+        },
+        {
+          "id": "am",
+          "r": 3,
+          "c": 0,
+          "form": "magnum",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "um",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "adj.magnus.sg:an",
+            "adj.magnus.sg:nn",
+            "adj.magnus.sg:vn"
+          ]
+        },
+        {
+          "id": "af",
+          "r": 3,
+          "c": 1,
+          "form": "magnam",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "am",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1
+        },
+        {
+          "id": "an",
+          "r": 3,
+          "c": 2,
+          "form": "magnum",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "um",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "adj.magnus.sg:am",
+            "adj.magnus.sg:nn",
+            "adj.magnus.sg:vn"
+          ]
+        },
+        {
+          "id": "bm",
+          "r": 4,
+          "c": 0,
+          "form": "magnō",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "adj.magnus.sg:bn",
+            "adj.magnus.sg:dm",
+            "adj.magnus.sg:dn"
+          ]
+        },
+        {
+          "id": "bf",
+          "r": 4,
+          "c": 1,
+          "form": "magnā",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "ā",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1
+        },
+        {
+          "id": "bn",
+          "r": 4,
+          "c": 2,
+          "form": "magnō",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "adj.magnus.sg:bm",
+            "adj.magnus.sg:dm",
+            "adj.magnus.sg:dn"
+          ]
+        },
+        {
+          "id": "vm",
+          "r": 5,
+          "c": 0,
+          "form": "magne",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "e",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 2
+        },
+        {
+          "id": "vf",
+          "r": 5,
+          "c": 1,
+          "form": "magna",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "a",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 3,
+          "homographs": [
+            "adj.magnus.pl:an",
+            "adj.magnus.pl:nn",
+            "adj.magnus.pl:vn",
+            "adj.magnus.sg:nf"
+          ]
+        },
+        {
+          "id": "vn",
+          "r": 5,
+          "c": 2,
+          "form": "magnum",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "um",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 3,
+          "homographs": [
+            "adj.magnus.sg:am",
+            "adj.magnus.sg:an",
+            "adj.magnus.sg:nn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adj.magnus.pl",
+      "kind": "adj",
+      "lemma": "magnus",
+      "system": "first/second-declension adjective",
+      "label": "magnus — great (plural)",
+      "short": "magnus pl",
+      "chapterIntroduced": 4,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl",
+          "Voc"
+        ],
+        "colLabels": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ]
+      },
+      "notes": "magnīs serves six cells — dative and ablative, all three genders. The macron-only trap magnas/magnās does not exist: the acc pl is always long.",
+      "cells": [
+        {
+          "id": "nm",
+          "r": 0,
+          "c": 0,
+          "form": "magnī",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "adj.magnus.pl:vm",
+            "adj.magnus.sg:gm",
+            "adj.magnus.sg:gn"
+          ]
+        },
+        {
+          "id": "nf",
+          "r": 0,
+          "c": 1,
+          "form": "magnae",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "ae",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "adj.magnus.pl:vf",
+            "adj.magnus.sg:df",
+            "adj.magnus.sg:gf"
+          ]
+        },
+        {
+          "id": "nn",
+          "r": 0,
+          "c": 2,
+          "form": "magna",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "a",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "adj.magnus.pl:an",
+            "adj.magnus.pl:vn",
+            "adj.magnus.sg:nf",
+            "adj.magnus.sg:vf"
+          ]
+        },
+        {
+          "id": "gm",
+          "r": 1,
+          "c": 0,
+          "form": "magnōrum",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "ōrum",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "adj.magnus.pl:gn"
+          ]
+        },
+        {
+          "id": "gf",
+          "r": 1,
+          "c": 1,
+          "form": "magnārum",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "ārum",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1
+        },
+        {
+          "id": "gn",
+          "r": 1,
+          "c": 2,
+          "form": "magnōrum",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "ōrum",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "adj.magnus.pl:gm"
+          ]
+        },
+        {
+          "id": "dm",
+          "r": 2,
+          "c": 0,
+          "form": "magnīs",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "adj.magnus.pl:bf",
+            "adj.magnus.pl:bm",
+            "adj.magnus.pl:bn",
+            "adj.magnus.pl:df",
+            "adj.magnus.pl:dn"
+          ]
+        },
+        {
+          "id": "df",
+          "r": 2,
+          "c": 1,
+          "form": "magnīs",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "adj.magnus.pl:bf",
+            "adj.magnus.pl:bm",
+            "adj.magnus.pl:bn",
+            "adj.magnus.pl:dm",
+            "adj.magnus.pl:dn"
+          ]
+        },
+        {
+          "id": "dn",
+          "r": 2,
+          "c": 2,
+          "form": "magnīs",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "adj.magnus.pl:bf",
+            "adj.magnus.pl:bm",
+            "adj.magnus.pl:bn",
+            "adj.magnus.pl:df",
+            "adj.magnus.pl:dm"
+          ]
+        },
+        {
+          "id": "am",
+          "r": 3,
+          "c": 0,
+          "form": "magnōs",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "ōs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1
+        },
+        {
+          "id": "af",
+          "r": 3,
+          "c": 1,
+          "form": "magnās",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "ās",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1
+        },
+        {
+          "id": "an",
+          "r": 3,
+          "c": 2,
+          "form": "magna",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "a",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "adj.magnus.pl:nn",
+            "adj.magnus.pl:vn",
+            "adj.magnus.sg:nf",
+            "adj.magnus.sg:vf"
+          ]
+        },
+        {
+          "id": "bm",
+          "r": 4,
+          "c": 0,
+          "form": "magnīs",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "adj.magnus.pl:bf",
+            "adj.magnus.pl:bn",
+            "adj.magnus.pl:df",
+            "adj.magnus.pl:dm",
+            "adj.magnus.pl:dn"
+          ]
+        },
+        {
+          "id": "bf",
+          "r": 4,
+          "c": 1,
+          "form": "magnīs",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "adj.magnus.pl:bm",
+            "adj.magnus.pl:bn",
+            "adj.magnus.pl:df",
+            "adj.magnus.pl:dm",
+            "adj.magnus.pl:dn"
+          ]
+        },
+        {
+          "id": "bn",
+          "r": 4,
+          "c": 2,
+          "form": "magnīs",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1,
+          "homographs": [
+            "adj.magnus.pl:bf",
+            "adj.magnus.pl:bm",
+            "adj.magnus.pl:df",
+            "adj.magnus.pl:dm",
+            "adj.magnus.pl:dn"
+          ]
+        },
+        {
+          "id": "vm",
+          "r": 5,
+          "c": 0,
+          "form": "magnī",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 2,
+          "homographs": [
+            "adj.magnus.pl:nm",
+            "adj.magnus.sg:gm",
+            "adj.magnus.sg:gn"
+          ]
+        },
+        {
+          "id": "vf",
+          "r": 5,
+          "c": 1,
+          "form": "magnae",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "ae",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 3,
+          "homographs": [
+            "adj.magnus.pl:nf",
+            "adj.magnus.sg:df",
+            "adj.magnus.sg:gf"
+          ]
+        },
+        {
+          "id": "vn",
+          "r": 5,
+          "c": 2,
+          "form": "magna",
+          "pieces": [
+            {
+              "text": "magn",
+              "role": "stem"
+            },
+            {
+              "text": "a",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 3,
+          "homographs": [
+            "adj.magnus.pl:an",
+            "adj.magnus.pl:nn",
+            "adj.magnus.sg:nf",
+            "adj.magnus.sg:vf"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verb.sum.pres.ind",
+      "kind": "verb",
+      "lemma": "sum",
+      "system": "irregular",
+      "label": "sum — Present Indicative",
+      "short": "sum",
+      "chapterIntroduced": 4,
+      "drillClass": "wholeForm",
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "Suppletive and irregular — memorize it as chant: sum, es, est, sumus, estis, sunt. No macrons anywhere in it.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "sum",
+          "pieces": [
+            {
+              "text": "sum",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "sumus",
+          "pieces": [
+            {
+              "text": "sumus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "es",
+          "pieces": [
+            {
+              "text": "es",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "estis",
+          "pieces": [
+            {
+              "text": "estis",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "est",
+          "pieces": [
+            {
+              "text": "est",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "sunt",
+          "pieces": [
+            {
+              "text": "sunt",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 4,
+          "freqTier": 1
+        }
+      ]
+    }
+  ]
+}

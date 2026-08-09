@@ -1,0 +1,750 @@
+{
+  "chapter": 6,
+  "title": "sum and possum — future and imperfect; the complementary infinitive",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "verb.sum.fut.ind",
+      "kind": "verb",
+      "lemma": "sum",
+      "system": "irregular future",
+      "label": "sum — Future Indicative",
+      "short": "Fut sum",
+      "chapterIntroduced": 6,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "erō, eris, erit — the future of sum is its own small chant.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "erō",
+          "pieces": [
+            {
+              "text": "erō",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "eris",
+          "pieces": [
+            {
+              "text": "eris",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "erit",
+          "pieces": [
+            {
+              "text": "erit",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "erimus",
+          "pieces": [
+            {
+              "text": "erimus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "eritis",
+          "pieces": [
+            {
+              "text": "eritis",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "erunt",
+          "pieces": [
+            {
+              "text": "erunt",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        }
+      ],
+      "drillClass": "wholeForm"
+    },
+    {
+      "id": "verb.sum.impf.ind",
+      "kind": "verb",
+      "lemma": "sum",
+      "system": "irregular imperfect",
+      "label": "sum — Imperfect Indicative",
+      "short": "Impf sum",
+      "chapterIntroduced": 6,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "eram — the ā shortens before -m, -t, -nt exactly as in laudābam.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "eram",
+          "pieces": [
+            {
+              "text": "eram",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "erās",
+          "pieces": [
+            {
+              "text": "erās",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "erat",
+          "pieces": [
+            {
+              "text": "erat",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "erāmus",
+          "pieces": [
+            {
+              "text": "erāmus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "erātis",
+          "pieces": [
+            {
+              "text": "erātis",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "erant",
+          "pieces": [
+            {
+              "text": "erant",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        }
+      ],
+      "drillClass": "wholeForm"
+    },
+    {
+      "id": "verb.possum.pres.ind",
+      "kind": "verb",
+      "lemma": "possum",
+      "system": "irregular",
+      "label": "possum — Present Indicative",
+      "short": "possum",
+      "chapterIntroduced": 6,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "pot- + sum, with t becoming s before s: possum but potes. Takes a complementary infinitive: possum laudāre.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "possum",
+          "pieces": [
+            {
+              "text": "possum",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1,
+          "homographs": [
+            "pp.possum:i"
+          ]
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "potes",
+          "pieces": [
+            {
+              "text": "potes",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "potest",
+          "pieces": [
+            {
+              "text": "potest",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "possumus",
+          "pieces": [
+            {
+              "text": "possumus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "potestis",
+          "pieces": [
+            {
+              "text": "potestis",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "possunt",
+          "pieces": [
+            {
+              "text": "possunt",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        }
+      ],
+      "drillClass": "wholeForm"
+    },
+    {
+      "id": "verb.possum.fut.ind",
+      "kind": "verb",
+      "lemma": "possum",
+      "system": "irregular future",
+      "label": "possum — Future Indicative",
+      "short": "Fut possum",
+      "chapterIntroduced": 6,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": null,
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "poterō",
+          "pieces": [
+            {
+              "text": "poterō",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "poteris",
+          "pieces": [
+            {
+              "text": "poteris",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "poterit",
+          "pieces": [
+            {
+              "text": "poterit",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "poterimus",
+          "pieces": [
+            {
+              "text": "poterimus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "poteritis",
+          "pieces": [
+            {
+              "text": "poteritis",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "poterunt",
+          "pieces": [
+            {
+              "text": "poterunt",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        }
+      ],
+      "drillClass": "wholeForm"
+    },
+    {
+      "id": "verb.possum.impf.ind",
+      "kind": "verb",
+      "lemma": "possum",
+      "system": "irregular imperfect",
+      "label": "possum — Imperfect Indicative",
+      "short": "Impf possum",
+      "chapterIntroduced": 6,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": null,
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "poteram",
+          "pieces": [
+            {
+              "text": "poteram",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "poterās",
+          "pieces": [
+            {
+              "text": "poterās",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "poterat",
+          "pieces": [
+            {
+              "text": "poterat",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "poterāmus",
+          "pieces": [
+            {
+              "text": "poterāmus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "poterātis",
+          "pieces": [
+            {
+              "text": "poterātis",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "poterant",
+          "pieces": [
+            {
+              "text": "poterant",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        }
+      ],
+      "drillClass": "wholeForm"
+    },
+    {
+      "id": "pp.possum",
+      "kind": "verb",
+      "lemma": "possum",
+      "drillClass": "principalParts",
+      "system": "principal parts",
+      "label": "possum — Principal Parts",
+      "short": "PP possum",
+      "chapterIntroduced": 6,
+      "layout": {
+        "rowLabels": [
+          "I",
+          "II",
+          "III"
+        ],
+        "colLabels": [
+          "form"
+        ]
+      },
+      "notes": "Three parts only — possum has no supine.",
+      "cells": [
+        {
+          "id": "i",
+          "r": 0,
+          "c": 0,
+          "form": "possum",
+          "pieces": [
+            {
+              "text": "possum",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1,
+          "homographs": [
+            "verb.possum.pres.ind:1s"
+          ]
+        },
+        {
+          "id": "ii",
+          "r": 1,
+          "c": 0,
+          "form": "posse",
+          "pieces": [
+            {
+              "text": "posse",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        },
+        {
+          "id": "iii",
+          "r": 2,
+          "c": 0,
+          "form": "potuī",
+          "pieces": [
+            {
+              "text": "potuī",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 6,
+          "freqTier": 1
+        }
+      ]
+    }
+  ]
+}

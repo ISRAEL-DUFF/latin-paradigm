@@ -1,0 +1,8 @@
+{
+  "_comment": "Teaching strings for impossible pieces bounced off a Level-2 assembly. Curriculum, never hardcoded. Keyed by role. Latin has no augment; the role vocabulary here is stem/themeVowel/tenseMarker/moodMarker/ending/participialMorpheme/redup (family-conventions §2).",
+  "redup": "reduplication: a handful of perfects only (dedī, stetī)",
+  "tenseMarker": "no tense marker here — the present system builds straight on the stem",
+  "moodMarker": "mood markers belong to the subjunctive, not the indicative",
+  "themeVowel": "no separate theme vowel in this form",
+  "participialMorpheme": "participial morphemes build verbal adjectives, not finite forms"
+}

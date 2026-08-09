@@ -1,0 +1,705 @@
+{
+  "chapter": 28,
+  "title": "The subjunctive mood — present subjunctive, all conjugations",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "verb.laudo.pres.act.subj",
+      "kind": "verb",
+      "lemma": "laudō",
+      "system": "present subjunctive active",
+      "label": "laudō — Present Subjunctive",
+      "short": "Subj laudō",
+      "chapterIntroduced": 28,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "The subjunctive vowel replaces the stem vowel: ā gives way to ē — laudem, laudēs. Wheelock's mnemonic: wE beAt A liAr (ē, eā, ā, iā).",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "laudem",
+          "pieces": [
+            {
+              "text": "laud",
+              "role": "stem"
+            },
+            {
+              "text": "ē",
+              "role": "moodMarker"
+            },
+            {
+              "text": "m",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ēm",
+              "to": "em"
+            }
+          ],
+          "chapterMax": 28,
+          "freqTier": 1
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "laudēs",
+          "pieces": [
+            {
+              "text": "laud",
+              "role": "stem"
+            },
+            {
+              "text": "ē",
+              "role": "moodMarker"
+            },
+            {
+              "text": "s",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 28,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "laudet",
+          "pieces": [
+            {
+              "text": "laud",
+              "role": "stem"
+            },
+            {
+              "text": "ē",
+              "role": "moodMarker"
+            },
+            {
+              "text": "t",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ēt",
+              "to": "et"
+            }
+          ],
+          "chapterMax": 28,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "laudēmus",
+          "pieces": [
+            {
+              "text": "laud",
+              "role": "stem"
+            },
+            {
+              "text": "ē",
+              "role": "moodMarker"
+            },
+            {
+              "text": "mus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 28,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "laudētis",
+          "pieces": [
+            {
+              "text": "laud",
+              "role": "stem"
+            },
+            {
+              "text": "ē",
+              "role": "moodMarker"
+            },
+            {
+              "text": "tis",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 28,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "laudent",
+          "pieces": [
+            {
+              "text": "laud",
+              "role": "stem"
+            },
+            {
+              "text": "ē",
+              "role": "moodMarker"
+            },
+            {
+              "text": "nt",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ēnt",
+              "to": "ent"
+            }
+          ],
+          "chapterMax": 28,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "verb.moneo.pres.act.subj",
+      "kind": "verb",
+      "lemma": "moneō",
+      "system": "present subjunctive active",
+      "label": "moneō — Present Subjunctive",
+      "short": "Subj moneō",
+      "chapterIntroduced": 28,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": null,
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "moneam",
+          "pieces": [
+            {
+              "text": "mon",
+              "role": "stem"
+            },
+            {
+              "text": "eā",
+              "role": "moodMarker"
+            },
+            {
+              "text": "m",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ām",
+              "to": "am"
+            }
+          ],
+          "chapterMax": 28,
+          "freqTier": 1
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "moneās",
+          "pieces": [
+            {
+              "text": "mon",
+              "role": "stem"
+            },
+            {
+              "text": "eā",
+              "role": "moodMarker"
+            },
+            {
+              "text": "s",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 28,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "moneat",
+          "pieces": [
+            {
+              "text": "mon",
+              "role": "stem"
+            },
+            {
+              "text": "eā",
+              "role": "moodMarker"
+            },
+            {
+              "text": "t",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "āt",
+              "to": "at"
+            }
+          ],
+          "chapterMax": 28,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "moneāmus",
+          "pieces": [
+            {
+              "text": "mon",
+              "role": "stem"
+            },
+            {
+              "text": "eā",
+              "role": "moodMarker"
+            },
+            {
+              "text": "mus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 28,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "moneātis",
+          "pieces": [
+            {
+              "text": "mon",
+              "role": "stem"
+            },
+            {
+              "text": "eā",
+              "role": "moodMarker"
+            },
+            {
+              "text": "tis",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 28,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "moneant",
+          "pieces": [
+            {
+              "text": "mon",
+              "role": "stem"
+            },
+            {
+              "text": "eā",
+              "role": "moodMarker"
+            },
+            {
+              "text": "nt",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ānt",
+              "to": "ant"
+            }
+          ],
+          "chapterMax": 28,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "verb.ago.pres.act.subj",
+      "kind": "verb",
+      "lemma": "agō",
+      "system": "present subjunctive active",
+      "label": "agō — Present Subjunctive",
+      "short": "Subj agō",
+      "chapterIntroduced": 28,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "agam, agās — spelled exactly like the FUTURE in the 1st person. Only context tells mood from tense there; the 2nd person (agās vs agēs) settles it.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "agam",
+          "pieces": [
+            {
+              "text": "ag",
+              "role": "stem"
+            },
+            {
+              "text": "ā",
+              "role": "moodMarker"
+            },
+            {
+              "text": "m",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ām",
+              "to": "am"
+            }
+          ],
+          "chapterMax": 28,
+          "freqTier": 1,
+          "homographs": [
+            "verb.ago.fut.act.ind:1s"
+          ]
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "agās",
+          "pieces": [
+            {
+              "text": "ag",
+              "role": "stem"
+            },
+            {
+              "text": "ā",
+              "role": "moodMarker"
+            },
+            {
+              "text": "s",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 28,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "agat",
+          "pieces": [
+            {
+              "text": "ag",
+              "role": "stem"
+            },
+            {
+              "text": "ā",
+              "role": "moodMarker"
+            },
+            {
+              "text": "t",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "āt",
+              "to": "at"
+            }
+          ],
+          "chapterMax": 28,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "agāmus",
+          "pieces": [
+            {
+              "text": "ag",
+              "role": "stem"
+            },
+            {
+              "text": "ā",
+              "role": "moodMarker"
+            },
+            {
+              "text": "mus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 28,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "agātis",
+          "pieces": [
+            {
+              "text": "ag",
+              "role": "stem"
+            },
+            {
+              "text": "ā",
+              "role": "moodMarker"
+            },
+            {
+              "text": "tis",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 28,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "agant",
+          "pieces": [
+            {
+              "text": "ag",
+              "role": "stem"
+            },
+            {
+              "text": "ā",
+              "role": "moodMarker"
+            },
+            {
+              "text": "nt",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ānt",
+              "to": "ant"
+            }
+          ],
+          "chapterMax": 28,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "verb.audio.pres.act.subj",
+      "kind": "verb",
+      "lemma": "audiō",
+      "system": "present subjunctive active",
+      "label": "audiō — Present Subjunctive",
+      "short": "Subj audiō",
+      "chapterIntroduced": 28,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": null,
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "audiam",
+          "pieces": [
+            {
+              "text": "aud",
+              "role": "stem"
+            },
+            {
+              "text": "iā",
+              "role": "moodMarker"
+            },
+            {
+              "text": "m",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ām",
+              "to": "am"
+            }
+          ],
+          "chapterMax": 28,
+          "freqTier": 1,
+          "homographs": [
+            "verb.audio.fut.act.ind:1s"
+          ]
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "audiās",
+          "pieces": [
+            {
+              "text": "aud",
+              "role": "stem"
+            },
+            {
+              "text": "iā",
+              "role": "moodMarker"
+            },
+            {
+              "text": "s",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 28,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "audiat",
+          "pieces": [
+            {
+              "text": "aud",
+              "role": "stem"
+            },
+            {
+              "text": "iā",
+              "role": "moodMarker"
+            },
+            {
+              "text": "t",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "āt",
+              "to": "at"
+            }
+          ],
+          "chapterMax": 28,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "audiāmus",
+          "pieces": [
+            {
+              "text": "aud",
+              "role": "stem"
+            },
+            {
+              "text": "iā",
+              "role": "moodMarker"
+            },
+            {
+              "text": "mus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 28,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "audiātis",
+          "pieces": [
+            {
+              "text": "aud",
+              "role": "stem"
+            },
+            {
+              "text": "iā",
+              "role": "moodMarker"
+            },
+            {
+              "text": "tis",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 28,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "audiant",
+          "pieces": [
+            {
+              "text": "aud",
+              "role": "stem"
+            },
+            {
+              "text": "iā",
+              "role": "moodMarker"
+            },
+            {
+              "text": "nt",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ānt",
+              "to": "ant"
+            }
+          ],
+          "chapterMax": 28,
+          "freqTier": 1
+        }
+      ]
+    }
+  ]
+}

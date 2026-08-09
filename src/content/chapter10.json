@@ -1,0 +1,1102 @@
+{
+  "chapter": 10,
+  "title": "Fourth conjugation and -iō verbs — audiō, capiō",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "verb.audio.pres.act.ind",
+      "kind": "verb",
+      "lemma": "audiō",
+      "system": "present indicative active",
+      "label": "audiō — Present Indicative",
+      "short": "audiō",
+      "chapterIntroduced": 10,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "The fourth conjugation's ī shortens before another vowel and final -t: audiō, audit, audiunt — but audīs, audīmus keep it long.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "audiō",
+          "pieces": [
+            {
+              "text": "audī",
+              "role": "stem"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "īō",
+              "to": "iō"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1,
+          "homographs": [
+            "pp.audio:i"
+          ]
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "audīs",
+          "pieces": [
+            {
+              "text": "audī",
+              "role": "stem"
+            },
+            {
+              "text": "s",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "audit",
+          "pieces": [
+            {
+              "text": "audī",
+              "role": "stem"
+            },
+            {
+              "text": "t",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "īt",
+              "to": "it"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "audīmus",
+          "pieces": [
+            {
+              "text": "audī",
+              "role": "stem"
+            },
+            {
+              "text": "mus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "audītis",
+          "pieces": [
+            {
+              "text": "audī",
+              "role": "stem"
+            },
+            {
+              "text": "tis",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "audiunt",
+          "pieces": [
+            {
+              "text": "audī",
+              "role": "stem"
+            },
+            {
+              "text": "unt",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "īu",
+              "to": "iu"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "verb.audio.fut.act.ind",
+      "kind": "verb",
+      "lemma": "audiō",
+      "system": "future indicative active",
+      "label": "audiō — Future Indicative",
+      "short": "Fut audiō",
+      "chapterIntroduced": 10,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": null,
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "audiam",
+          "pieces": [
+            {
+              "text": "audi",
+              "role": "stem"
+            },
+            {
+              "text": "am",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1,
+          "homographs": [
+            "verb.audio.pres.act.subj:1s"
+          ]
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "audiēs",
+          "pieces": [
+            {
+              "text": "audi",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "audiet",
+          "pieces": [
+            {
+              "text": "audi",
+              "role": "stem"
+            },
+            {
+              "text": "et",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "audiēmus",
+          "pieces": [
+            {
+              "text": "audi",
+              "role": "stem"
+            },
+            {
+              "text": "ēmus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "audiētis",
+          "pieces": [
+            {
+              "text": "audi",
+              "role": "stem"
+            },
+            {
+              "text": "ētis",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "audient",
+          "pieces": [
+            {
+              "text": "audi",
+              "role": "stem"
+            },
+            {
+              "text": "ent",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "verb.audio.impf.act.ind",
+      "kind": "verb",
+      "lemma": "audiō",
+      "system": "imperfect indicative active",
+      "label": "audiō — Imperfect Indicative",
+      "short": "Impf audiō",
+      "chapterIntroduced": 10,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": null,
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "audiēbam",
+          "pieces": [
+            {
+              "text": "audi",
+              "role": "stem"
+            },
+            {
+              "text": "ēbā",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "m",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ām",
+              "to": "am"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "audiēbās",
+          "pieces": [
+            {
+              "text": "audi",
+              "role": "stem"
+            },
+            {
+              "text": "ēbā",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "s",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "audiēbat",
+          "pieces": [
+            {
+              "text": "audi",
+              "role": "stem"
+            },
+            {
+              "text": "ēbā",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "t",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "āt",
+              "to": "at"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "audiēbāmus",
+          "pieces": [
+            {
+              "text": "audi",
+              "role": "stem"
+            },
+            {
+              "text": "ēbā",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "mus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "audiēbātis",
+          "pieces": [
+            {
+              "text": "audi",
+              "role": "stem"
+            },
+            {
+              "text": "ēbā",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "tis",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "audiēbant",
+          "pieces": [
+            {
+              "text": "audi",
+              "role": "stem"
+            },
+            {
+              "text": "ēbā",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "nt",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ānt",
+              "to": "ant"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "verb.capio.pres.act.ind",
+      "kind": "verb",
+      "lemma": "capiō",
+      "system": "present indicative active",
+      "label": "capiō — Present Indicative",
+      "short": "capiō",
+      "chapterIntroduced": 10,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "An -iō verb of the THIRD conjugation: it looks like audiō in ō/unt forms but its i is always short — capis, capimus (vs audīs, audīmus).",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "capiō",
+          "pieces": [
+            {
+              "text": "capi",
+              "role": "stem"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1,
+          "homographs": [
+            "pp.capio:i"
+          ]
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "capis",
+          "pieces": [
+            {
+              "text": "capi",
+              "role": "stem"
+            },
+            {
+              "text": "s",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "capit",
+          "pieces": [
+            {
+              "text": "capi",
+              "role": "stem"
+            },
+            {
+              "text": "t",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "capimus",
+          "pieces": [
+            {
+              "text": "capi",
+              "role": "stem"
+            },
+            {
+              "text": "mus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "capitis",
+          "pieces": [
+            {
+              "text": "capi",
+              "role": "stem"
+            },
+            {
+              "text": "tis",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "capiunt",
+          "pieces": [
+            {
+              "text": "capi",
+              "role": "stem"
+            },
+            {
+              "text": "unt",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "verb.capio.fut.act.ind",
+      "kind": "verb",
+      "lemma": "capiō",
+      "system": "future indicative active",
+      "label": "capiō — Future Indicative",
+      "short": "Fut capiō",
+      "chapterIntroduced": 10,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": null,
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "capiam",
+          "pieces": [
+            {
+              "text": "capi",
+              "role": "stem"
+            },
+            {
+              "text": "am",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "capiēs",
+          "pieces": [
+            {
+              "text": "capi",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "capiet",
+          "pieces": [
+            {
+              "text": "capi",
+              "role": "stem"
+            },
+            {
+              "text": "et",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "capiēmus",
+          "pieces": [
+            {
+              "text": "capi",
+              "role": "stem"
+            },
+            {
+              "text": "ēmus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "capiētis",
+          "pieces": [
+            {
+              "text": "capi",
+              "role": "stem"
+            },
+            {
+              "text": "ētis",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "capient",
+          "pieces": [
+            {
+              "text": "capi",
+              "role": "stem"
+            },
+            {
+              "text": "ent",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "verb.capio.impf.act.ind",
+      "kind": "verb",
+      "lemma": "capiō",
+      "system": "imperfect indicative active",
+      "label": "capiō — Imperfect Indicative",
+      "short": "Impf capiō",
+      "chapterIntroduced": 10,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": null,
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "capiēbam",
+          "pieces": [
+            {
+              "text": "capi",
+              "role": "stem"
+            },
+            {
+              "text": "ēbā",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "m",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ām",
+              "to": "am"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "capiēbās",
+          "pieces": [
+            {
+              "text": "capi",
+              "role": "stem"
+            },
+            {
+              "text": "ēbā",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "s",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "capiēbat",
+          "pieces": [
+            {
+              "text": "capi",
+              "role": "stem"
+            },
+            {
+              "text": "ēbā",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "t",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "āt",
+              "to": "at"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "capiēbāmus",
+          "pieces": [
+            {
+              "text": "capi",
+              "role": "stem"
+            },
+            {
+              "text": "ēbā",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "mus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "capiēbātis",
+          "pieces": [
+            {
+              "text": "capi",
+              "role": "stem"
+            },
+            {
+              "text": "ēbā",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "tis",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "capiēbant",
+          "pieces": [
+            {
+              "text": "capi",
+              "role": "stem"
+            },
+            {
+              "text": "ēbā",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "nt",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ānt",
+              "to": "ant"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "pp.audio",
+      "kind": "verb",
+      "lemma": "audiō",
+      "drillClass": "principalParts",
+      "system": "principal parts",
+      "label": "audiō — Principal Parts",
+      "short": "PP audiō",
+      "chapterIntroduced": 10,
+      "layout": {
+        "rowLabels": [
+          "I",
+          "II",
+          "III",
+          "IV"
+        ],
+        "colLabels": [
+          "form"
+        ]
+      },
+      "notes": null,
+      "cells": [
+        {
+          "id": "i",
+          "r": 0,
+          "c": 0,
+          "form": "audiō",
+          "pieces": [
+            {
+              "text": "audiō",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1,
+          "homographs": [
+            "verb.audio.pres.act.ind:1s"
+          ]
+        },
+        {
+          "id": "ii",
+          "r": 1,
+          "c": 0,
+          "form": "audīre",
+          "pieces": [
+            {
+              "text": "audīre",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "iii",
+          "r": 2,
+          "c": 0,
+          "form": "audīvī",
+          "pieces": [
+            {
+              "text": "audīvī",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "iv",
+          "r": 3,
+          "c": 0,
+          "form": "audītum",
+          "pieces": [
+            {
+              "text": "audītum",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "pp.capio",
+      "kind": "verb",
+      "lemma": "capiō",
+      "drillClass": "principalParts",
+      "system": "principal parts",
+      "label": "capiō — Principal Parts",
+      "short": "PP capiō",
+      "chapterIntroduced": 10,
+      "layout": {
+        "rowLabels": [
+          "I",
+          "II",
+          "III",
+          "IV"
+        ],
+        "colLabels": [
+          "form"
+        ]
+      },
+      "notes": "cēpī — a vowel-change perfect, like ēgī.",
+      "cells": [
+        {
+          "id": "i",
+          "r": 0,
+          "c": 0,
+          "form": "capiō",
+          "pieces": [
+            {
+              "text": "capiō",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1,
+          "homographs": [
+            "verb.capio.pres.act.ind:1s"
+          ]
+        },
+        {
+          "id": "ii",
+          "r": 1,
+          "c": 0,
+          "form": "capere",
+          "pieces": [
+            {
+              "text": "capere",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "iii",
+          "r": 2,
+          "c": 0,
+          "form": "cēpī",
+          "pieces": [
+            {
+              "text": "cēpī",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        },
+        {
+          "id": "iv",
+          "r": 3,
+          "c": 0,
+          "form": "captum",
+          "pieces": [
+            {
+              "text": "captum",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 10,
+          "freqTier": 1
+        }
+      ]
+    }
+  ]
+}

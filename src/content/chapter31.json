@@ -1,0 +1,431 @@
+{
+  "chapter": 31,
+  "title": "cum-clauses; the irregular ferō",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "verb.fero.pres.act.ind",
+      "kind": "verb",
+      "lemma": "ferō",
+      "system": "irregular",
+      "label": "ferō — Present Indicative",
+      "short": "ferō",
+      "chapterIntroduced": 31,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "fers, fert, fertis — the theme vowel goes missing. Otherwise a third-conjugation citizen.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "ferō",
+          "pieces": [
+            {
+              "text": "ferō",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 31,
+          "freqTier": 1,
+          "homographs": [
+            "pp.fero:i"
+          ]
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "fers",
+          "pieces": [
+            {
+              "text": "fers",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 31,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "fert",
+          "pieces": [
+            {
+              "text": "fert",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 31,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "ferimus",
+          "pieces": [
+            {
+              "text": "ferimus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 31,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "fertis",
+          "pieces": [
+            {
+              "text": "fertis",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 31,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "ferunt",
+          "pieces": [
+            {
+              "text": "ferunt",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 31,
+          "freqTier": 1
+        }
+      ],
+      "drillClass": "wholeForm"
+    },
+    {
+      "id": "verb.fero.pres.pass.ind",
+      "kind": "verb",
+      "lemma": "ferō",
+      "system": "irregular passive",
+      "label": "ferō — Present Passive",
+      "short": "Pass ferō",
+      "chapterIntroduced": 31,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "ferris, fertur — the same vanished vowel on the passive side.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "feror",
+          "pieces": [
+            {
+              "text": "feror",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 31,
+          "freqTier": 1
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "ferris",
+          "pieces": [
+            {
+              "text": "ferris",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 31,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "fertur",
+          "pieces": [
+            {
+              "text": "fertur",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 31,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "ferimur",
+          "pieces": [
+            {
+              "text": "ferimur",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 31,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "feriminī",
+          "pieces": [
+            {
+              "text": "feriminī",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 31,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "feruntur",
+          "pieces": [
+            {
+              "text": "feruntur",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 31,
+          "freqTier": 1
+        }
+      ],
+      "drillClass": "wholeForm"
+    },
+    {
+      "id": "verb.fero.impv.pres",
+      "kind": "verb",
+      "lemma": "ferō",
+      "system": "present imperative",
+      "label": "ferō — Present Imperative",
+      "short": "Impv fer",
+      "chapterIntroduced": 31,
+      "drillClass": "wholeForm",
+      "layout": {
+        "rowLabels": [
+          "2nd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "fer — one of the four famous short imperatives: dīc, dūc, fac, fer.",
+      "cells": [
+        {
+          "id": "2s",
+          "r": 0,
+          "c": 0,
+          "form": "fer",
+          "pieces": [
+            {
+              "text": "fer",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 31,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 0,
+          "c": 1,
+          "form": "ferte",
+          "pieces": [
+            {
+              "text": "ferte",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 31,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "pp.fero",
+      "kind": "verb",
+      "lemma": "ferō",
+      "drillClass": "principalParts",
+      "system": "principal parts",
+      "label": "ferō — Principal Parts",
+      "short": "PP ferō",
+      "chapterIntroduced": 31,
+      "layout": {
+        "rowLabels": [
+          "I",
+          "II",
+          "III",
+          "IV"
+        ],
+        "colLabels": [
+          "form"
+        ]
+      },
+      "notes": "Four different roots welded into one verb: ferō, ferre, tulī, lātum.",
+      "cells": [
+        {
+          "id": "i",
+          "r": 0,
+          "c": 0,
+          "form": "ferō",
+          "pieces": [
+            {
+              "text": "ferō",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 31,
+          "freqTier": 1,
+          "homographs": [
+            "verb.fero.pres.act.ind:1s"
+          ]
+        },
+        {
+          "id": "ii",
+          "r": 1,
+          "c": 0,
+          "form": "ferre",
+          "pieces": [
+            {
+              "text": "ferre",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 31,
+          "freqTier": 1
+        },
+        {
+          "id": "iii",
+          "r": 2,
+          "c": 0,
+          "form": "tulī",
+          "pieces": [
+            {
+              "text": "tulī",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 31,
+          "freqTier": 1
+        },
+        {
+          "id": "iv",
+          "r": 3,
+          "c": 0,
+          "form": "lātum",
+          "pieces": [
+            {
+              "text": "lātum",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 31,
+          "freqTier": 1
+        }
+      ]
+    }
+  ]
+}

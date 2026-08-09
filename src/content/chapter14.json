@@ -1,0 +1,823 @@
+{
+  "chapter": 14,
+  "title": "Third declension i-stems — cīvis, urbs, mare",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "noun.civis.decl3i",
+      "kind": "noun",
+      "lemma": "cīvis",
+      "system": "third declension i-stem",
+      "label": "cīvis — citizen (i-stem)",
+      "short": "cīvis",
+      "chapterIntroduced": 14,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl",
+          "Voc"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "Parisyllabic: as many syllables in the genitive as the nominative — so the genitive plural is cīvium, with the i-stem's extra i.",
+      "cells": [
+        {
+          "id": "ns",
+          "r": 0,
+          "c": 0,
+          "form": "cīvis",
+          "pieces": [
+            {
+              "text": "cīv",
+              "role": "stem"
+            },
+            {
+              "text": "is",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 1,
+          "homographs": [
+            "noun.civis.decl3i:gs",
+            "noun.civis.decl3i:vs"
+          ]
+        },
+        {
+          "id": "gs",
+          "r": 1,
+          "c": 0,
+          "form": "cīvis",
+          "pieces": [
+            {
+              "text": "cīv",
+              "role": "stem"
+            },
+            {
+              "text": "is",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 1,
+          "homographs": [
+            "noun.civis.decl3i:ns",
+            "noun.civis.decl3i:vs"
+          ]
+        },
+        {
+          "id": "ds",
+          "r": 2,
+          "c": 0,
+          "form": "cīvī",
+          "pieces": [
+            {
+              "text": "cīv",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 1
+        },
+        {
+          "id": "as",
+          "r": 3,
+          "c": 0,
+          "form": "cīvem",
+          "pieces": [
+            {
+              "text": "cīv",
+              "role": "stem"
+            },
+            {
+              "text": "em",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 1
+        },
+        {
+          "id": "bs",
+          "r": 4,
+          "c": 0,
+          "form": "cīve",
+          "pieces": [
+            {
+              "text": "cīv",
+              "role": "stem"
+            },
+            {
+              "text": "e",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 1
+        },
+        {
+          "id": "vs",
+          "r": 5,
+          "c": 0,
+          "form": "cīvis",
+          "pieces": [
+            {
+              "text": "cīv",
+              "role": "stem"
+            },
+            {
+              "text": "is",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 3,
+          "homographs": [
+            "noun.civis.decl3i:gs",
+            "noun.civis.decl3i:ns"
+          ]
+        },
+        {
+          "id": "np",
+          "r": 0,
+          "c": 1,
+          "form": "cīvēs",
+          "pieces": [
+            {
+              "text": "cīv",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 1,
+          "homographs": [
+            "noun.civis.decl3i:ap",
+            "noun.civis.decl3i:vp"
+          ]
+        },
+        {
+          "id": "gp",
+          "r": 1,
+          "c": 1,
+          "form": "cīvium",
+          "pieces": [
+            {
+              "text": "cīv",
+              "role": "stem"
+            },
+            {
+              "text": "ium",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 1
+        },
+        {
+          "id": "dp",
+          "r": 2,
+          "c": 1,
+          "form": "cīvibus",
+          "pieces": [
+            {
+              "text": "cīv",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 1,
+          "homographs": [
+            "noun.civis.decl3i:bp"
+          ]
+        },
+        {
+          "id": "ap",
+          "r": 3,
+          "c": 1,
+          "form": "cīvēs",
+          "pieces": [
+            {
+              "text": "cīv",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 1,
+          "homographs": [
+            "noun.civis.decl3i:np",
+            "noun.civis.decl3i:vp"
+          ]
+        },
+        {
+          "id": "bp",
+          "r": 4,
+          "c": 1,
+          "form": "cīvibus",
+          "pieces": [
+            {
+              "text": "cīv",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 1,
+          "homographs": [
+            "noun.civis.decl3i:dp"
+          ]
+        },
+        {
+          "id": "vp",
+          "r": 5,
+          "c": 1,
+          "form": "cīvēs",
+          "pieces": [
+            {
+              "text": "cīv",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 3,
+          "homographs": [
+            "noun.civis.decl3i:ap",
+            "noun.civis.decl3i:np"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "noun.urbs.decl3i",
+      "kind": "noun",
+      "lemma": "urbs",
+      "system": "third declension i-stem",
+      "label": "urbs — city (i-stem)",
+      "short": "urbs",
+      "chapterIntroduced": 14,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl",
+          "Voc"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "Base ends in two consonants (urb-s) — the other road into the i-stems: genitive plural urbium.",
+      "cells": [
+        {
+          "id": "ns",
+          "r": 0,
+          "c": 0,
+          "form": "urbs",
+          "pieces": [
+            {
+              "text": "urbs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 1,
+          "homographs": [
+            "noun.urbs.decl3i:vs"
+          ]
+        },
+        {
+          "id": "gs",
+          "r": 1,
+          "c": 0,
+          "form": "urbis",
+          "pieces": [
+            {
+              "text": "urb",
+              "role": "stem"
+            },
+            {
+              "text": "is",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 1
+        },
+        {
+          "id": "ds",
+          "r": 2,
+          "c": 0,
+          "form": "urbī",
+          "pieces": [
+            {
+              "text": "urb",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 1
+        },
+        {
+          "id": "as",
+          "r": 3,
+          "c": 0,
+          "form": "urbem",
+          "pieces": [
+            {
+              "text": "urb",
+              "role": "stem"
+            },
+            {
+              "text": "em",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 1
+        },
+        {
+          "id": "bs",
+          "r": 4,
+          "c": 0,
+          "form": "urbe",
+          "pieces": [
+            {
+              "text": "urb",
+              "role": "stem"
+            },
+            {
+              "text": "e",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 1
+        },
+        {
+          "id": "vs",
+          "r": 5,
+          "c": 0,
+          "form": "urbs",
+          "pieces": [
+            {
+              "text": "urbs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 3,
+          "homographs": [
+            "noun.urbs.decl3i:ns"
+          ]
+        },
+        {
+          "id": "np",
+          "r": 0,
+          "c": 1,
+          "form": "urbēs",
+          "pieces": [
+            {
+              "text": "urb",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 1,
+          "homographs": [
+            "noun.urbs.decl3i:ap",
+            "noun.urbs.decl3i:vp"
+          ]
+        },
+        {
+          "id": "gp",
+          "r": 1,
+          "c": 1,
+          "form": "urbium",
+          "pieces": [
+            {
+              "text": "urb",
+              "role": "stem"
+            },
+            {
+              "text": "ium",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 1
+        },
+        {
+          "id": "dp",
+          "r": 2,
+          "c": 1,
+          "form": "urbibus",
+          "pieces": [
+            {
+              "text": "urb",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 1,
+          "homographs": [
+            "noun.urbs.decl3i:bp"
+          ]
+        },
+        {
+          "id": "ap",
+          "r": 3,
+          "c": 1,
+          "form": "urbēs",
+          "pieces": [
+            {
+              "text": "urb",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 1,
+          "homographs": [
+            "noun.urbs.decl3i:np",
+            "noun.urbs.decl3i:vp"
+          ]
+        },
+        {
+          "id": "bp",
+          "r": 4,
+          "c": 1,
+          "form": "urbibus",
+          "pieces": [
+            {
+              "text": "urb",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 1,
+          "homographs": [
+            "noun.urbs.decl3i:dp"
+          ]
+        },
+        {
+          "id": "vp",
+          "r": 5,
+          "c": 1,
+          "form": "urbēs",
+          "pieces": [
+            {
+              "text": "urb",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 3,
+          "homographs": [
+            "noun.urbs.decl3i:ap",
+            "noun.urbs.decl3i:np"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "noun.mare.decl3in",
+      "kind": "noun",
+      "lemma": "mare",
+      "system": "third declension neuter i-stem",
+      "label": "mare — sea (neuter i-stem)",
+      "short": "mare",
+      "chapterIntroduced": 14,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl",
+          "Voc"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "The full i-stem signature: ablative marī (not -e), plural maria, genitive marium. marī serves dative AND ablative.",
+      "cells": [
+        {
+          "id": "ns",
+          "r": 0,
+          "c": 0,
+          "form": "mare",
+          "pieces": [
+            {
+              "text": "mar",
+              "role": "stem"
+            },
+            {
+              "text": "e",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 1,
+          "homographs": [
+            "noun.mare.decl3in:as",
+            "noun.mare.decl3in:vs"
+          ]
+        },
+        {
+          "id": "gs",
+          "r": 1,
+          "c": 0,
+          "form": "maris",
+          "pieces": [
+            {
+              "text": "mar",
+              "role": "stem"
+            },
+            {
+              "text": "is",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 1
+        },
+        {
+          "id": "ds",
+          "r": 2,
+          "c": 0,
+          "form": "marī",
+          "pieces": [
+            {
+              "text": "mar",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 1,
+          "homographs": [
+            "noun.mare.decl3in:bs"
+          ]
+        },
+        {
+          "id": "as",
+          "r": 3,
+          "c": 0,
+          "form": "mare",
+          "pieces": [
+            {
+              "text": "mar",
+              "role": "stem"
+            },
+            {
+              "text": "e",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 1,
+          "homographs": [
+            "noun.mare.decl3in:ns",
+            "noun.mare.decl3in:vs"
+          ]
+        },
+        {
+          "id": "bs",
+          "r": 4,
+          "c": 0,
+          "form": "marī",
+          "pieces": [
+            {
+              "text": "mar",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 1,
+          "homographs": [
+            "noun.mare.decl3in:ds"
+          ]
+        },
+        {
+          "id": "vs",
+          "r": 5,
+          "c": 0,
+          "form": "mare",
+          "pieces": [
+            {
+              "text": "mar",
+              "role": "stem"
+            },
+            {
+              "text": "e",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 3,
+          "homographs": [
+            "noun.mare.decl3in:as",
+            "noun.mare.decl3in:ns"
+          ]
+        },
+        {
+          "id": "np",
+          "r": 0,
+          "c": 1,
+          "form": "maria",
+          "pieces": [
+            {
+              "text": "mar",
+              "role": "stem"
+            },
+            {
+              "text": "ia",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 1,
+          "homographs": [
+            "noun.mare.decl3in:ap",
+            "noun.mare.decl3in:vp"
+          ]
+        },
+        {
+          "id": "gp",
+          "r": 1,
+          "c": 1,
+          "form": "marium",
+          "pieces": [
+            {
+              "text": "mar",
+              "role": "stem"
+            },
+            {
+              "text": "ium",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 1
+        },
+        {
+          "id": "dp",
+          "r": 2,
+          "c": 1,
+          "form": "maribus",
+          "pieces": [
+            {
+              "text": "mar",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 1,
+          "homographs": [
+            "noun.mare.decl3in:bp"
+          ]
+        },
+        {
+          "id": "ap",
+          "r": 3,
+          "c": 1,
+          "form": "maria",
+          "pieces": [
+            {
+              "text": "mar",
+              "role": "stem"
+            },
+            {
+              "text": "ia",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 1,
+          "homographs": [
+            "noun.mare.decl3in:np",
+            "noun.mare.decl3in:vp"
+          ]
+        },
+        {
+          "id": "bp",
+          "r": 4,
+          "c": 1,
+          "form": "maribus",
+          "pieces": [
+            {
+              "text": "mar",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 1,
+          "homographs": [
+            "noun.mare.decl3in:dp"
+          ]
+        },
+        {
+          "id": "vp",
+          "r": 5,
+          "c": 1,
+          "form": "maria",
+          "pieces": [
+            {
+              "text": "mar",
+              "role": "stem"
+            },
+            {
+              "text": "ia",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 14,
+          "freqTier": 3,
+          "homographs": [
+            "noun.mare.decl3in:ap",
+            "noun.mare.decl3in:np"
+          ]
+        }
+      ]
+    }
+  ]
+}

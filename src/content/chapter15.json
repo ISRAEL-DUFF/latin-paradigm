@@ -1,0 +1,929 @@
+{
+  "chapter": 15,
+  "title": "Numerals — ūnus, duo, trēs",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "num.unus",
+      "kind": "numeral",
+      "lemma": "ūnus",
+      "system": "declined numeral (pronominal genitive)",
+      "label": "ūnus — one",
+      "short": "ūnus",
+      "chapterIntroduced": 15,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ]
+      },
+      "notes": "A 2-1-2 adjective wearing the pronominal genitive and dative: ūnīus, ūnī — like ille. Singular only, for obvious reasons.",
+      "cells": [
+        {
+          "id": "nm",
+          "r": 0,
+          "c": 0,
+          "form": "ūnus",
+          "pieces": [
+            {
+              "text": "ūn",
+              "role": "stem"
+            },
+            {
+              "text": "us",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1
+        },
+        {
+          "id": "nf",
+          "r": 0,
+          "c": 1,
+          "form": "ūna",
+          "pieces": [
+            {
+              "text": "ūn",
+              "role": "stem"
+            },
+            {
+              "text": "a",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1
+        },
+        {
+          "id": "nn",
+          "r": 0,
+          "c": 2,
+          "form": "ūnum",
+          "pieces": [
+            {
+              "text": "ūn",
+              "role": "stem"
+            },
+            {
+              "text": "um",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.unus:am",
+            "num.unus:an"
+          ]
+        },
+        {
+          "id": "gm",
+          "r": 1,
+          "c": 0,
+          "form": "ūnīus",
+          "pieces": [
+            {
+              "text": "ūn",
+              "role": "stem"
+            },
+            {
+              "text": "īus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.unus:gf",
+            "num.unus:gn"
+          ]
+        },
+        {
+          "id": "gf",
+          "r": 1,
+          "c": 1,
+          "form": "ūnīus",
+          "pieces": [
+            {
+              "text": "ūn",
+              "role": "stem"
+            },
+            {
+              "text": "īus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.unus:gm",
+            "num.unus:gn"
+          ]
+        },
+        {
+          "id": "gn",
+          "r": 1,
+          "c": 2,
+          "form": "ūnīus",
+          "pieces": [
+            {
+              "text": "ūn",
+              "role": "stem"
+            },
+            {
+              "text": "īus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.unus:gf",
+            "num.unus:gm"
+          ]
+        },
+        {
+          "id": "dm",
+          "r": 2,
+          "c": 0,
+          "form": "ūnī",
+          "pieces": [
+            {
+              "text": "ūn",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.unus:df",
+            "num.unus:dn"
+          ]
+        },
+        {
+          "id": "df",
+          "r": 2,
+          "c": 1,
+          "form": "ūnī",
+          "pieces": [
+            {
+              "text": "ūn",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.unus:dm",
+            "num.unus:dn"
+          ]
+        },
+        {
+          "id": "dn",
+          "r": 2,
+          "c": 2,
+          "form": "ūnī",
+          "pieces": [
+            {
+              "text": "ūn",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.unus:df",
+            "num.unus:dm"
+          ]
+        },
+        {
+          "id": "am",
+          "r": 3,
+          "c": 0,
+          "form": "ūnum",
+          "pieces": [
+            {
+              "text": "ūn",
+              "role": "stem"
+            },
+            {
+              "text": "um",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.unus:an",
+            "num.unus:nn"
+          ]
+        },
+        {
+          "id": "af",
+          "r": 3,
+          "c": 1,
+          "form": "ūnam",
+          "pieces": [
+            {
+              "text": "ūn",
+              "role": "stem"
+            },
+            {
+              "text": "am",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1
+        },
+        {
+          "id": "an",
+          "r": 3,
+          "c": 2,
+          "form": "ūnum",
+          "pieces": [
+            {
+              "text": "ūn",
+              "role": "stem"
+            },
+            {
+              "text": "um",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.unus:am",
+            "num.unus:nn"
+          ]
+        },
+        {
+          "id": "bm",
+          "r": 4,
+          "c": 0,
+          "form": "ūnō",
+          "pieces": [
+            {
+              "text": "ūn",
+              "role": "stem"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.unus:bn"
+          ]
+        },
+        {
+          "id": "bf",
+          "r": 4,
+          "c": 1,
+          "form": "ūnā",
+          "pieces": [
+            {
+              "text": "ūn",
+              "role": "stem"
+            },
+            {
+              "text": "ā",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1
+        },
+        {
+          "id": "bn",
+          "r": 4,
+          "c": 2,
+          "form": "ūnō",
+          "pieces": [
+            {
+              "text": "ūn",
+              "role": "stem"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.unus:bm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "num.duo",
+      "kind": "numeral",
+      "lemma": "duo",
+      "system": "declined numeral",
+      "label": "duo — two",
+      "short": "duo",
+      "chapterIntroduced": 15,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ]
+      },
+      "notes": "One of Latin's two surviving duals in spirit: duo, duae, duo. The accusative masculine can also be plain duo.",
+      "cells": [
+        {
+          "id": "nm",
+          "r": 0,
+          "c": 0,
+          "form": "duo",
+          "pieces": [
+            {
+              "text": "duo",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.duo:an",
+            "num.duo:nn"
+          ]
+        },
+        {
+          "id": "nf",
+          "r": 0,
+          "c": 1,
+          "form": "duae",
+          "pieces": [
+            {
+              "text": "duae",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1
+        },
+        {
+          "id": "nn",
+          "r": 0,
+          "c": 2,
+          "form": "duo",
+          "pieces": [
+            {
+              "text": "duo",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.duo:an",
+            "num.duo:nm"
+          ]
+        },
+        {
+          "id": "gm",
+          "r": 1,
+          "c": 0,
+          "form": "duōrum",
+          "pieces": [
+            {
+              "text": "duōrum",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.duo:gn"
+          ]
+        },
+        {
+          "id": "gf",
+          "r": 1,
+          "c": 1,
+          "form": "duārum",
+          "pieces": [
+            {
+              "text": "duārum",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1
+        },
+        {
+          "id": "gn",
+          "r": 1,
+          "c": 2,
+          "form": "duōrum",
+          "pieces": [
+            {
+              "text": "duōrum",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.duo:gm"
+          ]
+        },
+        {
+          "id": "dm",
+          "r": 2,
+          "c": 0,
+          "form": "duōbus",
+          "pieces": [
+            {
+              "text": "duōbus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.duo:bm",
+            "num.duo:bn",
+            "num.duo:dn"
+          ]
+        },
+        {
+          "id": "df",
+          "r": 2,
+          "c": 1,
+          "form": "duābus",
+          "pieces": [
+            {
+              "text": "duābus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.duo:bf"
+          ]
+        },
+        {
+          "id": "dn",
+          "r": 2,
+          "c": 2,
+          "form": "duōbus",
+          "pieces": [
+            {
+              "text": "duōbus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.duo:bm",
+            "num.duo:bn",
+            "num.duo:dm"
+          ]
+        },
+        {
+          "id": "am",
+          "r": 3,
+          "c": 0,
+          "form": "duōs",
+          "pieces": [
+            {
+              "text": "duōs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1
+        },
+        {
+          "id": "af",
+          "r": 3,
+          "c": 1,
+          "form": "duās",
+          "pieces": [
+            {
+              "text": "duās",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1
+        },
+        {
+          "id": "an",
+          "r": 3,
+          "c": 2,
+          "form": "duo",
+          "pieces": [
+            {
+              "text": "duo",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.duo:nm",
+            "num.duo:nn"
+          ]
+        },
+        {
+          "id": "bm",
+          "r": 4,
+          "c": 0,
+          "form": "duōbus",
+          "pieces": [
+            {
+              "text": "duōbus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.duo:bn",
+            "num.duo:dm",
+            "num.duo:dn"
+          ]
+        },
+        {
+          "id": "bf",
+          "r": 4,
+          "c": 1,
+          "form": "duābus",
+          "pieces": [
+            {
+              "text": "duābus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.duo:df"
+          ]
+        },
+        {
+          "id": "bn",
+          "r": 4,
+          "c": 2,
+          "form": "duōbus",
+          "pieces": [
+            {
+              "text": "duōbus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.duo:bm",
+            "num.duo:dm",
+            "num.duo:dn"
+          ]
+        }
+      ],
+      "drillClass": "wholeForm"
+    },
+    {
+      "id": "num.tres",
+      "kind": "numeral",
+      "lemma": "trēs",
+      "system": "declined numeral",
+      "label": "trēs — three",
+      "short": "trēs",
+      "chapterIntroduced": 15,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "masc/fem",
+          "neuter"
+        ]
+      },
+      "notes": "An i-stem plural: genitive trium, ablative/dative tribus, neuter tria.",
+      "cells": [
+        {
+          "id": "nc",
+          "r": 0,
+          "c": 0,
+          "form": "trēs",
+          "pieces": [
+            {
+              "text": "tr",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.tres:ac"
+          ]
+        },
+        {
+          "id": "nn",
+          "r": 0,
+          "c": 1,
+          "form": "tria",
+          "pieces": [
+            {
+              "text": "tr",
+              "role": "stem"
+            },
+            {
+              "text": "ia",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.tres:an"
+          ]
+        },
+        {
+          "id": "gc",
+          "r": 1,
+          "c": 0,
+          "form": "trium",
+          "pieces": [
+            {
+              "text": "tr",
+              "role": "stem"
+            },
+            {
+              "text": "ium",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.tres:gn"
+          ]
+        },
+        {
+          "id": "gn",
+          "r": 1,
+          "c": 1,
+          "form": "trium",
+          "pieces": [
+            {
+              "text": "tr",
+              "role": "stem"
+            },
+            {
+              "text": "ium",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.tres:gc"
+          ]
+        },
+        {
+          "id": "dc",
+          "r": 2,
+          "c": 0,
+          "form": "tribus",
+          "pieces": [
+            {
+              "text": "tr",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.tres:bc",
+            "num.tres:bn",
+            "num.tres:dn"
+          ]
+        },
+        {
+          "id": "dn",
+          "r": 2,
+          "c": 1,
+          "form": "tribus",
+          "pieces": [
+            {
+              "text": "tr",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.tres:bc",
+            "num.tres:bn",
+            "num.tres:dc"
+          ]
+        },
+        {
+          "id": "ac",
+          "r": 3,
+          "c": 0,
+          "form": "trēs",
+          "pieces": [
+            {
+              "text": "tr",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.tres:nc"
+          ]
+        },
+        {
+          "id": "an",
+          "r": 3,
+          "c": 1,
+          "form": "tria",
+          "pieces": [
+            {
+              "text": "tr",
+              "role": "stem"
+            },
+            {
+              "text": "ia",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.tres:nn"
+          ]
+        },
+        {
+          "id": "bc",
+          "r": 4,
+          "c": 0,
+          "form": "tribus",
+          "pieces": [
+            {
+              "text": "tr",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.tres:bn",
+            "num.tres:dc",
+            "num.tres:dn"
+          ]
+        },
+        {
+          "id": "bn",
+          "r": 4,
+          "c": 1,
+          "form": "tribus",
+          "pieces": [
+            {
+              "text": "tr",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 15,
+          "freqTier": 1,
+          "homographs": [
+            "num.tres:bc",
+            "num.tres:dc",
+            "num.tres:dn"
+          ]
+        }
+      ]
+    }
+  ]
+}

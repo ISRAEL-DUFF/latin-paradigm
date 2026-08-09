@@ -1,0 +1,2089 @@
+{
+  "chapter": 9,
+  "title": "Demonstratives hic, ille, iste",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "pron.hic.sg",
+      "kind": "pron",
+      "lemma": "hic",
+      "system": "demonstrative (this)",
+      "label": "hic — this (singular)",
+      "short": "hic sg",
+      "chapterIntroduced": 9,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ]
+      },
+      "notes": "huius and huic serve all three genders — Lookup will demand every cell. hoc (nom/acc neuter) and hōc (ablative) differ by the macron alone.",
+      "cells": [
+        {
+          "id": "nm",
+          "r": 0,
+          "c": 0,
+          "form": "hic",
+          "pieces": [
+            {
+              "text": "hic",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1
+        },
+        {
+          "id": "nf",
+          "r": 0,
+          "c": 1,
+          "form": "haec",
+          "pieces": [
+            {
+              "text": "haec",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.hic.pl:an",
+            "pron.hic.pl:nn"
+          ]
+        },
+        {
+          "id": "nn",
+          "r": 0,
+          "c": 2,
+          "form": "hoc",
+          "pieces": [
+            {
+              "text": "hoc",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.hic.sg:an"
+          ]
+        },
+        {
+          "id": "gm",
+          "r": 1,
+          "c": 0,
+          "form": "huius",
+          "pieces": [
+            {
+              "text": "huius",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.hic.sg:gf",
+            "pron.hic.sg:gn"
+          ]
+        },
+        {
+          "id": "gf",
+          "r": 1,
+          "c": 1,
+          "form": "huius",
+          "pieces": [
+            {
+              "text": "huius",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.hic.sg:gm",
+            "pron.hic.sg:gn"
+          ]
+        },
+        {
+          "id": "gn",
+          "r": 1,
+          "c": 2,
+          "form": "huius",
+          "pieces": [
+            {
+              "text": "huius",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.hic.sg:gf",
+            "pron.hic.sg:gm"
+          ]
+        },
+        {
+          "id": "dm",
+          "r": 2,
+          "c": 0,
+          "form": "huic",
+          "pieces": [
+            {
+              "text": "huic",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.hic.sg:df",
+            "pron.hic.sg:dn"
+          ]
+        },
+        {
+          "id": "df",
+          "r": 2,
+          "c": 1,
+          "form": "huic",
+          "pieces": [
+            {
+              "text": "huic",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.hic.sg:dm",
+            "pron.hic.sg:dn"
+          ]
+        },
+        {
+          "id": "dn",
+          "r": 2,
+          "c": 2,
+          "form": "huic",
+          "pieces": [
+            {
+              "text": "huic",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.hic.sg:df",
+            "pron.hic.sg:dm"
+          ]
+        },
+        {
+          "id": "am",
+          "r": 3,
+          "c": 0,
+          "form": "hunc",
+          "pieces": [
+            {
+              "text": "hunc",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1
+        },
+        {
+          "id": "af",
+          "r": 3,
+          "c": 1,
+          "form": "hanc",
+          "pieces": [
+            {
+              "text": "hanc",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1
+        },
+        {
+          "id": "an",
+          "r": 3,
+          "c": 2,
+          "form": "hoc",
+          "pieces": [
+            {
+              "text": "hoc",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.hic.sg:nn"
+          ]
+        },
+        {
+          "id": "bm",
+          "r": 4,
+          "c": 0,
+          "form": "hōc",
+          "pieces": [
+            {
+              "text": "hōc",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.hic.sg:bn"
+          ]
+        },
+        {
+          "id": "bf",
+          "r": 4,
+          "c": 1,
+          "form": "hāc",
+          "pieces": [
+            {
+              "text": "hāc",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1
+        },
+        {
+          "id": "bn",
+          "r": 4,
+          "c": 2,
+          "form": "hōc",
+          "pieces": [
+            {
+              "text": "hōc",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.hic.sg:bm"
+          ]
+        }
+      ],
+      "drillClass": "wholeForm"
+    },
+    {
+      "id": "pron.hic.pl",
+      "kind": "pron",
+      "lemma": "hic",
+      "system": "demonstrative (this)",
+      "label": "hic — this (plural)",
+      "short": "hic pl",
+      "chapterIntroduced": 9,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ]
+      },
+      "notes": "haec returns — feminine singular there, neuter plural here. hīs fills six cells.",
+      "cells": [
+        {
+          "id": "nm",
+          "r": 0,
+          "c": 0,
+          "form": "hī",
+          "pieces": [
+            {
+              "text": "hī",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1
+        },
+        {
+          "id": "nf",
+          "r": 0,
+          "c": 1,
+          "form": "hae",
+          "pieces": [
+            {
+              "text": "hae",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1
+        },
+        {
+          "id": "nn",
+          "r": 0,
+          "c": 2,
+          "form": "haec",
+          "pieces": [
+            {
+              "text": "haec",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.hic.pl:an",
+            "pron.hic.sg:nf"
+          ]
+        },
+        {
+          "id": "gm",
+          "r": 1,
+          "c": 0,
+          "form": "hōrum",
+          "pieces": [
+            {
+              "text": "hōrum",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.hic.pl:gn"
+          ]
+        },
+        {
+          "id": "gf",
+          "r": 1,
+          "c": 1,
+          "form": "hārum",
+          "pieces": [
+            {
+              "text": "hārum",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1
+        },
+        {
+          "id": "gn",
+          "r": 1,
+          "c": 2,
+          "form": "hōrum",
+          "pieces": [
+            {
+              "text": "hōrum",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.hic.pl:gm"
+          ]
+        },
+        {
+          "id": "dm",
+          "r": 2,
+          "c": 0,
+          "form": "hīs",
+          "pieces": [
+            {
+              "text": "hīs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.hic.pl:bf",
+            "pron.hic.pl:bm",
+            "pron.hic.pl:bn",
+            "pron.hic.pl:df",
+            "pron.hic.pl:dn"
+          ]
+        },
+        {
+          "id": "df",
+          "r": 2,
+          "c": 1,
+          "form": "hīs",
+          "pieces": [
+            {
+              "text": "hīs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.hic.pl:bf",
+            "pron.hic.pl:bm",
+            "pron.hic.pl:bn",
+            "pron.hic.pl:dm",
+            "pron.hic.pl:dn"
+          ]
+        },
+        {
+          "id": "dn",
+          "r": 2,
+          "c": 2,
+          "form": "hīs",
+          "pieces": [
+            {
+              "text": "hīs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.hic.pl:bf",
+            "pron.hic.pl:bm",
+            "pron.hic.pl:bn",
+            "pron.hic.pl:df",
+            "pron.hic.pl:dm"
+          ]
+        },
+        {
+          "id": "am",
+          "r": 3,
+          "c": 0,
+          "form": "hōs",
+          "pieces": [
+            {
+              "text": "hōs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1
+        },
+        {
+          "id": "af",
+          "r": 3,
+          "c": 1,
+          "form": "hās",
+          "pieces": [
+            {
+              "text": "hās",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1
+        },
+        {
+          "id": "an",
+          "r": 3,
+          "c": 2,
+          "form": "haec",
+          "pieces": [
+            {
+              "text": "haec",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.hic.pl:nn",
+            "pron.hic.sg:nf"
+          ]
+        },
+        {
+          "id": "bm",
+          "r": 4,
+          "c": 0,
+          "form": "hīs",
+          "pieces": [
+            {
+              "text": "hīs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.hic.pl:bf",
+            "pron.hic.pl:bn",
+            "pron.hic.pl:df",
+            "pron.hic.pl:dm",
+            "pron.hic.pl:dn"
+          ]
+        },
+        {
+          "id": "bf",
+          "r": 4,
+          "c": 1,
+          "form": "hīs",
+          "pieces": [
+            {
+              "text": "hīs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.hic.pl:bm",
+            "pron.hic.pl:bn",
+            "pron.hic.pl:df",
+            "pron.hic.pl:dm",
+            "pron.hic.pl:dn"
+          ]
+        },
+        {
+          "id": "bn",
+          "r": 4,
+          "c": 2,
+          "form": "hīs",
+          "pieces": [
+            {
+              "text": "hīs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.hic.pl:bf",
+            "pron.hic.pl:bm",
+            "pron.hic.pl:df",
+            "pron.hic.pl:dm",
+            "pron.hic.pl:dn"
+          ]
+        }
+      ],
+      "drillClass": "wholeForm"
+    },
+    {
+      "id": "pron.ille.sg",
+      "kind": "pron",
+      "lemma": "ille",
+      "system": "demonstrative",
+      "label": "ille — that (singular)",
+      "short": "ille sg",
+      "chapterIntroduced": 9,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ]
+      },
+      "notes": "The pronominal signature: genitive -īus, dative -ī, all three genders. illud, not illum, in the neuter.",
+      "cells": [
+        {
+          "id": "nm",
+          "r": 0,
+          "c": 0,
+          "form": "ille",
+          "pieces": [
+            {
+              "text": "ill",
+              "role": "stem"
+            },
+            {
+              "text": "e",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1
+        },
+        {
+          "id": "nf",
+          "r": 0,
+          "c": 1,
+          "form": "illa",
+          "pieces": [
+            {
+              "text": "ill",
+              "role": "stem"
+            },
+            {
+              "text": "a",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ille.pl:an",
+            "pron.ille.pl:nn"
+          ]
+        },
+        {
+          "id": "nn",
+          "r": 0,
+          "c": 2,
+          "form": "illud",
+          "pieces": [
+            {
+              "text": "ill",
+              "role": "stem"
+            },
+            {
+              "text": "ud",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ille.sg:an"
+          ]
+        },
+        {
+          "id": "gm",
+          "r": 1,
+          "c": 0,
+          "form": "illīus",
+          "pieces": [
+            {
+              "text": "ill",
+              "role": "stem"
+            },
+            {
+              "text": "īus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ille.sg:gf",
+            "pron.ille.sg:gn"
+          ]
+        },
+        {
+          "id": "gf",
+          "r": 1,
+          "c": 1,
+          "form": "illīus",
+          "pieces": [
+            {
+              "text": "ill",
+              "role": "stem"
+            },
+            {
+              "text": "īus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ille.sg:gm",
+            "pron.ille.sg:gn"
+          ]
+        },
+        {
+          "id": "gn",
+          "r": 1,
+          "c": 2,
+          "form": "illīus",
+          "pieces": [
+            {
+              "text": "ill",
+              "role": "stem"
+            },
+            {
+              "text": "īus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ille.sg:gf",
+            "pron.ille.sg:gm"
+          ]
+        },
+        {
+          "id": "dm",
+          "r": 2,
+          "c": 0,
+          "form": "illī",
+          "pieces": [
+            {
+              "text": "ill",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ille.pl:nm",
+            "pron.ille.sg:df",
+            "pron.ille.sg:dn"
+          ]
+        },
+        {
+          "id": "df",
+          "r": 2,
+          "c": 1,
+          "form": "illī",
+          "pieces": [
+            {
+              "text": "ill",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ille.pl:nm",
+            "pron.ille.sg:dm",
+            "pron.ille.sg:dn"
+          ]
+        },
+        {
+          "id": "dn",
+          "r": 2,
+          "c": 2,
+          "form": "illī",
+          "pieces": [
+            {
+              "text": "ill",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ille.pl:nm",
+            "pron.ille.sg:df",
+            "pron.ille.sg:dm"
+          ]
+        },
+        {
+          "id": "am",
+          "r": 3,
+          "c": 0,
+          "form": "illum",
+          "pieces": [
+            {
+              "text": "ill",
+              "role": "stem"
+            },
+            {
+              "text": "um",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1
+        },
+        {
+          "id": "af",
+          "r": 3,
+          "c": 1,
+          "form": "illam",
+          "pieces": [
+            {
+              "text": "ill",
+              "role": "stem"
+            },
+            {
+              "text": "am",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1
+        },
+        {
+          "id": "an",
+          "r": 3,
+          "c": 2,
+          "form": "illud",
+          "pieces": [
+            {
+              "text": "ill",
+              "role": "stem"
+            },
+            {
+              "text": "ud",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ille.sg:nn"
+          ]
+        },
+        {
+          "id": "bm",
+          "r": 4,
+          "c": 0,
+          "form": "illō",
+          "pieces": [
+            {
+              "text": "ill",
+              "role": "stem"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ille.sg:bn"
+          ]
+        },
+        {
+          "id": "bf",
+          "r": 4,
+          "c": 1,
+          "form": "illā",
+          "pieces": [
+            {
+              "text": "ill",
+              "role": "stem"
+            },
+            {
+              "text": "ā",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1
+        },
+        {
+          "id": "bn",
+          "r": 4,
+          "c": 2,
+          "form": "illō",
+          "pieces": [
+            {
+              "text": "ill",
+              "role": "stem"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ille.sg:bm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pron.ille.pl",
+      "kind": "pron",
+      "lemma": "ille",
+      "system": "demonstrative",
+      "label": "ille — that (plural)",
+      "short": "ille pl",
+      "chapterIntroduced": 9,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ]
+      },
+      "notes": "The plural is pure 2-1-2 — only the singular is strange.",
+      "cells": [
+        {
+          "id": "nm",
+          "r": 0,
+          "c": 0,
+          "form": "illī",
+          "pieces": [
+            {
+              "text": "ill",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ille.sg:df",
+            "pron.ille.sg:dm",
+            "pron.ille.sg:dn"
+          ]
+        },
+        {
+          "id": "nf",
+          "r": 0,
+          "c": 1,
+          "form": "illae",
+          "pieces": [
+            {
+              "text": "ill",
+              "role": "stem"
+            },
+            {
+              "text": "ae",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1
+        },
+        {
+          "id": "nn",
+          "r": 0,
+          "c": 2,
+          "form": "illa",
+          "pieces": [
+            {
+              "text": "ill",
+              "role": "stem"
+            },
+            {
+              "text": "a",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ille.pl:an",
+            "pron.ille.sg:nf"
+          ]
+        },
+        {
+          "id": "gm",
+          "r": 1,
+          "c": 0,
+          "form": "illōrum",
+          "pieces": [
+            {
+              "text": "ill",
+              "role": "stem"
+            },
+            {
+              "text": "ōrum",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ille.pl:gn"
+          ]
+        },
+        {
+          "id": "gf",
+          "r": 1,
+          "c": 1,
+          "form": "illārum",
+          "pieces": [
+            {
+              "text": "ill",
+              "role": "stem"
+            },
+            {
+              "text": "ārum",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1
+        },
+        {
+          "id": "gn",
+          "r": 1,
+          "c": 2,
+          "form": "illōrum",
+          "pieces": [
+            {
+              "text": "ill",
+              "role": "stem"
+            },
+            {
+              "text": "ōrum",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ille.pl:gm"
+          ]
+        },
+        {
+          "id": "dm",
+          "r": 2,
+          "c": 0,
+          "form": "illīs",
+          "pieces": [
+            {
+              "text": "ill",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ille.pl:bf",
+            "pron.ille.pl:bm",
+            "pron.ille.pl:bn",
+            "pron.ille.pl:df",
+            "pron.ille.pl:dn"
+          ]
+        },
+        {
+          "id": "df",
+          "r": 2,
+          "c": 1,
+          "form": "illīs",
+          "pieces": [
+            {
+              "text": "ill",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ille.pl:bf",
+            "pron.ille.pl:bm",
+            "pron.ille.pl:bn",
+            "pron.ille.pl:dm",
+            "pron.ille.pl:dn"
+          ]
+        },
+        {
+          "id": "dn",
+          "r": 2,
+          "c": 2,
+          "form": "illīs",
+          "pieces": [
+            {
+              "text": "ill",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ille.pl:bf",
+            "pron.ille.pl:bm",
+            "pron.ille.pl:bn",
+            "pron.ille.pl:df",
+            "pron.ille.pl:dm"
+          ]
+        },
+        {
+          "id": "am",
+          "r": 3,
+          "c": 0,
+          "form": "illōs",
+          "pieces": [
+            {
+              "text": "ill",
+              "role": "stem"
+            },
+            {
+              "text": "ōs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1
+        },
+        {
+          "id": "af",
+          "r": 3,
+          "c": 1,
+          "form": "illās",
+          "pieces": [
+            {
+              "text": "ill",
+              "role": "stem"
+            },
+            {
+              "text": "ās",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1
+        },
+        {
+          "id": "an",
+          "r": 3,
+          "c": 2,
+          "form": "illa",
+          "pieces": [
+            {
+              "text": "ill",
+              "role": "stem"
+            },
+            {
+              "text": "a",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ille.pl:nn",
+            "pron.ille.sg:nf"
+          ]
+        },
+        {
+          "id": "bm",
+          "r": 4,
+          "c": 0,
+          "form": "illīs",
+          "pieces": [
+            {
+              "text": "ill",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ille.pl:bf",
+            "pron.ille.pl:bn",
+            "pron.ille.pl:df",
+            "pron.ille.pl:dm",
+            "pron.ille.pl:dn"
+          ]
+        },
+        {
+          "id": "bf",
+          "r": 4,
+          "c": 1,
+          "form": "illīs",
+          "pieces": [
+            {
+              "text": "ill",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ille.pl:bm",
+            "pron.ille.pl:bn",
+            "pron.ille.pl:df",
+            "pron.ille.pl:dm",
+            "pron.ille.pl:dn"
+          ]
+        },
+        {
+          "id": "bn",
+          "r": 4,
+          "c": 2,
+          "form": "illīs",
+          "pieces": [
+            {
+              "text": "ill",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ille.pl:bf",
+            "pron.ille.pl:bm",
+            "pron.ille.pl:df",
+            "pron.ille.pl:dm",
+            "pron.ille.pl:dn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pron.iste.sg",
+      "kind": "pron",
+      "lemma": "iste",
+      "system": "demonstrative",
+      "label": "iste — that of yours (singular)",
+      "short": "iste sg",
+      "chapterIntroduced": 9,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ]
+      },
+      "notes": "Declines exactly like ille — often with an edge of contempt: iste homō, 'that fellow of yours'.",
+      "cells": [
+        {
+          "id": "nm",
+          "r": 0,
+          "c": 0,
+          "form": "iste",
+          "pieces": [
+            {
+              "text": "ist",
+              "role": "stem"
+            },
+            {
+              "text": "e",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1
+        },
+        {
+          "id": "nf",
+          "r": 0,
+          "c": 1,
+          "form": "ista",
+          "pieces": [
+            {
+              "text": "ist",
+              "role": "stem"
+            },
+            {
+              "text": "a",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.iste.pl:an",
+            "pron.iste.pl:nn"
+          ]
+        },
+        {
+          "id": "nn",
+          "r": 0,
+          "c": 2,
+          "form": "istud",
+          "pieces": [
+            {
+              "text": "ist",
+              "role": "stem"
+            },
+            {
+              "text": "ud",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.iste.sg:an"
+          ]
+        },
+        {
+          "id": "gm",
+          "r": 1,
+          "c": 0,
+          "form": "istīus",
+          "pieces": [
+            {
+              "text": "ist",
+              "role": "stem"
+            },
+            {
+              "text": "īus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.iste.sg:gf",
+            "pron.iste.sg:gn"
+          ]
+        },
+        {
+          "id": "gf",
+          "r": 1,
+          "c": 1,
+          "form": "istīus",
+          "pieces": [
+            {
+              "text": "ist",
+              "role": "stem"
+            },
+            {
+              "text": "īus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.iste.sg:gm",
+            "pron.iste.sg:gn"
+          ]
+        },
+        {
+          "id": "gn",
+          "r": 1,
+          "c": 2,
+          "form": "istīus",
+          "pieces": [
+            {
+              "text": "ist",
+              "role": "stem"
+            },
+            {
+              "text": "īus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.iste.sg:gf",
+            "pron.iste.sg:gm"
+          ]
+        },
+        {
+          "id": "dm",
+          "r": 2,
+          "c": 0,
+          "form": "istī",
+          "pieces": [
+            {
+              "text": "ist",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.iste.pl:nm",
+            "pron.iste.sg:df",
+            "pron.iste.sg:dn"
+          ]
+        },
+        {
+          "id": "df",
+          "r": 2,
+          "c": 1,
+          "form": "istī",
+          "pieces": [
+            {
+              "text": "ist",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.iste.pl:nm",
+            "pron.iste.sg:dm",
+            "pron.iste.sg:dn"
+          ]
+        },
+        {
+          "id": "dn",
+          "r": 2,
+          "c": 2,
+          "form": "istī",
+          "pieces": [
+            {
+              "text": "ist",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.iste.pl:nm",
+            "pron.iste.sg:df",
+            "pron.iste.sg:dm"
+          ]
+        },
+        {
+          "id": "am",
+          "r": 3,
+          "c": 0,
+          "form": "istum",
+          "pieces": [
+            {
+              "text": "ist",
+              "role": "stem"
+            },
+            {
+              "text": "um",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1
+        },
+        {
+          "id": "af",
+          "r": 3,
+          "c": 1,
+          "form": "istam",
+          "pieces": [
+            {
+              "text": "ist",
+              "role": "stem"
+            },
+            {
+              "text": "am",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1
+        },
+        {
+          "id": "an",
+          "r": 3,
+          "c": 2,
+          "form": "istud",
+          "pieces": [
+            {
+              "text": "ist",
+              "role": "stem"
+            },
+            {
+              "text": "ud",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.iste.sg:nn"
+          ]
+        },
+        {
+          "id": "bm",
+          "r": 4,
+          "c": 0,
+          "form": "istō",
+          "pieces": [
+            {
+              "text": "ist",
+              "role": "stem"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.iste.sg:bn"
+          ]
+        },
+        {
+          "id": "bf",
+          "r": 4,
+          "c": 1,
+          "form": "istā",
+          "pieces": [
+            {
+              "text": "ist",
+              "role": "stem"
+            },
+            {
+              "text": "ā",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1
+        },
+        {
+          "id": "bn",
+          "r": 4,
+          "c": 2,
+          "form": "istō",
+          "pieces": [
+            {
+              "text": "ist",
+              "role": "stem"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.iste.sg:bm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pron.iste.pl",
+      "kind": "pron",
+      "lemma": "iste",
+      "system": "demonstrative",
+      "label": "iste — that of yours (plural)",
+      "short": "iste pl",
+      "chapterIntroduced": 9,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ]
+      },
+      "notes": null,
+      "cells": [
+        {
+          "id": "nm",
+          "r": 0,
+          "c": 0,
+          "form": "istī",
+          "pieces": [
+            {
+              "text": "ist",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.iste.sg:df",
+            "pron.iste.sg:dm",
+            "pron.iste.sg:dn"
+          ]
+        },
+        {
+          "id": "nf",
+          "r": 0,
+          "c": 1,
+          "form": "istae",
+          "pieces": [
+            {
+              "text": "ist",
+              "role": "stem"
+            },
+            {
+              "text": "ae",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1
+        },
+        {
+          "id": "nn",
+          "r": 0,
+          "c": 2,
+          "form": "ista",
+          "pieces": [
+            {
+              "text": "ist",
+              "role": "stem"
+            },
+            {
+              "text": "a",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.iste.pl:an",
+            "pron.iste.sg:nf"
+          ]
+        },
+        {
+          "id": "gm",
+          "r": 1,
+          "c": 0,
+          "form": "istōrum",
+          "pieces": [
+            {
+              "text": "ist",
+              "role": "stem"
+            },
+            {
+              "text": "ōrum",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.iste.pl:gn"
+          ]
+        },
+        {
+          "id": "gf",
+          "r": 1,
+          "c": 1,
+          "form": "istārum",
+          "pieces": [
+            {
+              "text": "ist",
+              "role": "stem"
+            },
+            {
+              "text": "ārum",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1
+        },
+        {
+          "id": "gn",
+          "r": 1,
+          "c": 2,
+          "form": "istōrum",
+          "pieces": [
+            {
+              "text": "ist",
+              "role": "stem"
+            },
+            {
+              "text": "ōrum",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.iste.pl:gm"
+          ]
+        },
+        {
+          "id": "dm",
+          "r": 2,
+          "c": 0,
+          "form": "istīs",
+          "pieces": [
+            {
+              "text": "ist",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.iste.pl:bf",
+            "pron.iste.pl:bm",
+            "pron.iste.pl:bn",
+            "pron.iste.pl:df",
+            "pron.iste.pl:dn"
+          ]
+        },
+        {
+          "id": "df",
+          "r": 2,
+          "c": 1,
+          "form": "istīs",
+          "pieces": [
+            {
+              "text": "ist",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.iste.pl:bf",
+            "pron.iste.pl:bm",
+            "pron.iste.pl:bn",
+            "pron.iste.pl:dm",
+            "pron.iste.pl:dn"
+          ]
+        },
+        {
+          "id": "dn",
+          "r": 2,
+          "c": 2,
+          "form": "istīs",
+          "pieces": [
+            {
+              "text": "ist",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.iste.pl:bf",
+            "pron.iste.pl:bm",
+            "pron.iste.pl:bn",
+            "pron.iste.pl:df",
+            "pron.iste.pl:dm"
+          ]
+        },
+        {
+          "id": "am",
+          "r": 3,
+          "c": 0,
+          "form": "istōs",
+          "pieces": [
+            {
+              "text": "ist",
+              "role": "stem"
+            },
+            {
+              "text": "ōs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1
+        },
+        {
+          "id": "af",
+          "r": 3,
+          "c": 1,
+          "form": "istās",
+          "pieces": [
+            {
+              "text": "ist",
+              "role": "stem"
+            },
+            {
+              "text": "ās",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1
+        },
+        {
+          "id": "an",
+          "r": 3,
+          "c": 2,
+          "form": "ista",
+          "pieces": [
+            {
+              "text": "ist",
+              "role": "stem"
+            },
+            {
+              "text": "a",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.iste.pl:nn",
+            "pron.iste.sg:nf"
+          ]
+        },
+        {
+          "id": "bm",
+          "r": 4,
+          "c": 0,
+          "form": "istīs",
+          "pieces": [
+            {
+              "text": "ist",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.iste.pl:bf",
+            "pron.iste.pl:bn",
+            "pron.iste.pl:df",
+            "pron.iste.pl:dm",
+            "pron.iste.pl:dn"
+          ]
+        },
+        {
+          "id": "bf",
+          "r": 4,
+          "c": 1,
+          "form": "istīs",
+          "pieces": [
+            {
+              "text": "ist",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.iste.pl:bm",
+            "pron.iste.pl:bn",
+            "pron.iste.pl:df",
+            "pron.iste.pl:dm",
+            "pron.iste.pl:dn"
+          ]
+        },
+        {
+          "id": "bn",
+          "r": 4,
+          "c": 2,
+          "form": "istīs",
+          "pieces": [
+            {
+              "text": "ist",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 9,
+          "freqTier": 1,
+          "homographs": [
+            "pron.iste.pl:bf",
+            "pron.iste.pl:bm",
+            "pron.iste.pl:df",
+            "pron.iste.pl:dm",
+            "pron.iste.pl:dn"
+          ]
+        }
+      ]
+    }
+  ]
+}

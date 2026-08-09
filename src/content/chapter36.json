@@ -1,0 +1,222 @@
+{
+  "chapter": 36,
+  "title": "Jussive noun clauses; the irregular fīō",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "verb.fio.pres.ind",
+      "kind": "verb",
+      "lemma": "fīō",
+      "system": "irregular (passive of faciō)",
+      "label": "fīō — Present Indicative",
+      "short": "fīō",
+      "chapterIntroduced": 36,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "Active shapes, passive meanings — the mirror image of a deponent. fit: 'it happens, it is made'. The ī stays long even before another vowel: fīō, fīunt (but fit).",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "fīō",
+          "pieces": [
+            {
+              "text": "fīō",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 36,
+          "freqTier": 1,
+          "homographs": [
+            "pp.fio:i"
+          ]
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "fīs",
+          "pieces": [
+            {
+              "text": "fīs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 36,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "fit",
+          "pieces": [
+            {
+              "text": "fit",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 36,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "fīmus",
+          "pieces": [
+            {
+              "text": "fīmus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 36,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "fītis",
+          "pieces": [
+            {
+              "text": "fītis",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 36,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "fīunt",
+          "pieces": [
+            {
+              "text": "fīunt",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 36,
+          "freqTier": 1
+        }
+      ],
+      "drillClass": "wholeForm"
+    },
+    {
+      "id": "pp.fio",
+      "kind": "verb",
+      "lemma": "fīō",
+      "drillClass": "principalParts",
+      "system": "principal parts",
+      "label": "fīō — Principal Parts",
+      "short": "PP fīō",
+      "chapterIntroduced": 36,
+      "layout": {
+        "rowLabels": [
+          "I",
+          "II",
+          "III"
+        ],
+        "colLabels": [
+          "form"
+        ]
+      },
+      "notes": "fierī — a passive infinitive shape for an active-looking verb; factus sum completes faciō's passive.",
+      "cells": [
+        {
+          "id": "i",
+          "r": 0,
+          "c": 0,
+          "form": "fīō",
+          "pieces": [
+            {
+              "text": "fīō",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 36,
+          "freqTier": 1,
+          "homographs": [
+            "verb.fio.pres.ind:1s"
+          ]
+        },
+        {
+          "id": "ii",
+          "r": 1,
+          "c": 0,
+          "form": "fierī",
+          "pieces": [
+            {
+              "text": "fierī",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 36,
+          "freqTier": 1
+        },
+        {
+          "id": "iii",
+          "r": 2,
+          "c": 0,
+          "form": "factus sum",
+          "pieces": [
+            {
+              "text": "factus sum",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 36,
+          "freqTier": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,652 @@
+{
+  "chapter": 32,
+  "title": "Adverbs; volō, nōlō, mālō",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "verb.volo.pres.ind",
+      "kind": "verb",
+      "lemma": "volō",
+      "system": "irregular",
+      "label": "volō — Present Indicative",
+      "short": "volō",
+      "chapterIntroduced": 32,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "vīs and vult — no other verb does this. Wanting is irregular in every language.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "volō",
+          "pieces": [
+            {
+              "text": "volō",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 32,
+          "freqTier": 1,
+          "homographs": [
+            "pp.volo:i"
+          ]
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "vīs",
+          "pieces": [
+            {
+              "text": "vīs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 32,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "vult",
+          "pieces": [
+            {
+              "text": "vult",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 32,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "volumus",
+          "pieces": [
+            {
+              "text": "volumus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 32,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "vultis",
+          "pieces": [
+            {
+              "text": "vultis",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 32,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "volunt",
+          "pieces": [
+            {
+              "text": "volunt",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 32,
+          "freqTier": 1
+        }
+      ],
+      "drillClass": "wholeForm"
+    },
+    {
+      "id": "verb.nolo.pres.ind",
+      "kind": "verb",
+      "lemma": "nōlō",
+      "system": "irregular (negative)",
+      "label": "nōlō — Present Indicative",
+      "short": "nōlō",
+      "chapterIntroduced": 32,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "nōlō contracts nē + volō — but the 2nd and 3rd persons fall apart into two words: nōn vīs, nōn vult.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "nōlō",
+          "pieces": [
+            {
+              "text": "nōlō",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 32,
+          "freqTier": 1,
+          "homographs": [
+            "pp.nolo:i"
+          ]
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "nōn vīs",
+          "pieces": [
+            {
+              "text": "nōn vīs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 32,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "nōn vult",
+          "pieces": [
+            {
+              "text": "nōn vult",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 32,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "nōlumus",
+          "pieces": [
+            {
+              "text": "nōlumus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 32,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "nōn vultis",
+          "pieces": [
+            {
+              "text": "nōn vultis",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 32,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "nōlunt",
+          "pieces": [
+            {
+              "text": "nōlunt",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 32,
+          "freqTier": 1
+        }
+      ],
+      "drillClass": "wholeForm"
+    },
+    {
+      "id": "verb.malo.pres.ind",
+      "kind": "verb",
+      "lemma": "mālō",
+      "system": "irregular (preferring)",
+      "label": "mālō — Present Indicative",
+      "short": "mālō",
+      "chapterIntroduced": 32,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "magis + volō: mālō, māvīs, māvult. Prefer the macron — it is the whole difference from malus.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "mālō",
+          "pieces": [
+            {
+              "text": "mālō",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 32,
+          "freqTier": 1,
+          "homographs": [
+            "pp.malo:i"
+          ]
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "māvīs",
+          "pieces": [
+            {
+              "text": "māvīs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 32,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "māvult",
+          "pieces": [
+            {
+              "text": "māvult",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 32,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "mālumus",
+          "pieces": [
+            {
+              "text": "mālumus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 32,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "māvultis",
+          "pieces": [
+            {
+              "text": "māvultis",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 32,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "mālunt",
+          "pieces": [
+            {
+              "text": "mālunt",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 32,
+          "freqTier": 1
+        }
+      ],
+      "drillClass": "wholeForm"
+    },
+    {
+      "id": "pp.volo",
+      "kind": "verb",
+      "lemma": "volō",
+      "drillClass": "principalParts",
+      "system": "principal parts",
+      "label": "volō — Principal Parts",
+      "short": "PP volō",
+      "chapterIntroduced": 32,
+      "layout": {
+        "rowLabels": [
+          "I",
+          "II",
+          "III"
+        ],
+        "colLabels": [
+          "form"
+        ]
+      },
+      "notes": "No passive, no supine — wanting has no object done to it.",
+      "cells": [
+        {
+          "id": "i",
+          "r": 0,
+          "c": 0,
+          "form": "volō",
+          "pieces": [
+            {
+              "text": "volō",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 32,
+          "freqTier": 1,
+          "homographs": [
+            "verb.volo.pres.ind:1s"
+          ]
+        },
+        {
+          "id": "ii",
+          "r": 1,
+          "c": 0,
+          "form": "velle",
+          "pieces": [
+            {
+              "text": "velle",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 32,
+          "freqTier": 1
+        },
+        {
+          "id": "iii",
+          "r": 2,
+          "c": 0,
+          "form": "voluī",
+          "pieces": [
+            {
+              "text": "voluī",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 32,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "pp.nolo",
+      "kind": "verb",
+      "lemma": "nōlō",
+      "drillClass": "principalParts",
+      "system": "principal parts",
+      "label": "nōlō — Principal Parts",
+      "short": "PP nōlō",
+      "chapterIntroduced": 32,
+      "layout": {
+        "rowLabels": [
+          "I",
+          "II",
+          "III"
+        ],
+        "colLabels": [
+          "form"
+        ]
+      },
+      "notes": null,
+      "cells": [
+        {
+          "id": "i",
+          "r": 0,
+          "c": 0,
+          "form": "nōlō",
+          "pieces": [
+            {
+              "text": "nōlō",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 32,
+          "freqTier": 1,
+          "homographs": [
+            "verb.nolo.pres.ind:1s"
+          ]
+        },
+        {
+          "id": "ii",
+          "r": 1,
+          "c": 0,
+          "form": "nōlle",
+          "pieces": [
+            {
+              "text": "nōlle",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 32,
+          "freqTier": 1
+        },
+        {
+          "id": "iii",
+          "r": 2,
+          "c": 0,
+          "form": "nōluī",
+          "pieces": [
+            {
+              "text": "nōluī",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 32,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "pp.malo",
+      "kind": "verb",
+      "lemma": "mālō",
+      "drillClass": "principalParts",
+      "system": "principal parts",
+      "label": "mālō — Principal Parts",
+      "short": "PP mālō",
+      "chapterIntroduced": 32,
+      "layout": {
+        "rowLabels": [
+          "I",
+          "II",
+          "III"
+        ],
+        "colLabels": [
+          "form"
+        ]
+      },
+      "notes": null,
+      "cells": [
+        {
+          "id": "i",
+          "r": 0,
+          "c": 0,
+          "form": "mālō",
+          "pieces": [
+            {
+              "text": "mālō",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 32,
+          "freqTier": 1,
+          "homographs": [
+            "verb.malo.pres.ind:1s"
+          ]
+        },
+        {
+          "id": "ii",
+          "r": 1,
+          "c": 0,
+          "form": "mālle",
+          "pieces": [
+            {
+              "text": "mālle",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 32,
+          "freqTier": 1
+        },
+        {
+          "id": "iii",
+          "r": 2,
+          "c": 0,
+          "form": "māluī",
+          "pieces": [
+            {
+              "text": "māluī",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 32,
+          "freqTier": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,479 @@
+{
+  "chapter": 26,
+  "title": "Comparison of adjectives — fortior declined",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "adj.fortior.sg",
+      "kind": "adj",
+      "lemma": "fortior",
+      "system": "comparative declension",
+      "label": "fortior — braver (singular)",
+      "short": "fortior sg",
+      "chapterIntroduced": 26,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "masc/fem",
+          "neuter"
+        ]
+      },
+      "notes": "Comparatives are CONSONANT stems, not i-stems: ablative fortiōre, and no -ium coming in the plural. The superlative fortissimus declines like magnus.",
+      "cells": [
+        {
+          "id": "nc",
+          "r": 0,
+          "c": 0,
+          "form": "fortior",
+          "pieces": [
+            {
+              "text": "fortior",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 26,
+          "freqTier": 1
+        },
+        {
+          "id": "nn",
+          "r": 0,
+          "c": 1,
+          "form": "fortius",
+          "pieces": [
+            {
+              "text": "fort",
+              "role": "stem"
+            },
+            {
+              "text": "ius",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 26,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortior.sg:an"
+          ]
+        },
+        {
+          "id": "gc",
+          "r": 1,
+          "c": 0,
+          "form": "fortiōris",
+          "pieces": [
+            {
+              "text": "fortiōr",
+              "role": "stem"
+            },
+            {
+              "text": "is",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 26,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortior.sg:gn"
+          ]
+        },
+        {
+          "id": "gn",
+          "r": 1,
+          "c": 1,
+          "form": "fortiōris",
+          "pieces": [
+            {
+              "text": "fortiōr",
+              "role": "stem"
+            },
+            {
+              "text": "is",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 26,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortior.sg:gc"
+          ]
+        },
+        {
+          "id": "dc",
+          "r": 2,
+          "c": 0,
+          "form": "fortiōrī",
+          "pieces": [
+            {
+              "text": "fortiōr",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 26,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortior.sg:dn"
+          ]
+        },
+        {
+          "id": "dn",
+          "r": 2,
+          "c": 1,
+          "form": "fortiōrī",
+          "pieces": [
+            {
+              "text": "fortiōr",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 26,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortior.sg:dc"
+          ]
+        },
+        {
+          "id": "ac",
+          "r": 3,
+          "c": 0,
+          "form": "fortiōrem",
+          "pieces": [
+            {
+              "text": "fortiōr",
+              "role": "stem"
+            },
+            {
+              "text": "em",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 26,
+          "freqTier": 1
+        },
+        {
+          "id": "an",
+          "r": 3,
+          "c": 1,
+          "form": "fortius",
+          "pieces": [
+            {
+              "text": "fort",
+              "role": "stem"
+            },
+            {
+              "text": "ius",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 26,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortior.sg:nn"
+          ]
+        },
+        {
+          "id": "bc",
+          "r": 4,
+          "c": 0,
+          "form": "fortiōre",
+          "pieces": [
+            {
+              "text": "fortiōr",
+              "role": "stem"
+            },
+            {
+              "text": "e",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 26,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortior.sg:bn"
+          ]
+        },
+        {
+          "id": "bn",
+          "r": 4,
+          "c": 1,
+          "form": "fortiōre",
+          "pieces": [
+            {
+              "text": "fortiōr",
+              "role": "stem"
+            },
+            {
+              "text": "e",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 26,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortior.sg:bc"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adj.fortior.pl",
+      "kind": "adj",
+      "lemma": "fortior",
+      "system": "comparative declension",
+      "label": "fortior — braver (plural)",
+      "short": "fortior pl",
+      "chapterIntroduced": 26,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "masc/fem",
+          "neuter"
+        ]
+      },
+      "notes": "fortiōrum and fortiōra — where fortis wrote fortium, fortia. One vowel of difference carries the whole comparative/positive contrast.",
+      "cells": [
+        {
+          "id": "nc",
+          "r": 0,
+          "c": 0,
+          "form": "fortiōrēs",
+          "pieces": [
+            {
+              "text": "fortiōr",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 26,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortior.pl:ac"
+          ]
+        },
+        {
+          "id": "nn",
+          "r": 0,
+          "c": 1,
+          "form": "fortiōra",
+          "pieces": [
+            {
+              "text": "fortiōr",
+              "role": "stem"
+            },
+            {
+              "text": "a",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 26,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortior.pl:an"
+          ]
+        },
+        {
+          "id": "gc",
+          "r": 1,
+          "c": 0,
+          "form": "fortiōrum",
+          "pieces": [
+            {
+              "text": "fortiōr",
+              "role": "stem"
+            },
+            {
+              "text": "um",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 26,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortior.pl:gn"
+          ]
+        },
+        {
+          "id": "gn",
+          "r": 1,
+          "c": 1,
+          "form": "fortiōrum",
+          "pieces": [
+            {
+              "text": "fortiōr",
+              "role": "stem"
+            },
+            {
+              "text": "um",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 26,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortior.pl:gc"
+          ]
+        },
+        {
+          "id": "dc",
+          "r": 2,
+          "c": 0,
+          "form": "fortiōribus",
+          "pieces": [
+            {
+              "text": "fortiōr",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 26,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortior.pl:bc",
+            "adj.fortior.pl:bn",
+            "adj.fortior.pl:dn"
+          ]
+        },
+        {
+          "id": "dn",
+          "r": 2,
+          "c": 1,
+          "form": "fortiōribus",
+          "pieces": [
+            {
+              "text": "fortiōr",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 26,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortior.pl:bc",
+            "adj.fortior.pl:bn",
+            "adj.fortior.pl:dc"
+          ]
+        },
+        {
+          "id": "ac",
+          "r": 3,
+          "c": 0,
+          "form": "fortiōrēs",
+          "pieces": [
+            {
+              "text": "fortiōr",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 26,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortior.pl:nc"
+          ]
+        },
+        {
+          "id": "an",
+          "r": 3,
+          "c": 1,
+          "form": "fortiōra",
+          "pieces": [
+            {
+              "text": "fortiōr",
+              "role": "stem"
+            },
+            {
+              "text": "a",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 26,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortior.pl:nn"
+          ]
+        },
+        {
+          "id": "bc",
+          "r": 4,
+          "c": 0,
+          "form": "fortiōribus",
+          "pieces": [
+            {
+              "text": "fortiōr",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 26,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortior.pl:bn",
+            "adj.fortior.pl:dc",
+            "adj.fortior.pl:dn"
+          ]
+        },
+        {
+          "id": "bn",
+          "r": 4,
+          "c": 1,
+          "form": "fortiōribus",
+          "pieces": [
+            {
+              "text": "fortiōr",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 26,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortior.pl:bc",
+            "adj.fortior.pl:dc",
+            "adj.fortior.pl:dn"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,592 @@
+{
+  "chapter": 23,
+  "title": "Participles — the four of laudō, and laudāns declined",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "verb.laudo.ptcp.sys",
+      "kind": "verb",
+      "lemma": "laudō",
+      "drillClass": "wholeForm",
+      "system": "the participle system",
+      "label": "laudō — The Four Participles",
+      "short": "Participles",
+      "chapterIntroduced": 23,
+      "layout": {
+        "rowLabels": [
+          "Pres Act",
+          "Fut Act",
+          "Perf Pass",
+          "Fut Pass"
+        ],
+        "colLabels": [
+          "form"
+        ]
+      },
+      "notes": "Present laudāns (praising), future laudātūrus (about to praise), perfect laudātus (having been praised), future passive laudandus (to be praised). laudātūrus, laudātus and laudandus decline like magnus; laudāns has its own table.",
+      "cells": [
+        {
+          "id": "pres",
+          "r": 0,
+          "c": 0,
+          "form": "laudāns",
+          "pieces": [
+            {
+              "text": "laudāns",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 23,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudans.sg:an",
+            "ptcp.laudans.sg:nc",
+            "ptcp.laudans.sg:nn"
+          ]
+        },
+        {
+          "id": "fut",
+          "r": 1,
+          "c": 0,
+          "form": "laudātūrus",
+          "pieces": [
+            {
+              "text": "laudātūrus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 23,
+          "freqTier": 1
+        },
+        {
+          "id": "perf",
+          "r": 2,
+          "c": 0,
+          "form": "laudātus",
+          "pieces": [
+            {
+              "text": "laudātus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 23,
+          "freqTier": 1
+        },
+        {
+          "id": "futp",
+          "r": 3,
+          "c": 0,
+          "form": "laudandus",
+          "pieces": [
+            {
+              "text": "laudandus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 23,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudandus.sg:nm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ptcp.laudans.sg",
+      "kind": "participle",
+      "lemma": "laudāns",
+      "system": "third-declension adjective (i-stem)",
+      "label": "laudāns — present participle (singular)",
+      "short": "laudāns sg",
+      "chapterIntroduced": 23,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "masc/fem",
+          "neuter"
+        ]
+      },
+      "notes": "One nominative for all genders. The ablative is laudante in the ablative absolute, laudantī when a true adjective — Wheelock's own distinction.",
+      "cells": [
+        {
+          "id": "nc",
+          "r": 0,
+          "c": 0,
+          "form": "laudāns",
+          "pieces": [
+            {
+              "text": "laudāns",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 23,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudans.sg:an",
+            "ptcp.laudans.sg:nn",
+            "verb.laudo.ptcp.sys:pres"
+          ]
+        },
+        {
+          "id": "nn",
+          "r": 0,
+          "c": 1,
+          "form": "laudāns",
+          "pieces": [
+            {
+              "text": "laudāns",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 23,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudans.sg:an",
+            "ptcp.laudans.sg:nc",
+            "verb.laudo.ptcp.sys:pres"
+          ]
+        },
+        {
+          "id": "gc",
+          "r": 1,
+          "c": 0,
+          "form": "laudantis",
+          "pieces": [
+            {
+              "text": "laudant",
+              "role": "stem"
+            },
+            {
+              "text": "is",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 23,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudans.sg:gn"
+          ]
+        },
+        {
+          "id": "gn",
+          "r": 1,
+          "c": 1,
+          "form": "laudantis",
+          "pieces": [
+            {
+              "text": "laudant",
+              "role": "stem"
+            },
+            {
+              "text": "is",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 23,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudans.sg:gc"
+          ]
+        },
+        {
+          "id": "dc",
+          "r": 2,
+          "c": 0,
+          "form": "laudantī",
+          "pieces": [
+            {
+              "text": "laudant",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 23,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudans.sg:dn"
+          ]
+        },
+        {
+          "id": "dn",
+          "r": 2,
+          "c": 1,
+          "form": "laudantī",
+          "pieces": [
+            {
+              "text": "laudant",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 23,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudans.sg:dc"
+          ]
+        },
+        {
+          "id": "ac",
+          "r": 3,
+          "c": 0,
+          "form": "laudantem",
+          "pieces": [
+            {
+              "text": "laudant",
+              "role": "stem"
+            },
+            {
+              "text": "em",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 23,
+          "freqTier": 1
+        },
+        {
+          "id": "an",
+          "r": 3,
+          "c": 1,
+          "form": "laudāns",
+          "pieces": [
+            {
+              "text": "laudāns",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 23,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudans.sg:nc",
+            "ptcp.laudans.sg:nn",
+            "verb.laudo.ptcp.sys:pres"
+          ]
+        },
+        {
+          "id": "bc",
+          "r": 4,
+          "c": 0,
+          "form": "laudante",
+          "pieces": [
+            {
+              "text": "laudant",
+              "role": "stem"
+            },
+            {
+              "text": "e",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 23,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudans.sg:bn"
+          ]
+        },
+        {
+          "id": "bn",
+          "r": 4,
+          "c": 1,
+          "form": "laudante",
+          "pieces": [
+            {
+              "text": "laudant",
+              "role": "stem"
+            },
+            {
+              "text": "e",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 23,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudans.sg:bc"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ptcp.laudans.pl",
+      "kind": "participle",
+      "lemma": "laudāns",
+      "system": "third-declension adjective (i-stem)",
+      "label": "laudāns — present participle (plural)",
+      "short": "laudāns pl",
+      "chapterIntroduced": 23,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "masc/fem",
+          "neuter"
+        ]
+      },
+      "notes": null,
+      "cells": [
+        {
+          "id": "nc",
+          "r": 0,
+          "c": 0,
+          "form": "laudantēs",
+          "pieces": [
+            {
+              "text": "laudant",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 23,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudans.pl:ac"
+          ]
+        },
+        {
+          "id": "nn",
+          "r": 0,
+          "c": 1,
+          "form": "laudantia",
+          "pieces": [
+            {
+              "text": "laudant",
+              "role": "stem"
+            },
+            {
+              "text": "ia",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 23,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudans.pl:an"
+          ]
+        },
+        {
+          "id": "gc",
+          "r": 1,
+          "c": 0,
+          "form": "laudantium",
+          "pieces": [
+            {
+              "text": "laudant",
+              "role": "stem"
+            },
+            {
+              "text": "ium",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 23,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudans.pl:gn"
+          ]
+        },
+        {
+          "id": "gn",
+          "r": 1,
+          "c": 1,
+          "form": "laudantium",
+          "pieces": [
+            {
+              "text": "laudant",
+              "role": "stem"
+            },
+            {
+              "text": "ium",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 23,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudans.pl:gc"
+          ]
+        },
+        {
+          "id": "dc",
+          "r": 2,
+          "c": 0,
+          "form": "laudantibus",
+          "pieces": [
+            {
+              "text": "laudant",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 23,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudans.pl:bc",
+            "ptcp.laudans.pl:bn",
+            "ptcp.laudans.pl:dn"
+          ]
+        },
+        {
+          "id": "dn",
+          "r": 2,
+          "c": 1,
+          "form": "laudantibus",
+          "pieces": [
+            {
+              "text": "laudant",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 23,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudans.pl:bc",
+            "ptcp.laudans.pl:bn",
+            "ptcp.laudans.pl:dc"
+          ]
+        },
+        {
+          "id": "ac",
+          "r": 3,
+          "c": 0,
+          "form": "laudantēs",
+          "pieces": [
+            {
+              "text": "laudant",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 23,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudans.pl:nc"
+          ]
+        },
+        {
+          "id": "an",
+          "r": 3,
+          "c": 1,
+          "form": "laudantia",
+          "pieces": [
+            {
+              "text": "laudant",
+              "role": "stem"
+            },
+            {
+              "text": "ia",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 23,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudans.pl:nn"
+          ]
+        },
+        {
+          "id": "bc",
+          "r": 4,
+          "c": 0,
+          "form": "laudantibus",
+          "pieces": [
+            {
+              "text": "laudant",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 23,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudans.pl:bn",
+            "ptcp.laudans.pl:dc",
+            "ptcp.laudans.pl:dn"
+          ]
+        },
+        {
+          "id": "bn",
+          "r": 4,
+          "c": 1,
+          "form": "laudantibus",
+          "pieces": [
+            {
+              "text": "laudant",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 23,
+          "freqTier": 1,
+          "homographs": [
+            "ptcp.laudans.pl:bc",
+            "ptcp.laudans.pl:dc",
+            "ptcp.laudans.pl:dn"
+          ]
+        }
+      ]
+    }
+  ]
+}

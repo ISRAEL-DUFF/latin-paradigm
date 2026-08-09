@@ -1,0 +1,412 @@
+{
+  "chapter": 21,
+  "title": "Present passive of the third and fourth conjugations",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "verb.ago.pres.pass.ind",
+      "kind": "verb",
+      "lemma": "agō",
+      "system": "present indicative passive",
+      "label": "agō — Present Passive",
+      "short": "Pass agō",
+      "chapterIntroduced": 21,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "ageris — the 2nd singular takes -e-. Identical in shape to the FUTURE passive of laudō (laudāberis): conjugation, not tense, decides.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "agor",
+          "pieces": [
+            {
+              "text": "ag",
+              "role": "stem"
+            },
+            {
+              "text": "or",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 21,
+          "freqTier": 1
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "ageris",
+          "pieces": [
+            {
+              "text": "ag",
+              "role": "stem"
+            },
+            {
+              "text": "eris",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 21,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "agitur",
+          "pieces": [
+            {
+              "text": "ag",
+              "role": "stem"
+            },
+            {
+              "text": "itur",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 21,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "agimur",
+          "pieces": [
+            {
+              "text": "ag",
+              "role": "stem"
+            },
+            {
+              "text": "imur",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 21,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "agiminī",
+          "pieces": [
+            {
+              "text": "ag",
+              "role": "stem"
+            },
+            {
+              "text": "iminī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 21,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "aguntur",
+          "pieces": [
+            {
+              "text": "ag",
+              "role": "stem"
+            },
+            {
+              "text": "untur",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 21,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "verb.audio.pres.pass.ind",
+      "kind": "verb",
+      "lemma": "audiō",
+      "system": "present indicative passive",
+      "label": "audiō — Present Passive",
+      "short": "Pass audiō",
+      "chapterIntroduced": 21,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": null,
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "audior",
+          "pieces": [
+            {
+              "text": "audī",
+              "role": "stem"
+            },
+            {
+              "text": "or",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "īo",
+              "to": "io"
+            }
+          ],
+          "chapterMax": 21,
+          "freqTier": 1
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "audīris",
+          "pieces": [
+            {
+              "text": "audī",
+              "role": "stem"
+            },
+            {
+              "text": "ris",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 21,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "audītur",
+          "pieces": [
+            {
+              "text": "audī",
+              "role": "stem"
+            },
+            {
+              "text": "tur",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 21,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "audīmur",
+          "pieces": [
+            {
+              "text": "audī",
+              "role": "stem"
+            },
+            {
+              "text": "mur",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 21,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "audīminī",
+          "pieces": [
+            {
+              "text": "audī",
+              "role": "stem"
+            },
+            {
+              "text": "minī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 21,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "audiuntur",
+          "pieces": [
+            {
+              "text": "audī",
+              "role": "stem"
+            },
+            {
+              "text": "untur",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "īu",
+              "to": "iu"
+            }
+          ],
+          "chapterMax": 21,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "verb.capio.pres.pass.ind",
+      "kind": "verb",
+      "lemma": "capiō",
+      "system": "present indicative passive",
+      "label": "capiō — Present Passive",
+      "short": "Pass capiō",
+      "chapterIntroduced": 21,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "caperis — the -iō verb drops its i in the 2nd singular passive, like the plain third conjugation.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "capior",
+          "pieces": [
+            {
+              "text": "capi",
+              "role": "stem"
+            },
+            {
+              "text": "or",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 21,
+          "freqTier": 1
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "caperis",
+          "pieces": [
+            {
+              "text": "cap",
+              "role": "stem"
+            },
+            {
+              "text": "eris",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 21,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "capitur",
+          "pieces": [
+            {
+              "text": "cap",
+              "role": "stem"
+            },
+            {
+              "text": "itur",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 21,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "capimur",
+          "pieces": [
+            {
+              "text": "cap",
+              "role": "stem"
+            },
+            {
+              "text": "imur",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 21,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "capiminī",
+          "pieces": [
+            {
+              "text": "cap",
+              "role": "stem"
+            },
+            {
+              "text": "iminī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 21,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "capiuntur",
+          "pieces": [
+            {
+              "text": "capi",
+              "role": "stem"
+            },
+            {
+              "text": "untur",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 21,
+          "freqTier": 1
+        }
+      ]
+    }
+  ]
+}

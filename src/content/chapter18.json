@@ -1,0 +1,615 @@
+{
+  "chapter": 18,
+  "title": "Present-system passive of the first and second conjugations",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "verb.laudo.pres.pass.ind",
+      "kind": "verb",
+      "lemma": "laudō",
+      "system": "present indicative passive",
+      "label": "laudō — Present Passive",
+      "short": "Pass laudō",
+      "chapterIntroduced": 18,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "The passive endings -r, -ris, -tur, -mur, -minī, -ntur ride the same stem; the ā shortens before -or and -ntur by the same old rule.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "laudor",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "or",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "āo",
+              "to": "o"
+            }
+          ],
+          "chapterMax": 18,
+          "freqTier": 1
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "laudāris",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "ris",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 18,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "laudātur",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "tur",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 18,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "laudāmur",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "mur",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 18,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "laudāminī",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "minī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 18,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "laudantur",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "ntur",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "āntur",
+              "to": "antur"
+            }
+          ],
+          "chapterMax": 18,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "verb.moneo.pres.pass.ind",
+      "kind": "verb",
+      "lemma": "moneō",
+      "system": "present indicative passive",
+      "label": "moneō — Present Passive",
+      "short": "Pass moneō",
+      "chapterIntroduced": 18,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": null,
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "moneor",
+          "pieces": [
+            {
+              "text": "monē",
+              "role": "stem"
+            },
+            {
+              "text": "or",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ēo",
+              "to": "eo"
+            }
+          ],
+          "chapterMax": 18,
+          "freqTier": 1
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "monēris",
+          "pieces": [
+            {
+              "text": "monē",
+              "role": "stem"
+            },
+            {
+              "text": "ris",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 18,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "monētur",
+          "pieces": [
+            {
+              "text": "monē",
+              "role": "stem"
+            },
+            {
+              "text": "tur",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 18,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "monēmur",
+          "pieces": [
+            {
+              "text": "monē",
+              "role": "stem"
+            },
+            {
+              "text": "mur",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 18,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "monēminī",
+          "pieces": [
+            {
+              "text": "monē",
+              "role": "stem"
+            },
+            {
+              "text": "minī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 18,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "monentur",
+          "pieces": [
+            {
+              "text": "monē",
+              "role": "stem"
+            },
+            {
+              "text": "ntur",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ēntur",
+              "to": "entur"
+            }
+          ],
+          "chapterMax": 18,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "verb.laudo.impf.pass.ind",
+      "kind": "verb",
+      "lemma": "laudō",
+      "system": "imperfect indicative passive",
+      "label": "laudō — Imperfect Passive",
+      "short": "ImpfPass laudō",
+      "chapterIntroduced": 18,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "The shortening rule gains its last member: ā also shortens before final -r. laudābar, but laudābāris.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "laudābar",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "bā",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "r",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ār",
+              "to": "ar"
+            }
+          ],
+          "chapterMax": 18,
+          "freqTier": 1
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "laudābāris",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "bā",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "ris",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 18,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "laudābātur",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "bā",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "tur",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 18,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "laudābāmur",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "bā",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "mur",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 18,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "laudābāminī",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "bā",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "minī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 18,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "laudābantur",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "bā",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "ntur",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "āntur",
+              "to": "antur"
+            }
+          ],
+          "chapterMax": 18,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "verb.laudo.fut.pass.ind",
+      "kind": "verb",
+      "lemma": "laudō",
+      "system": "future indicative passive",
+      "label": "laudō — Future Passive",
+      "short": "FutPass laudō",
+      "chapterIntroduced": 18,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "laudāberis — the future -b- takes an e before -ris. One vowel from laudāris (present).",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "laudābor",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "b",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "or",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 18,
+          "freqTier": 2
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "laudāberis",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "b",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "eris",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 18,
+          "freqTier": 2
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "laudābitur",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "b",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "itur",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 18,
+          "freqTier": 2
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "laudābimur",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "b",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "imur",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 18,
+          "freqTier": 2
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "laudābiminī",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "b",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "iminī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 18,
+          "freqTier": 2
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "laudābuntur",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "b",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "untur",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 18,
+          "freqTier": 2
+        }
+      ]
+    }
+  ]
+}

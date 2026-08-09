@@ -1,0 +1,635 @@
+{
+  "chapter": 1,
+  "title": "Verbs — first and second conjugations: present indicative, infinitive and imperative active",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "verb.laudo.pres.act.ind",
+      "kind": "verb",
+      "lemma": "laudō",
+      "system": "first conjugation, present active",
+      "label": "laudō — Present Indicative Active (1st conj.)",
+      "short": "laudō",
+      "chapterIntroduced": 1,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "The stem vowel ā swallows the -ō (laudā+ō → laudō) and shortens before final -t and -nt: laudat, laudant. Everywhere else it keeps its macron — laudās, laudāmus.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "laudō",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "āō",
+              "to": "ō"
+            }
+          ],
+          "chapterMax": 1,
+          "freqTier": 1,
+          "homographs": [
+            "pp.laudo:i"
+          ]
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "laudās",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "s",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 1,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "laudat",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "t",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "āt",
+              "to": "at"
+            }
+          ],
+          "chapterMax": 1,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "laudāmus",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "mus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 1,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "laudātis",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "tis",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 1,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "laudant",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "nt",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ānt",
+              "to": "ant"
+            }
+          ],
+          "chapterMax": 1,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "verb.moneo.pres.act.ind",
+      "kind": "verb",
+      "lemma": "moneō",
+      "system": "second conjugation, present active",
+      "label": "moneō — Present Indicative Active (2nd conj.)",
+      "short": "moneō",
+      "chapterIntroduced": 1,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "The ē survives the -ō (moneō — unlike laudō) but still shortens before -t and -nt: monet, monent.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "moneō",
+          "pieces": [
+            {
+              "text": "monē",
+              "role": "stem"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ēō",
+              "to": "eō"
+            }
+          ],
+          "chapterMax": 1,
+          "freqTier": 1,
+          "homographs": [
+            "pp.moneo:i"
+          ]
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "monēs",
+          "pieces": [
+            {
+              "text": "monē",
+              "role": "stem"
+            },
+            {
+              "text": "s",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 1,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "monet",
+          "pieces": [
+            {
+              "text": "monē",
+              "role": "stem"
+            },
+            {
+              "text": "t",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ēt",
+              "to": "et"
+            }
+          ],
+          "chapterMax": 1,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "monēmus",
+          "pieces": [
+            {
+              "text": "monē",
+              "role": "stem"
+            },
+            {
+              "text": "mus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 1,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "monētis",
+          "pieces": [
+            {
+              "text": "monē",
+              "role": "stem"
+            },
+            {
+              "text": "tis",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 1,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "monent",
+          "pieces": [
+            {
+              "text": "monē",
+              "role": "stem"
+            },
+            {
+              "text": "nt",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ēnt",
+              "to": "ent"
+            }
+          ],
+          "chapterMax": 1,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "verb.laudo.impv.pres",
+      "kind": "verb",
+      "lemma": "laudō",
+      "system": "present imperative active",
+      "label": "laudō — Present Imperative",
+      "short": "Impv laudā",
+      "chapterIntroduced": 1,
+      "drillClass": "wholeForm",
+      "layout": {
+        "rowLabels": [
+          "2nd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "The singular imperative IS the present stem, macron and all; the plural adds -te.",
+      "cells": [
+        {
+          "id": "2s",
+          "r": 0,
+          "c": 0,
+          "form": "laudā",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 1,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 0,
+          "c": 1,
+          "form": "laudāte",
+          "pieces": [
+            {
+              "text": "laudāte",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 1,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "verb.moneo.impv.pres",
+      "kind": "verb",
+      "lemma": "moneō",
+      "system": "present imperative active",
+      "label": "moneō — Present Imperative",
+      "short": "Impv monē",
+      "chapterIntroduced": 1,
+      "drillClass": "wholeForm",
+      "layout": {
+        "rowLabels": [
+          "2nd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "monē — the bare stem; monēte for more than one listener.",
+      "cells": [
+        {
+          "id": "2s",
+          "r": 0,
+          "c": 0,
+          "form": "monē",
+          "pieces": [
+            {
+              "text": "monē",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 1,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 0,
+          "c": 1,
+          "form": "monēte",
+          "pieces": [
+            {
+              "text": "monēte",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 1,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "pp.laudo",
+      "kind": "verb",
+      "lemma": "laudō",
+      "drillClass": "principalParts",
+      "system": "principal parts",
+      "label": "laudō — Principal Parts",
+      "short": "PP laudō",
+      "chapterIntroduced": 1,
+      "layout": {
+        "rowLabels": [
+          "I",
+          "II",
+          "III",
+          "IV"
+        ],
+        "colLabels": [
+          "form"
+        ]
+      },
+      "notes": "Four parts from day one — Wheelock lists them with every verb. laudāv- will unlock the entire perfect active system at Chapter 12.",
+      "cells": [
+        {
+          "id": "i",
+          "r": 0,
+          "c": 0,
+          "form": "laudō",
+          "pieces": [
+            {
+              "text": "laudō",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 1,
+          "freqTier": 1,
+          "homographs": [
+            "verb.laudo.pres.act.ind:1s"
+          ]
+        },
+        {
+          "id": "ii",
+          "r": 1,
+          "c": 0,
+          "form": "laudāre",
+          "pieces": [
+            {
+              "text": "laudāre",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 1,
+          "freqTier": 1,
+          "homographs": [
+            "verb.laudo.inf:pra"
+          ]
+        },
+        {
+          "id": "iii",
+          "r": 2,
+          "c": 0,
+          "form": "laudāvī",
+          "pieces": [
+            {
+              "text": "laudāvī",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 1,
+          "freqTier": 1,
+          "unlockMsg": "laudāv- acquired — the entire perfect active system of laudō is now yours.",
+          "homographs": [
+            "verb.laudo.perf.act.ind:1s"
+          ]
+        },
+        {
+          "id": "iv",
+          "r": 3,
+          "c": 0,
+          "form": "laudātum",
+          "pieces": [
+            {
+              "text": "laudātum",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 1,
+          "freqTier": 1,
+          "homographs": [
+            "verb.laudo.supine:acc"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pp.moneo",
+      "kind": "verb",
+      "lemma": "moneō",
+      "drillClass": "principalParts",
+      "system": "principal parts",
+      "label": "moneō — Principal Parts",
+      "short": "PP moneō",
+      "chapterIntroduced": 1,
+      "layout": {
+        "rowLabels": [
+          "I",
+          "II",
+          "III",
+          "IV"
+        ],
+        "colLabels": [
+          "form"
+        ]
+      },
+      "notes": "monuī — the perfect drops the stem vowel; monitum shortens it. The parts must be memorized, not derived.",
+      "cells": [
+        {
+          "id": "i",
+          "r": 0,
+          "c": 0,
+          "form": "moneō",
+          "pieces": [
+            {
+              "text": "moneō",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 1,
+          "freqTier": 1,
+          "homographs": [
+            "verb.moneo.pres.act.ind:1s"
+          ]
+        },
+        {
+          "id": "ii",
+          "r": 1,
+          "c": 0,
+          "form": "monēre",
+          "pieces": [
+            {
+              "text": "monēre",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 1,
+          "freqTier": 1
+        },
+        {
+          "id": "iii",
+          "r": 2,
+          "c": 0,
+          "form": "monuī",
+          "pieces": [
+            {
+              "text": "monuī",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 1,
+          "freqTier": 1
+        },
+        {
+          "id": "iv",
+          "r": 3,
+          "c": 0,
+          "form": "monitum",
+          "pieces": [
+            {
+              "text": "monitum",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 1,
+          "freqTier": 1
+        }
+      ]
+    }
+  ]
+}

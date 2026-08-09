@@ -1,0 +1,576 @@
+{
+  "chapter": 29,
+  "title": "Imperfect subjunctive; sum and possum in the subjunctive",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "verb.laudo.impf.act.subj",
+      "kind": "verb",
+      "lemma": "laudō",
+      "system": "imperfect subjunctive active",
+      "label": "laudō — Imperfect Subjunctive",
+      "short": "ImpfSubj laudō",
+      "chapterIntroduced": 29,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "Looks like the present infinitive plus endings — laudāre + m. Works for every verb in the language, irregulars included.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "laudārem",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "rē",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "m",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ēm",
+              "to": "em"
+            }
+          ],
+          "chapterMax": 29,
+          "freqTier": 1
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "laudārēs",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "rē",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "s",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 29,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "laudāret",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "rē",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "t",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ēt",
+              "to": "et"
+            }
+          ],
+          "chapterMax": 29,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "laudārēmus",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "rē",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "mus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 29,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "laudārētis",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "rē",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "tis",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 29,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "laudārent",
+          "pieces": [
+            {
+              "text": "laudā",
+              "role": "stem"
+            },
+            {
+              "text": "rē",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "nt",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ēnt",
+              "to": "ent"
+            }
+          ],
+          "chapterMax": 29,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "verb.sum.pres.subj",
+      "kind": "verb",
+      "lemma": "sum",
+      "system": "present subjunctive",
+      "label": "sum — Present Subjunctive",
+      "short": "Subj sum",
+      "chapterIntroduced": 29,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "sim, sīs, sit — the subjunctive of sum runs on ī.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "sim",
+          "pieces": [
+            {
+              "text": "sim",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 29,
+          "freqTier": 1
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "sīs",
+          "pieces": [
+            {
+              "text": "sīs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 29,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "sit",
+          "pieces": [
+            {
+              "text": "sit",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 29,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "sīmus",
+          "pieces": [
+            {
+              "text": "sīmus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 29,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "sītis",
+          "pieces": [
+            {
+              "text": "sītis",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 29,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "sint",
+          "pieces": [
+            {
+              "text": "sint",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 29,
+          "freqTier": 1
+        }
+      ],
+      "drillClass": "wholeForm"
+    },
+    {
+      "id": "verb.sum.impf.subj",
+      "kind": "verb",
+      "lemma": "sum",
+      "system": "imperfect subjunctive",
+      "label": "sum — Imperfect Subjunctive",
+      "short": "ImpfSubj sum",
+      "chapterIntroduced": 29,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "esse + endings — the infinitive rule holds even here.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "essem",
+          "pieces": [
+            {
+              "text": "essem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 29,
+          "freqTier": 1
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "essēs",
+          "pieces": [
+            {
+              "text": "essēs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 29,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "esset",
+          "pieces": [
+            {
+              "text": "esset",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 29,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "essēmus",
+          "pieces": [
+            {
+              "text": "essēmus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 29,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "essētis",
+          "pieces": [
+            {
+              "text": "essētis",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 29,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "essent",
+          "pieces": [
+            {
+              "text": "essent",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 29,
+          "freqTier": 1
+        }
+      ],
+      "drillClass": "wholeForm"
+    },
+    {
+      "id": "verb.possum.pres.subj",
+      "kind": "verb",
+      "lemma": "possum",
+      "system": "present subjunctive",
+      "label": "possum — Present Subjunctive",
+      "short": "Subj possum",
+      "chapterIntroduced": 29,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": null,
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "possim",
+          "pieces": [
+            {
+              "text": "possim",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 29,
+          "freqTier": 1
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "possīs",
+          "pieces": [
+            {
+              "text": "possīs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 29,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "possit",
+          "pieces": [
+            {
+              "text": "possit",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 29,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "possīmus",
+          "pieces": [
+            {
+              "text": "possīmus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 29,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "possītis",
+          "pieces": [
+            {
+              "text": "possītis",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 29,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "possint",
+          "pieces": [
+            {
+              "text": "possint",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 29,
+          "freqTier": 1
+        }
+      ],
+      "drillClass": "wholeForm"
+    }
+  ]
+}

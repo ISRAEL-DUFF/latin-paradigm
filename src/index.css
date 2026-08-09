@@ -1,0 +1,229 @@
+@import "tailwindcss";
+
+/* Latin forms: EB Garamond renders macrons cleanly at chip sizes (ā vs a is
+   the exam-relevant discrimination — family-conventions §5, Latin row). */
+.gk {
+  font-family: "EB Garamond", "Times New Roman", serif;
+}
+
+@keyframes riseIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes decay {
+  from { opacity: 1; filter: blur(0); }
+  to { opacity: 0; filter: blur(4px); }
+}
+@keyframes shakeX {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-6px); }
+  75% { transform: translateX(6px); }
+}
+@keyframes splitL {
+  0% { transform: translateX(0); }
+  40% { transform: translateX(-9px); }
+  100% { transform: translateX(0); }
+}
+@keyframes splitR {
+  0% { transform: translateX(0); }
+  40% { transform: translateX(9px); }
+  100% { transform: translateX(0); }
+}
+@keyframes glowGold {
+  0% { text-shadow: 0 0 0 rgba(217, 188, 114, 0); }
+  40% { text-shadow: 0 0 18px rgba(217, 188, 114, 0.9); }
+  100% { text-shadow: 0 0 0 rgba(217, 188, 114, 0); }
+}
+@keyframes shimmer {
+  0% { background-position: -120% 0; }
+  100% { background-position: 220% 0; }
+}
+
+.rise { animation: riseIn 0.5s ease both; }
+.decaying { animation: decay 0.9s ease both; }
+.shake { animation: shakeX 0.35s ease; }
+.split-l {
+  display: inline-block;
+  animation: splitL 0.8s cubic-bezier(0.2, 0.8, 0.3, 1);
+}
+.split-r {
+  display: inline-block;
+  animation: splitR 0.8s cubic-bezier(0.2, 0.8, 0.3, 1), glowGold 0.9s ease;
+  color: #6fb3d8;
+}
+.gilded {
+  background: linear-gradient(
+    100deg,
+    #8a6f33 20%,
+    #d9bc72 45%,
+    #f2e3ae 50%,
+    #d9bc72 55%,
+    #8a6f33 80%
+  );
+  background-size: 220% 100%;
+  animation: shimmer 3.5s linear infinite;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rise, .decaying, .shake, .split-l, .split-r { animation: none !important; }
+  .gilded { animation: none !important; }
+}
+
+.chip:active {
+  transform: translateY(1px) scale(0.98);
+}
+
+/* M2: an impossible piece bounces off the assembly — the refusal is curriculum */
+@keyframes refuse {
+  0% { transform: translateY(0); }
+  30% { transform: translateY(-10px) rotate(-2deg); }
+  55% { transform: translateY(2px); }
+  75% { transform: translateY(-4px); }
+  100% { transform: translateY(0); }
+}
+.refuse {
+  animation: refuse 0.55s cubic-bezier(0.3, 0.7, 0.3, 1);
+}
+
+@keyframes toastIn {
+  from { opacity: 0; transform: translateY(-12px); }
+  to { opacity: 1; transform: none; }
+}
+.toast-in { animation: toastIn 0.4s ease both; }
+
+/* M6: underlying pieces visibly collapse into the contracted surface form */
+@keyframes collapseIn {
+  0% { letter-spacing: 0.22em; opacity: 0.35; filter: blur(1.5px); }
+  60% { letter-spacing: -0.02em; opacity: 1; filter: blur(0); }
+  100% { letter-spacing: 0; opacity: 1; }
+}
+.collapse-in {
+  display: inline-block;
+  animation: collapseIn 0.7s cubic-bezier(0.2, 0.8, 0.3, 1), glowGold 0.9s ease;
+  color: #6fb3d8;
+}
+
+/* The ask banner: rises once per new question, so the eye is pulled to it */
+@keyframes promptIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes promptEdge {
+  0%, 100% { box-shadow: -3px 0 0 0 rgba(111, 179, 216, 0.55) inset, 0 0 0 rgba(111, 179, 216, 0); }
+  50% { box-shadow: -3px 0 0 0 rgba(111, 179, 216, 1) inset, 0 0 18px rgba(111, 179, 216, 0.22); }
+}
+.prompt-in {
+  animation: promptIn 0.35s ease both, promptEdge 2.6s ease-in-out 0.35s infinite;
+}
+
+/* the live step of a morpheme assembly */
+@keyframes stepGlow {
+  0%, 100% { box-shadow: 0 0 0 rgba(111, 179, 216, 0); }
+  50% { box-shadow: 0 0 14px rgba(111, 179, 216, 0.6); }
+}
+.step-live { animation: stepGlow 1.6s ease-in-out infinite; }
+
+/* Wide (3+ column) paradigm grids: tighter cells so sg|pl|dual fits a phone.
+   Greek forms must never be clipped — the columns shrink by shaving padding
+   and one font step, not by truncating text. */
+.grid-tight > button,
+.grid-tight > div[data-drop] {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+.grid-tight .gk.text-xl { font-size: 1.125rem; }
+
+/* picker disclosure chevron */
+.chev { transition: transform 0.2s ease; }
+.chev-open { transform: rotate(90deg); }
+
+/* Scramble: drag must not scroll the page out from under the finger */
+.draggable {
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+  cursor: grab;
+}
+.draggable:active { cursor: grabbing; }
+
+/* Bank tiles: the strip scrolls sideways, so let the browser own horizontal
+   panning and keep vertical movement for us. Lifting a form out of the bank is
+   an upward motion, so the two gestures do not fight. */
+.draggable-x { touch-action: pan-x; }
+
+/* TWO rows, however many forms, scrolling sideways.
+   Vertical space is the scarce axis and horizontal is the spare one, so the
+   bank trades height for width — but one row let you see only ~3 of 12 forms,
+   so two is the balance: fixed height, most of the bank visible, still scrolls.
+   Column-major fill keeps reading order down-then-across. */
+.bank-strip {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(2, auto);
+  grid-auto-columns: max-content;
+  align-items: center;
+  gap: 0.5rem;
+  /* plain `center` makes the overflowing start unreachable; `safe` falls back
+     to start exactly when the bank is too full to fit */
+  justify-content: flex-start;
+  justify-content: safe center;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: #2e3450 transparent;
+  /* fade the ends so it is obvious there is more off-screen */
+  mask-image: linear-gradient(
+    to right,
+    transparent 0,
+    black 14px,
+    black calc(100% - 14px),
+    transparent 100%
+  );
+}
+.bank-strip::-webkit-scrollbar { height: 5px; }
+.bank-strip::-webkit-scrollbar-thumb { background: #2e3450; border-radius: 3px; }
+.bank-strip::-webkit-scrollbar-track { background: transparent; }
+/* Bottom sheet: slide and fade, but never while a finger is on the handle —
+   the drag must track 1:1, so .sheet-anim is removed for the duration. */
+.sheet-anim {
+  transition: transform 0.28s cubic-bezier(0.2, 0.8, 0.3, 1), opacity 0.28s ease;
+}
+/* the handle owns its gesture; the sheet body below it still scrolls */
+.sheet-grab {
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+  cursor: grab;
+}
+.sheet-grab:active { cursor: grabbing; }
+
+.drag-ghost {
+  position: fixed;
+  z-index: 60;
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(1.06);
+  opacity: 0.95;
+}
+@keyframes slotPulse {
+  0%, 100% { border-color: rgba(111, 179, 216, 0.35); }
+  50% { border-color: rgba(111, 179, 216, 0.9); }
+}
+.slot-open { animation: slotPulse 2s ease-in-out infinite; }
+
+/* M7: race clock */
+@keyframes pulseWrong {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.45; }
+}
+.race-low { animation: pulseWrong 0.8s ease infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  .refuse, .toast-in, .collapse-in, .race-low,
+  .prompt-in, .step-live, .slot-open { animation: none !important; }
+  .sheet-anim { transition: none !important; }
+  .prompt-in { box-shadow: -3px 0 0 0 rgba(111, 179, 216, 0.9) inset; }
+  .chev { transition: none; }
+}

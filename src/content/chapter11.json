@@ -1,0 +1,1855 @@
+{
+  "chapter": 11,
+  "title": "Personal pronouns ego, tū, is; the demonstrative īdem",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "pron.ego",
+      "kind": "pron",
+      "lemma": "ego",
+      "system": "personal pronoun (suppletive)",
+      "label": "ego — Personal Pronoun, 1st person",
+      "short": "ego",
+      "chapterIntroduced": 11,
+      "drillClass": "wholeForm",
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "Suppletive throughout. The genitives meī/nostrum are objective/partitive only — possession uses the adjective meus, noster.",
+      "cells": [
+        {
+          "id": "ns",
+          "r": 0,
+          "c": 0,
+          "form": "ego",
+          "pieces": [
+            {
+              "text": "ego",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1
+        },
+        {
+          "id": "gs",
+          "r": 1,
+          "c": 0,
+          "form": "meī",
+          "pieces": [
+            {
+              "text": "meī",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1
+        },
+        {
+          "id": "ds",
+          "r": 2,
+          "c": 0,
+          "form": "mihi",
+          "pieces": [
+            {
+              "text": "mihi",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1
+        },
+        {
+          "id": "as",
+          "r": 3,
+          "c": 0,
+          "form": "mē",
+          "pieces": [
+            {
+              "text": "mē",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ego:bs"
+          ]
+        },
+        {
+          "id": "bs",
+          "r": 4,
+          "c": 0,
+          "form": "mē",
+          "pieces": [
+            {
+              "text": "mē",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ego:as"
+          ]
+        },
+        {
+          "id": "np",
+          "r": 0,
+          "c": 1,
+          "form": "nōs",
+          "pieces": [
+            {
+              "text": "nōs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ego:ap"
+          ]
+        },
+        {
+          "id": "gp",
+          "r": 1,
+          "c": 1,
+          "form": "nostrum",
+          "pieces": [
+            {
+              "text": "nostrum",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1
+        },
+        {
+          "id": "dp",
+          "r": 2,
+          "c": 1,
+          "form": "nōbīs",
+          "pieces": [
+            {
+              "text": "nōbīs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ego:bp"
+          ]
+        },
+        {
+          "id": "ap",
+          "r": 3,
+          "c": 1,
+          "form": "nōs",
+          "pieces": [
+            {
+              "text": "nōs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ego:np"
+          ]
+        },
+        {
+          "id": "bp",
+          "r": 4,
+          "c": 1,
+          "form": "nōbīs",
+          "pieces": [
+            {
+              "text": "nōbīs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ego:dp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pron.tu",
+      "kind": "pron",
+      "lemma": "tū",
+      "system": "personal pronoun (suppletive)",
+      "label": "tū — Personal Pronoun, 2nd person",
+      "short": "tū",
+      "chapterIntroduced": 11,
+      "drillClass": "wholeForm",
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": null,
+      "cells": [
+        {
+          "id": "ns",
+          "r": 0,
+          "c": 0,
+          "form": "tū",
+          "pieces": [
+            {
+              "text": "tū",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1
+        },
+        {
+          "id": "gs",
+          "r": 1,
+          "c": 0,
+          "form": "tuī",
+          "pieces": [
+            {
+              "text": "tuī",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1
+        },
+        {
+          "id": "ds",
+          "r": 2,
+          "c": 0,
+          "form": "tibi",
+          "pieces": [
+            {
+              "text": "tibi",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1
+        },
+        {
+          "id": "as",
+          "r": 3,
+          "c": 0,
+          "form": "tē",
+          "pieces": [
+            {
+              "text": "tē",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.tu:bs"
+          ]
+        },
+        {
+          "id": "bs",
+          "r": 4,
+          "c": 0,
+          "form": "tē",
+          "pieces": [
+            {
+              "text": "tē",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.tu:as"
+          ]
+        },
+        {
+          "id": "np",
+          "r": 0,
+          "c": 1,
+          "form": "vōs",
+          "pieces": [
+            {
+              "text": "vōs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.tu:ap"
+          ]
+        },
+        {
+          "id": "gp",
+          "r": 1,
+          "c": 1,
+          "form": "vestrum",
+          "pieces": [
+            {
+              "text": "vestrum",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1
+        },
+        {
+          "id": "dp",
+          "r": 2,
+          "c": 1,
+          "form": "vōbīs",
+          "pieces": [
+            {
+              "text": "vōbīs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.tu:bp"
+          ]
+        },
+        {
+          "id": "ap",
+          "r": 3,
+          "c": 1,
+          "form": "vōs",
+          "pieces": [
+            {
+              "text": "vōs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.tu:np"
+          ]
+        },
+        {
+          "id": "bp",
+          "r": 4,
+          "c": 1,
+          "form": "vōbīs",
+          "pieces": [
+            {
+              "text": "vōbīs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.tu:dp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pron.is.sg",
+      "kind": "pron",
+      "lemma": "is",
+      "system": "personal/demonstrative (he, she, it)",
+      "label": "is — he/she/it (singular)",
+      "short": "is sg",
+      "chapterIntroduced": 11,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ]
+      },
+      "notes": "eius — one genitive for all three genders, the standard word for 'his/her/its'. Weak demonstrative, strong pronoun.",
+      "cells": [
+        {
+          "id": "nm",
+          "r": 0,
+          "c": 0,
+          "form": "is",
+          "pieces": [
+            {
+              "text": "is",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1
+        },
+        {
+          "id": "nf",
+          "r": 0,
+          "c": 1,
+          "form": "ea",
+          "pieces": [
+            {
+              "text": "ea",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.is.pl:an",
+            "pron.is.pl:nn"
+          ]
+        },
+        {
+          "id": "nn",
+          "r": 0,
+          "c": 2,
+          "form": "id",
+          "pieces": [
+            {
+              "text": "id",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.is.sg:an"
+          ]
+        },
+        {
+          "id": "gm",
+          "r": 1,
+          "c": 0,
+          "form": "eius",
+          "pieces": [
+            {
+              "text": "eius",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.is.sg:gf",
+            "pron.is.sg:gn"
+          ]
+        },
+        {
+          "id": "gf",
+          "r": 1,
+          "c": 1,
+          "form": "eius",
+          "pieces": [
+            {
+              "text": "eius",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.is.sg:gm",
+            "pron.is.sg:gn"
+          ]
+        },
+        {
+          "id": "gn",
+          "r": 1,
+          "c": 2,
+          "form": "eius",
+          "pieces": [
+            {
+              "text": "eius",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.is.sg:gf",
+            "pron.is.sg:gm"
+          ]
+        },
+        {
+          "id": "dm",
+          "r": 2,
+          "c": 0,
+          "form": "eī",
+          "pieces": [
+            {
+              "text": "eī",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.is.pl:nm",
+            "pron.is.sg:df",
+            "pron.is.sg:dn"
+          ]
+        },
+        {
+          "id": "df",
+          "r": 2,
+          "c": 1,
+          "form": "eī",
+          "pieces": [
+            {
+              "text": "eī",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.is.pl:nm",
+            "pron.is.sg:dm",
+            "pron.is.sg:dn"
+          ]
+        },
+        {
+          "id": "dn",
+          "r": 2,
+          "c": 2,
+          "form": "eī",
+          "pieces": [
+            {
+              "text": "eī",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.is.pl:nm",
+            "pron.is.sg:df",
+            "pron.is.sg:dm"
+          ]
+        },
+        {
+          "id": "am",
+          "r": 3,
+          "c": 0,
+          "form": "eum",
+          "pieces": [
+            {
+              "text": "eum",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1
+        },
+        {
+          "id": "af",
+          "r": 3,
+          "c": 1,
+          "form": "eam",
+          "pieces": [
+            {
+              "text": "eam",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1
+        },
+        {
+          "id": "an",
+          "r": 3,
+          "c": 2,
+          "form": "id",
+          "pieces": [
+            {
+              "text": "id",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.is.sg:nn"
+          ]
+        },
+        {
+          "id": "bm",
+          "r": 4,
+          "c": 0,
+          "form": "eō",
+          "pieces": [
+            {
+              "text": "eō",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pp.eo:i",
+            "pron.is.sg:bn",
+            "verb.eo.pres.ind:1s"
+          ]
+        },
+        {
+          "id": "bf",
+          "r": 4,
+          "c": 1,
+          "form": "eā",
+          "pieces": [
+            {
+              "text": "eā",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1
+        },
+        {
+          "id": "bn",
+          "r": 4,
+          "c": 2,
+          "form": "eō",
+          "pieces": [
+            {
+              "text": "eō",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pp.eo:i",
+            "pron.is.sg:bm",
+            "verb.eo.pres.ind:1s"
+          ]
+        }
+      ],
+      "drillClass": "wholeForm"
+    },
+    {
+      "id": "pron.is.pl",
+      "kind": "pron",
+      "lemma": "is",
+      "system": "personal/demonstrative (they)",
+      "label": "is — they (plural)",
+      "short": "is pl",
+      "chapterIntroduced": 11,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ]
+      },
+      "notes": "eī is the dative singular AND the masculine nominative plural; ea the feminine singular AND the neuter plural.",
+      "cells": [
+        {
+          "id": "nm",
+          "r": 0,
+          "c": 0,
+          "form": "eī",
+          "pieces": [
+            {
+              "text": "eī",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.is.sg:df",
+            "pron.is.sg:dm",
+            "pron.is.sg:dn"
+          ]
+        },
+        {
+          "id": "nf",
+          "r": 0,
+          "c": 1,
+          "form": "eae",
+          "pieces": [
+            {
+              "text": "eae",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1
+        },
+        {
+          "id": "nn",
+          "r": 0,
+          "c": 2,
+          "form": "ea",
+          "pieces": [
+            {
+              "text": "ea",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.is.pl:an",
+            "pron.is.sg:nf"
+          ]
+        },
+        {
+          "id": "gm",
+          "r": 1,
+          "c": 0,
+          "form": "eōrum",
+          "pieces": [
+            {
+              "text": "eōrum",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.is.pl:gn"
+          ]
+        },
+        {
+          "id": "gf",
+          "r": 1,
+          "c": 1,
+          "form": "eārum",
+          "pieces": [
+            {
+              "text": "eārum",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1
+        },
+        {
+          "id": "gn",
+          "r": 1,
+          "c": 2,
+          "form": "eōrum",
+          "pieces": [
+            {
+              "text": "eōrum",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.is.pl:gm"
+          ]
+        },
+        {
+          "id": "dm",
+          "r": 2,
+          "c": 0,
+          "form": "eīs",
+          "pieces": [
+            {
+              "text": "eīs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.is.pl:bf",
+            "pron.is.pl:bm",
+            "pron.is.pl:bn",
+            "pron.is.pl:df",
+            "pron.is.pl:dn"
+          ]
+        },
+        {
+          "id": "df",
+          "r": 2,
+          "c": 1,
+          "form": "eīs",
+          "pieces": [
+            {
+              "text": "eīs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.is.pl:bf",
+            "pron.is.pl:bm",
+            "pron.is.pl:bn",
+            "pron.is.pl:dm",
+            "pron.is.pl:dn"
+          ]
+        },
+        {
+          "id": "dn",
+          "r": 2,
+          "c": 2,
+          "form": "eīs",
+          "pieces": [
+            {
+              "text": "eīs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.is.pl:bf",
+            "pron.is.pl:bm",
+            "pron.is.pl:bn",
+            "pron.is.pl:df",
+            "pron.is.pl:dm"
+          ]
+        },
+        {
+          "id": "am",
+          "r": 3,
+          "c": 0,
+          "form": "eōs",
+          "pieces": [
+            {
+              "text": "eōs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1
+        },
+        {
+          "id": "af",
+          "r": 3,
+          "c": 1,
+          "form": "eās",
+          "pieces": [
+            {
+              "text": "eās",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1
+        },
+        {
+          "id": "an",
+          "r": 3,
+          "c": 2,
+          "form": "ea",
+          "pieces": [
+            {
+              "text": "ea",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.is.pl:nn",
+            "pron.is.sg:nf"
+          ]
+        },
+        {
+          "id": "bm",
+          "r": 4,
+          "c": 0,
+          "form": "eīs",
+          "pieces": [
+            {
+              "text": "eīs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.is.pl:bf",
+            "pron.is.pl:bn",
+            "pron.is.pl:df",
+            "pron.is.pl:dm",
+            "pron.is.pl:dn"
+          ]
+        },
+        {
+          "id": "bf",
+          "r": 4,
+          "c": 1,
+          "form": "eīs",
+          "pieces": [
+            {
+              "text": "eīs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.is.pl:bm",
+            "pron.is.pl:bn",
+            "pron.is.pl:df",
+            "pron.is.pl:dm",
+            "pron.is.pl:dn"
+          ]
+        },
+        {
+          "id": "bn",
+          "r": 4,
+          "c": 2,
+          "form": "eīs",
+          "pieces": [
+            {
+              "text": "eīs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.is.pl:bf",
+            "pron.is.pl:bm",
+            "pron.is.pl:df",
+            "pron.is.pl:dm",
+            "pron.is.pl:dn"
+          ]
+        }
+      ],
+      "drillClass": "wholeForm"
+    },
+    {
+      "id": "pron.idem.sg",
+      "kind": "pron",
+      "lemma": "īdem",
+      "system": "demonstrative (the same)",
+      "label": "īdem — the same (singular)",
+      "short": "īdem sg",
+      "chapterIntroduced": 11,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ]
+      },
+      "notes": "is + -dem, with m becoming n before d: eundem, eandem. īdem (masc, long ī) vs idem (neuter, short i) — vowel length is the gender.",
+      "cells": [
+        {
+          "id": "nm",
+          "r": 0,
+          "c": 0,
+          "form": "īdem",
+          "pieces": [
+            {
+              "text": "īdem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1
+        },
+        {
+          "id": "nf",
+          "r": 0,
+          "c": 1,
+          "form": "eadem",
+          "pieces": [
+            {
+              "text": "eadem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.idem.pl:an",
+            "pron.idem.pl:nn"
+          ]
+        },
+        {
+          "id": "nn",
+          "r": 0,
+          "c": 2,
+          "form": "idem",
+          "pieces": [
+            {
+              "text": "idem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.idem.sg:an"
+          ]
+        },
+        {
+          "id": "gm",
+          "r": 1,
+          "c": 0,
+          "form": "eiusdem",
+          "pieces": [
+            {
+              "text": "eiusdem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.idem.sg:gf",
+            "pron.idem.sg:gn"
+          ]
+        },
+        {
+          "id": "gf",
+          "r": 1,
+          "c": 1,
+          "form": "eiusdem",
+          "pieces": [
+            {
+              "text": "eiusdem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.idem.sg:gm",
+            "pron.idem.sg:gn"
+          ]
+        },
+        {
+          "id": "gn",
+          "r": 1,
+          "c": 2,
+          "form": "eiusdem",
+          "pieces": [
+            {
+              "text": "eiusdem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.idem.sg:gf",
+            "pron.idem.sg:gm"
+          ]
+        },
+        {
+          "id": "dm",
+          "r": 2,
+          "c": 0,
+          "form": "eīdem",
+          "pieces": [
+            {
+              "text": "eīdem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.idem.pl:nm",
+            "pron.idem.sg:df",
+            "pron.idem.sg:dn"
+          ]
+        },
+        {
+          "id": "df",
+          "r": 2,
+          "c": 1,
+          "form": "eīdem",
+          "pieces": [
+            {
+              "text": "eīdem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.idem.pl:nm",
+            "pron.idem.sg:dm",
+            "pron.idem.sg:dn"
+          ]
+        },
+        {
+          "id": "dn",
+          "r": 2,
+          "c": 2,
+          "form": "eīdem",
+          "pieces": [
+            {
+              "text": "eīdem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.idem.pl:nm",
+            "pron.idem.sg:df",
+            "pron.idem.sg:dm"
+          ]
+        },
+        {
+          "id": "am",
+          "r": 3,
+          "c": 0,
+          "form": "eundem",
+          "pieces": [
+            {
+              "text": "eundem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1
+        },
+        {
+          "id": "af",
+          "r": 3,
+          "c": 1,
+          "form": "eandem",
+          "pieces": [
+            {
+              "text": "eandem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1
+        },
+        {
+          "id": "an",
+          "r": 3,
+          "c": 2,
+          "form": "idem",
+          "pieces": [
+            {
+              "text": "idem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.idem.sg:nn"
+          ]
+        },
+        {
+          "id": "bm",
+          "r": 4,
+          "c": 0,
+          "form": "eōdem",
+          "pieces": [
+            {
+              "text": "eōdem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.idem.sg:bn"
+          ]
+        },
+        {
+          "id": "bf",
+          "r": 4,
+          "c": 1,
+          "form": "eādem",
+          "pieces": [
+            {
+              "text": "eādem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1
+        },
+        {
+          "id": "bn",
+          "r": 4,
+          "c": 2,
+          "form": "eōdem",
+          "pieces": [
+            {
+              "text": "eōdem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.idem.sg:bm"
+          ]
+        }
+      ],
+      "drillClass": "wholeForm"
+    },
+    {
+      "id": "pron.idem.pl",
+      "kind": "pron",
+      "lemma": "īdem",
+      "system": "demonstrative (the same)",
+      "label": "īdem — the same (plural)",
+      "short": "īdem pl",
+      "chapterIntroduced": 11,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ]
+      },
+      "notes": null,
+      "cells": [
+        {
+          "id": "nm",
+          "r": 0,
+          "c": 0,
+          "form": "eīdem",
+          "pieces": [
+            {
+              "text": "eīdem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.idem.sg:df",
+            "pron.idem.sg:dm",
+            "pron.idem.sg:dn"
+          ]
+        },
+        {
+          "id": "nf",
+          "r": 0,
+          "c": 1,
+          "form": "eaedem",
+          "pieces": [
+            {
+              "text": "eaedem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1
+        },
+        {
+          "id": "nn",
+          "r": 0,
+          "c": 2,
+          "form": "eadem",
+          "pieces": [
+            {
+              "text": "eadem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.idem.pl:an",
+            "pron.idem.sg:nf"
+          ]
+        },
+        {
+          "id": "gm",
+          "r": 1,
+          "c": 0,
+          "form": "eōrundem",
+          "pieces": [
+            {
+              "text": "eōrundem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.idem.pl:gn"
+          ]
+        },
+        {
+          "id": "gf",
+          "r": 1,
+          "c": 1,
+          "form": "eārundem",
+          "pieces": [
+            {
+              "text": "eārundem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1
+        },
+        {
+          "id": "gn",
+          "r": 1,
+          "c": 2,
+          "form": "eōrundem",
+          "pieces": [
+            {
+              "text": "eōrundem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.idem.pl:gm"
+          ]
+        },
+        {
+          "id": "dm",
+          "r": 2,
+          "c": 0,
+          "form": "eīsdem",
+          "pieces": [
+            {
+              "text": "eīsdem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.idem.pl:bf",
+            "pron.idem.pl:bm",
+            "pron.idem.pl:bn",
+            "pron.idem.pl:df",
+            "pron.idem.pl:dn"
+          ]
+        },
+        {
+          "id": "df",
+          "r": 2,
+          "c": 1,
+          "form": "eīsdem",
+          "pieces": [
+            {
+              "text": "eīsdem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.idem.pl:bf",
+            "pron.idem.pl:bm",
+            "pron.idem.pl:bn",
+            "pron.idem.pl:dm",
+            "pron.idem.pl:dn"
+          ]
+        },
+        {
+          "id": "dn",
+          "r": 2,
+          "c": 2,
+          "form": "eīsdem",
+          "pieces": [
+            {
+              "text": "eīsdem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.idem.pl:bf",
+            "pron.idem.pl:bm",
+            "pron.idem.pl:bn",
+            "pron.idem.pl:df",
+            "pron.idem.pl:dm"
+          ]
+        },
+        {
+          "id": "am",
+          "r": 3,
+          "c": 0,
+          "form": "eōsdem",
+          "pieces": [
+            {
+              "text": "eōsdem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1
+        },
+        {
+          "id": "af",
+          "r": 3,
+          "c": 1,
+          "form": "eāsdem",
+          "pieces": [
+            {
+              "text": "eāsdem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1
+        },
+        {
+          "id": "an",
+          "r": 3,
+          "c": 2,
+          "form": "eadem",
+          "pieces": [
+            {
+              "text": "eadem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.idem.pl:nn",
+            "pron.idem.sg:nf"
+          ]
+        },
+        {
+          "id": "bm",
+          "r": 4,
+          "c": 0,
+          "form": "eīsdem",
+          "pieces": [
+            {
+              "text": "eīsdem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.idem.pl:bf",
+            "pron.idem.pl:bn",
+            "pron.idem.pl:df",
+            "pron.idem.pl:dm",
+            "pron.idem.pl:dn"
+          ]
+        },
+        {
+          "id": "bf",
+          "r": 4,
+          "c": 1,
+          "form": "eīsdem",
+          "pieces": [
+            {
+              "text": "eīsdem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.idem.pl:bm",
+            "pron.idem.pl:bn",
+            "pron.idem.pl:df",
+            "pron.idem.pl:dm",
+            "pron.idem.pl:dn"
+          ]
+        },
+        {
+          "id": "bn",
+          "r": 4,
+          "c": 2,
+          "form": "eīsdem",
+          "pieces": [
+            {
+              "text": "eīsdem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 11,
+          "freqTier": 1,
+          "homographs": [
+            "pron.idem.pl:bf",
+            "pron.idem.pl:bm",
+            "pron.idem.pl:df",
+            "pron.idem.pl:dm",
+            "pron.idem.pl:dn"
+          ]
+        }
+      ],
+      "drillClass": "wholeForm"
+    }
+  ]
+}

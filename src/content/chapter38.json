@@ -1,0 +1,68 @@
+{
+  "chapter": 38,
+  "title": "Relative clauses of characteristic; the supine",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "verb.laudo.supine",
+      "kind": "verb",
+      "lemma": "laudō",
+      "drillClass": "wholeForm",
+      "system": "supine",
+      "label": "laudō — Supine",
+      "short": "Supine",
+      "chapterIntroduced": 38,
+      "layout": {
+        "rowLabels": [
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "form"
+        ]
+      },
+      "notes": "Two cells and two uses: laudātum with verbs of motion (purpose), laudātū with adjectives (mīrābile dictū). That is the entire supine.",
+      "cells": [
+        {
+          "id": "acc",
+          "r": 0,
+          "c": 0,
+          "form": "laudātum",
+          "pieces": [
+            {
+              "text": "laudātum",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 38,
+          "freqTier": 3,
+          "homographs": [
+            "pp.laudo:iv"
+          ]
+        },
+        {
+          "id": "abl",
+          "r": 1,
+          "c": 0,
+          "form": "laudātū",
+          "pieces": [
+            {
+              "text": "laudātū",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 38,
+          "freqTier": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,811 @@
+{
+  "chapter": 13,
+  "title": "The reflexive suī and the intensive ipse",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "pron.sui",
+      "kind": "pron",
+      "lemma": "suī",
+      "system": "reflexive pronoun, 3rd person",
+      "label": "suī — Reflexive, 3rd person",
+      "short": "suī",
+      "chapterIntroduced": 13,
+      "drillClass": "wholeForm",
+      "layout": {
+        "rowLabels": [
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "sg & pl"
+        ]
+      },
+      "notes": "No nominative — a reflexive cannot be a subject — and the same four forms serve singular and plural alike: suī, sibi, sē, sē.",
+      "cells": [
+        {
+          "id": "g",
+          "r": 0,
+          "c": 0,
+          "form": "suī",
+          "pieces": [
+            {
+              "text": "suī",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1
+        },
+        {
+          "id": "d",
+          "r": 1,
+          "c": 0,
+          "form": "sibi",
+          "pieces": [
+            {
+              "text": "sibi",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1
+        },
+        {
+          "id": "a",
+          "r": 2,
+          "c": 0,
+          "form": "sē",
+          "pieces": [
+            {
+              "text": "sē",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1,
+          "homographs": [
+            "pron.sui:b"
+          ]
+        },
+        {
+          "id": "b",
+          "r": 3,
+          "c": 0,
+          "form": "sē",
+          "pieces": [
+            {
+              "text": "sē",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1,
+          "homographs": [
+            "pron.sui:a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pron.ipse.sg",
+      "kind": "pron",
+      "lemma": "ipse",
+      "system": "intensive pronoun",
+      "label": "ipse — himself/herself/itself (singular)",
+      "short": "ipse sg",
+      "chapterIntroduced": 13,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ]
+      },
+      "notes": "The intensive: ipse rēx, 'the king himself'. Pronominal -īus and -ī, but neuter ipsum (not -ud).",
+      "cells": [
+        {
+          "id": "nm",
+          "r": 0,
+          "c": 0,
+          "form": "ipse",
+          "pieces": [
+            {
+              "text": "ips",
+              "role": "stem"
+            },
+            {
+              "text": "e",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1
+        },
+        {
+          "id": "nf",
+          "r": 0,
+          "c": 1,
+          "form": "ipsa",
+          "pieces": [
+            {
+              "text": "ips",
+              "role": "stem"
+            },
+            {
+              "text": "a",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ipse.pl:an",
+            "pron.ipse.pl:nn"
+          ]
+        },
+        {
+          "id": "nn",
+          "r": 0,
+          "c": 2,
+          "form": "ipsum",
+          "pieces": [
+            {
+              "text": "ips",
+              "role": "stem"
+            },
+            {
+              "text": "um",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ipse.sg:am",
+            "pron.ipse.sg:an"
+          ]
+        },
+        {
+          "id": "gm",
+          "r": 1,
+          "c": 0,
+          "form": "ipsīus",
+          "pieces": [
+            {
+              "text": "ips",
+              "role": "stem"
+            },
+            {
+              "text": "īus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ipse.sg:gf",
+            "pron.ipse.sg:gn"
+          ]
+        },
+        {
+          "id": "gf",
+          "r": 1,
+          "c": 1,
+          "form": "ipsīus",
+          "pieces": [
+            {
+              "text": "ips",
+              "role": "stem"
+            },
+            {
+              "text": "īus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ipse.sg:gm",
+            "pron.ipse.sg:gn"
+          ]
+        },
+        {
+          "id": "gn",
+          "r": 1,
+          "c": 2,
+          "form": "ipsīus",
+          "pieces": [
+            {
+              "text": "ips",
+              "role": "stem"
+            },
+            {
+              "text": "īus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ipse.sg:gf",
+            "pron.ipse.sg:gm"
+          ]
+        },
+        {
+          "id": "dm",
+          "r": 2,
+          "c": 0,
+          "form": "ipsī",
+          "pieces": [
+            {
+              "text": "ips",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ipse.pl:nm",
+            "pron.ipse.sg:df",
+            "pron.ipse.sg:dn"
+          ]
+        },
+        {
+          "id": "df",
+          "r": 2,
+          "c": 1,
+          "form": "ipsī",
+          "pieces": [
+            {
+              "text": "ips",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ipse.pl:nm",
+            "pron.ipse.sg:dm",
+            "pron.ipse.sg:dn"
+          ]
+        },
+        {
+          "id": "dn",
+          "r": 2,
+          "c": 2,
+          "form": "ipsī",
+          "pieces": [
+            {
+              "text": "ips",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ipse.pl:nm",
+            "pron.ipse.sg:df",
+            "pron.ipse.sg:dm"
+          ]
+        },
+        {
+          "id": "am",
+          "r": 3,
+          "c": 0,
+          "form": "ipsum",
+          "pieces": [
+            {
+              "text": "ips",
+              "role": "stem"
+            },
+            {
+              "text": "um",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ipse.sg:an",
+            "pron.ipse.sg:nn"
+          ]
+        },
+        {
+          "id": "af",
+          "r": 3,
+          "c": 1,
+          "form": "ipsam",
+          "pieces": [
+            {
+              "text": "ips",
+              "role": "stem"
+            },
+            {
+              "text": "am",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1
+        },
+        {
+          "id": "an",
+          "r": 3,
+          "c": 2,
+          "form": "ipsum",
+          "pieces": [
+            {
+              "text": "ips",
+              "role": "stem"
+            },
+            {
+              "text": "um",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ipse.sg:am",
+            "pron.ipse.sg:nn"
+          ]
+        },
+        {
+          "id": "bm",
+          "r": 4,
+          "c": 0,
+          "form": "ipsō",
+          "pieces": [
+            {
+              "text": "ips",
+              "role": "stem"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ipse.sg:bn"
+          ]
+        },
+        {
+          "id": "bf",
+          "r": 4,
+          "c": 1,
+          "form": "ipsā",
+          "pieces": [
+            {
+              "text": "ips",
+              "role": "stem"
+            },
+            {
+              "text": "ā",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1
+        },
+        {
+          "id": "bn",
+          "r": 4,
+          "c": 2,
+          "form": "ipsō",
+          "pieces": [
+            {
+              "text": "ips",
+              "role": "stem"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ipse.sg:bm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pron.ipse.pl",
+      "kind": "pron",
+      "lemma": "ipse",
+      "system": "intensive pronoun",
+      "label": "ipse — themselves (plural)",
+      "short": "ipse pl",
+      "chapterIntroduced": 13,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ]
+      },
+      "notes": null,
+      "cells": [
+        {
+          "id": "nm",
+          "r": 0,
+          "c": 0,
+          "form": "ipsī",
+          "pieces": [
+            {
+              "text": "ips",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ipse.sg:df",
+            "pron.ipse.sg:dm",
+            "pron.ipse.sg:dn"
+          ]
+        },
+        {
+          "id": "nf",
+          "r": 0,
+          "c": 1,
+          "form": "ipsae",
+          "pieces": [
+            {
+              "text": "ips",
+              "role": "stem"
+            },
+            {
+              "text": "ae",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1
+        },
+        {
+          "id": "nn",
+          "r": 0,
+          "c": 2,
+          "form": "ipsa",
+          "pieces": [
+            {
+              "text": "ips",
+              "role": "stem"
+            },
+            {
+              "text": "a",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ipse.pl:an",
+            "pron.ipse.sg:nf"
+          ]
+        },
+        {
+          "id": "gm",
+          "r": 1,
+          "c": 0,
+          "form": "ipsōrum",
+          "pieces": [
+            {
+              "text": "ips",
+              "role": "stem"
+            },
+            {
+              "text": "ōrum",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ipse.pl:gn"
+          ]
+        },
+        {
+          "id": "gf",
+          "r": 1,
+          "c": 1,
+          "form": "ipsārum",
+          "pieces": [
+            {
+              "text": "ips",
+              "role": "stem"
+            },
+            {
+              "text": "ārum",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1
+        },
+        {
+          "id": "gn",
+          "r": 1,
+          "c": 2,
+          "form": "ipsōrum",
+          "pieces": [
+            {
+              "text": "ips",
+              "role": "stem"
+            },
+            {
+              "text": "ōrum",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ipse.pl:gm"
+          ]
+        },
+        {
+          "id": "dm",
+          "r": 2,
+          "c": 0,
+          "form": "ipsīs",
+          "pieces": [
+            {
+              "text": "ips",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ipse.pl:bf",
+            "pron.ipse.pl:bm",
+            "pron.ipse.pl:bn",
+            "pron.ipse.pl:df",
+            "pron.ipse.pl:dn"
+          ]
+        },
+        {
+          "id": "df",
+          "r": 2,
+          "c": 1,
+          "form": "ipsīs",
+          "pieces": [
+            {
+              "text": "ips",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ipse.pl:bf",
+            "pron.ipse.pl:bm",
+            "pron.ipse.pl:bn",
+            "pron.ipse.pl:dm",
+            "pron.ipse.pl:dn"
+          ]
+        },
+        {
+          "id": "dn",
+          "r": 2,
+          "c": 2,
+          "form": "ipsīs",
+          "pieces": [
+            {
+              "text": "ips",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ipse.pl:bf",
+            "pron.ipse.pl:bm",
+            "pron.ipse.pl:bn",
+            "pron.ipse.pl:df",
+            "pron.ipse.pl:dm"
+          ]
+        },
+        {
+          "id": "am",
+          "r": 3,
+          "c": 0,
+          "form": "ipsōs",
+          "pieces": [
+            {
+              "text": "ips",
+              "role": "stem"
+            },
+            {
+              "text": "ōs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1
+        },
+        {
+          "id": "af",
+          "r": 3,
+          "c": 1,
+          "form": "ipsās",
+          "pieces": [
+            {
+              "text": "ips",
+              "role": "stem"
+            },
+            {
+              "text": "ās",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1
+        },
+        {
+          "id": "an",
+          "r": 3,
+          "c": 2,
+          "form": "ipsa",
+          "pieces": [
+            {
+              "text": "ips",
+              "role": "stem"
+            },
+            {
+              "text": "a",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ipse.pl:nn",
+            "pron.ipse.sg:nf"
+          ]
+        },
+        {
+          "id": "bm",
+          "r": 4,
+          "c": 0,
+          "form": "ipsīs",
+          "pieces": [
+            {
+              "text": "ips",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ipse.pl:bf",
+            "pron.ipse.pl:bn",
+            "pron.ipse.pl:df",
+            "pron.ipse.pl:dm",
+            "pron.ipse.pl:dn"
+          ]
+        },
+        {
+          "id": "bf",
+          "r": 4,
+          "c": 1,
+          "form": "ipsīs",
+          "pieces": [
+            {
+              "text": "ips",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ipse.pl:bm",
+            "pron.ipse.pl:bn",
+            "pron.ipse.pl:df",
+            "pron.ipse.pl:dm",
+            "pron.ipse.pl:dn"
+          ]
+        },
+        {
+          "id": "bn",
+          "r": 4,
+          "c": 2,
+          "form": "ipsīs",
+          "pieces": [
+            {
+              "text": "ips",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 13,
+          "freqTier": 1,
+          "homographs": [
+            "pron.ipse.pl:bf",
+            "pron.ipse.pl:bm",
+            "pron.ipse.pl:df",
+            "pron.ipse.pl:dm",
+            "pron.ipse.pl:dn"
+          ]
+        }
+      ]
+    }
+  ]
+}

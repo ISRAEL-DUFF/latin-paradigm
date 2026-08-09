@@ -1,0 +1,575 @@
+{
+  "chapter": 22,
+  "title": "Fifth declension — diēs, rēs",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "noun.dies.decl5",
+      "kind": "noun",
+      "lemma": "diēs",
+      "system": "fifth declension",
+      "label": "diēs — day (5th decl.)",
+      "short": "diēs",
+      "chapterIntroduced": 22,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl",
+          "Voc"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "diēs fills five cells; diēī is genitive AND dative. The -ē- stays long after a vowel (diēī) — rēs shortens it (reī).",
+      "cells": [
+        {
+          "id": "ns",
+          "r": 0,
+          "c": 0,
+          "form": "diēs",
+          "pieces": [
+            {
+              "text": "di",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 22,
+          "freqTier": 1,
+          "homographs": [
+            "noun.dies.decl5:ap",
+            "noun.dies.decl5:np",
+            "noun.dies.decl5:vp",
+            "noun.dies.decl5:vs"
+          ]
+        },
+        {
+          "id": "gs",
+          "r": 1,
+          "c": 0,
+          "form": "diēī",
+          "pieces": [
+            {
+              "text": "diē",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 22,
+          "freqTier": 1,
+          "homographs": [
+            "noun.dies.decl5:ds"
+          ]
+        },
+        {
+          "id": "ds",
+          "r": 2,
+          "c": 0,
+          "form": "diēī",
+          "pieces": [
+            {
+              "text": "diē",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 22,
+          "freqTier": 1,
+          "homographs": [
+            "noun.dies.decl5:gs"
+          ]
+        },
+        {
+          "id": "as",
+          "r": 3,
+          "c": 0,
+          "form": "diem",
+          "pieces": [
+            {
+              "text": "di",
+              "role": "stem"
+            },
+            {
+              "text": "em",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 22,
+          "freqTier": 1
+        },
+        {
+          "id": "bs",
+          "r": 4,
+          "c": 0,
+          "form": "diē",
+          "pieces": [
+            {
+              "text": "di",
+              "role": "stem"
+            },
+            {
+              "text": "ē",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 22,
+          "freqTier": 1
+        },
+        {
+          "id": "vs",
+          "r": 5,
+          "c": 0,
+          "form": "diēs",
+          "pieces": [
+            {
+              "text": "di",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 22,
+          "freqTier": 3,
+          "homographs": [
+            "noun.dies.decl5:ap",
+            "noun.dies.decl5:np",
+            "noun.dies.decl5:ns",
+            "noun.dies.decl5:vp"
+          ]
+        },
+        {
+          "id": "np",
+          "r": 0,
+          "c": 1,
+          "form": "diēs",
+          "pieces": [
+            {
+              "text": "di",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 22,
+          "freqTier": 1,
+          "homographs": [
+            "noun.dies.decl5:ap",
+            "noun.dies.decl5:ns",
+            "noun.dies.decl5:vp",
+            "noun.dies.decl5:vs"
+          ]
+        },
+        {
+          "id": "gp",
+          "r": 1,
+          "c": 1,
+          "form": "diērum",
+          "pieces": [
+            {
+              "text": "diē",
+              "role": "stem"
+            },
+            {
+              "text": "rum",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 22,
+          "freqTier": 1
+        },
+        {
+          "id": "dp",
+          "r": 2,
+          "c": 1,
+          "form": "diēbus",
+          "pieces": [
+            {
+              "text": "diē",
+              "role": "stem"
+            },
+            {
+              "text": "bus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 22,
+          "freqTier": 1,
+          "homographs": [
+            "noun.dies.decl5:bp"
+          ]
+        },
+        {
+          "id": "ap",
+          "r": 3,
+          "c": 1,
+          "form": "diēs",
+          "pieces": [
+            {
+              "text": "di",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 22,
+          "freqTier": 1,
+          "homographs": [
+            "noun.dies.decl5:np",
+            "noun.dies.decl5:ns",
+            "noun.dies.decl5:vp",
+            "noun.dies.decl5:vs"
+          ]
+        },
+        {
+          "id": "bp",
+          "r": 4,
+          "c": 1,
+          "form": "diēbus",
+          "pieces": [
+            {
+              "text": "diē",
+              "role": "stem"
+            },
+            {
+              "text": "bus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 22,
+          "freqTier": 1,
+          "homographs": [
+            "noun.dies.decl5:dp"
+          ]
+        },
+        {
+          "id": "vp",
+          "r": 5,
+          "c": 1,
+          "form": "diēs",
+          "pieces": [
+            {
+              "text": "di",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 22,
+          "freqTier": 3,
+          "homographs": [
+            "noun.dies.decl5:ap",
+            "noun.dies.decl5:np",
+            "noun.dies.decl5:ns",
+            "noun.dies.decl5:vs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "noun.res.decl5",
+      "kind": "noun",
+      "lemma": "rēs",
+      "system": "fifth declension",
+      "label": "rēs — thing (5th decl.)",
+      "short": "rēs",
+      "chapterIntroduced": 22,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl",
+          "Voc"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "reī — short e after a consonant, against diēī's long. Otherwise diēs's twin.",
+      "cells": [
+        {
+          "id": "ns",
+          "r": 0,
+          "c": 0,
+          "form": "rēs",
+          "pieces": [
+            {
+              "text": "r",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 22,
+          "freqTier": 1,
+          "homographs": [
+            "noun.res.decl5:ap",
+            "noun.res.decl5:np",
+            "noun.res.decl5:vp",
+            "noun.res.decl5:vs"
+          ]
+        },
+        {
+          "id": "gs",
+          "r": 1,
+          "c": 0,
+          "form": "reī",
+          "pieces": [
+            {
+              "text": "re",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 22,
+          "freqTier": 1,
+          "homographs": [
+            "noun.res.decl5:ds"
+          ]
+        },
+        {
+          "id": "ds",
+          "r": 2,
+          "c": 0,
+          "form": "reī",
+          "pieces": [
+            {
+              "text": "re",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 22,
+          "freqTier": 1,
+          "homographs": [
+            "noun.res.decl5:gs"
+          ]
+        },
+        {
+          "id": "as",
+          "r": 3,
+          "c": 0,
+          "form": "rem",
+          "pieces": [
+            {
+              "text": "r",
+              "role": "stem"
+            },
+            {
+              "text": "em",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 22,
+          "freqTier": 1
+        },
+        {
+          "id": "bs",
+          "r": 4,
+          "c": 0,
+          "form": "rē",
+          "pieces": [
+            {
+              "text": "r",
+              "role": "stem"
+            },
+            {
+              "text": "ē",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 22,
+          "freqTier": 1
+        },
+        {
+          "id": "vs",
+          "r": 5,
+          "c": 0,
+          "form": "rēs",
+          "pieces": [
+            {
+              "text": "r",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 22,
+          "freqTier": 3,
+          "homographs": [
+            "noun.res.decl5:ap",
+            "noun.res.decl5:np",
+            "noun.res.decl5:ns",
+            "noun.res.decl5:vp"
+          ]
+        },
+        {
+          "id": "np",
+          "r": 0,
+          "c": 1,
+          "form": "rēs",
+          "pieces": [
+            {
+              "text": "r",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 22,
+          "freqTier": 1,
+          "homographs": [
+            "noun.res.decl5:ap",
+            "noun.res.decl5:ns",
+            "noun.res.decl5:vp",
+            "noun.res.decl5:vs"
+          ]
+        },
+        {
+          "id": "gp",
+          "r": 1,
+          "c": 1,
+          "form": "rērum",
+          "pieces": [
+            {
+              "text": "rē",
+              "role": "stem"
+            },
+            {
+              "text": "rum",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 22,
+          "freqTier": 1
+        },
+        {
+          "id": "dp",
+          "r": 2,
+          "c": 1,
+          "form": "rēbus",
+          "pieces": [
+            {
+              "text": "rē",
+              "role": "stem"
+            },
+            {
+              "text": "bus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 22,
+          "freqTier": 1,
+          "homographs": [
+            "noun.res.decl5:bp"
+          ]
+        },
+        {
+          "id": "ap",
+          "r": 3,
+          "c": 1,
+          "form": "rēs",
+          "pieces": [
+            {
+              "text": "r",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 22,
+          "freqTier": 1,
+          "homographs": [
+            "noun.res.decl5:np",
+            "noun.res.decl5:ns",
+            "noun.res.decl5:vp",
+            "noun.res.decl5:vs"
+          ]
+        },
+        {
+          "id": "bp",
+          "r": 4,
+          "c": 1,
+          "form": "rēbus",
+          "pieces": [
+            {
+              "text": "rē",
+              "role": "stem"
+            },
+            {
+              "text": "bus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 22,
+          "freqTier": 1,
+          "homographs": [
+            "noun.res.decl5:dp"
+          ]
+        },
+        {
+          "id": "vp",
+          "r": 5,
+          "c": 1,
+          "form": "rēs",
+          "pieces": [
+            {
+              "text": "r",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 22,
+          "freqTier": 3,
+          "homographs": [
+            "noun.res.decl5:ap",
+            "noun.res.decl5:np",
+            "noun.res.decl5:ns",
+            "noun.res.decl5:vs"
+          ]
+        }
+      ]
+    }
+  ]
+}

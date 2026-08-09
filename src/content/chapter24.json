@@ -1,0 +1,138 @@
+{
+  "chapter": 24,
+  "title": "The ablative absolute; the passive periphrastic",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "verb.laudo.periph.pass",
+      "kind": "verb",
+      "lemma": "laudō",
+      "system": "passive periphrastic (gerundive + sum)",
+      "label": "laudō — Passive Periphrastic",
+      "short": "Periphrastic",
+      "chapterIntroduced": 24,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "Gerundive + sum = obligation: laudandus est, 'he must be praised'. The agent goes in the DATIVE: nōbīs laudandus est.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "laudandus sum",
+          "pieces": [
+            {
+              "text": "laudandus ",
+              "role": "participle"
+            },
+            {
+              "text": "sum",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 24,
+          "freqTier": 1
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "laudandus es",
+          "pieces": [
+            {
+              "text": "laudandus ",
+              "role": "participle"
+            },
+            {
+              "text": "es",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 24,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "laudandus est",
+          "pieces": [
+            {
+              "text": "laudandus ",
+              "role": "participle"
+            },
+            {
+              "text": "est",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 24,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "laudandī sumus",
+          "pieces": [
+            {
+              "text": "laudandī ",
+              "role": "participle"
+            },
+            {
+              "text": "sumus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 24,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "laudandī estis",
+          "pieces": [
+            {
+              "text": "laudandī ",
+              "role": "participle"
+            },
+            {
+              "text": "estis",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 24,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "laudandī sunt",
+          "pieces": [
+            {
+              "text": "laudandī ",
+              "role": "participle"
+            },
+            {
+              "text": "sunt",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 24,
+          "freqTier": 1
+        }
+      ]
+    }
+  ]
+}

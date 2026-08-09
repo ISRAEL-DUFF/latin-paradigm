@@ -1,0 +1,571 @@
+{
+  "chapter": 20,
+  "title": "Fourth declension — frūctus, cornū",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "noun.fructus.decl4",
+      "kind": "noun",
+      "lemma": "frūctus",
+      "system": "fourth declension",
+      "label": "frūctus — fruit (4th decl.)",
+      "short": "frūctus",
+      "chapterIntroduced": 20,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl",
+          "Voc"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "frūctus vs frūctūs: the macron IS the number. The genitive singular, nominative plural and accusative plural are all frūctūs.",
+      "cells": [
+        {
+          "id": "ns",
+          "r": 0,
+          "c": 0,
+          "form": "frūctus",
+          "pieces": [
+            {
+              "text": "frūct",
+              "role": "stem"
+            },
+            {
+              "text": "us",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 20,
+          "freqTier": 1,
+          "homographs": [
+            "noun.fructus.decl4:vs"
+          ]
+        },
+        {
+          "id": "gs",
+          "r": 1,
+          "c": 0,
+          "form": "frūctūs",
+          "pieces": [
+            {
+              "text": "frūct",
+              "role": "stem"
+            },
+            {
+              "text": "ūs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 20,
+          "freqTier": 1,
+          "homographs": [
+            "noun.fructus.decl4:ap",
+            "noun.fructus.decl4:np",
+            "noun.fructus.decl4:vp"
+          ]
+        },
+        {
+          "id": "ds",
+          "r": 2,
+          "c": 0,
+          "form": "frūctuī",
+          "pieces": [
+            {
+              "text": "frūct",
+              "role": "stem"
+            },
+            {
+              "text": "uī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 20,
+          "freqTier": 1
+        },
+        {
+          "id": "as",
+          "r": 3,
+          "c": 0,
+          "form": "frūctum",
+          "pieces": [
+            {
+              "text": "frūct",
+              "role": "stem"
+            },
+            {
+              "text": "um",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 20,
+          "freqTier": 1
+        },
+        {
+          "id": "bs",
+          "r": 4,
+          "c": 0,
+          "form": "frūctū",
+          "pieces": [
+            {
+              "text": "frūct",
+              "role": "stem"
+            },
+            {
+              "text": "ū",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 20,
+          "freqTier": 1
+        },
+        {
+          "id": "vs",
+          "r": 5,
+          "c": 0,
+          "form": "frūctus",
+          "pieces": [
+            {
+              "text": "frūct",
+              "role": "stem"
+            },
+            {
+              "text": "us",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 20,
+          "freqTier": 3,
+          "homographs": [
+            "noun.fructus.decl4:ns"
+          ]
+        },
+        {
+          "id": "np",
+          "r": 0,
+          "c": 1,
+          "form": "frūctūs",
+          "pieces": [
+            {
+              "text": "frūct",
+              "role": "stem"
+            },
+            {
+              "text": "ūs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 20,
+          "freqTier": 1,
+          "homographs": [
+            "noun.fructus.decl4:ap",
+            "noun.fructus.decl4:gs",
+            "noun.fructus.decl4:vp"
+          ]
+        },
+        {
+          "id": "gp",
+          "r": 1,
+          "c": 1,
+          "form": "frūctuum",
+          "pieces": [
+            {
+              "text": "frūct",
+              "role": "stem"
+            },
+            {
+              "text": "uum",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 20,
+          "freqTier": 1
+        },
+        {
+          "id": "dp",
+          "r": 2,
+          "c": 1,
+          "form": "frūctibus",
+          "pieces": [
+            {
+              "text": "frūct",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 20,
+          "freqTier": 1,
+          "homographs": [
+            "noun.fructus.decl4:bp"
+          ]
+        },
+        {
+          "id": "ap",
+          "r": 3,
+          "c": 1,
+          "form": "frūctūs",
+          "pieces": [
+            {
+              "text": "frūct",
+              "role": "stem"
+            },
+            {
+              "text": "ūs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 20,
+          "freqTier": 1,
+          "homographs": [
+            "noun.fructus.decl4:gs",
+            "noun.fructus.decl4:np",
+            "noun.fructus.decl4:vp"
+          ]
+        },
+        {
+          "id": "bp",
+          "r": 4,
+          "c": 1,
+          "form": "frūctibus",
+          "pieces": [
+            {
+              "text": "frūct",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 20,
+          "freqTier": 1,
+          "homographs": [
+            "noun.fructus.decl4:dp"
+          ]
+        },
+        {
+          "id": "vp",
+          "r": 5,
+          "c": 1,
+          "form": "frūctūs",
+          "pieces": [
+            {
+              "text": "frūct",
+              "role": "stem"
+            },
+            {
+              "text": "ūs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 20,
+          "freqTier": 3,
+          "homographs": [
+            "noun.fructus.decl4:ap",
+            "noun.fructus.decl4:gs",
+            "noun.fructus.decl4:np"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "noun.cornu.decl4n",
+      "kind": "noun",
+      "lemma": "cornū",
+      "system": "fourth declension, neuter",
+      "label": "cornū — horn (4th decl. neuter)",
+      "short": "cornū",
+      "chapterIntroduced": 20,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl",
+          "Voc"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "cornū serves five singular cells — the ū-heavy neuter is nearly indeclinable in the singular.",
+      "cells": [
+        {
+          "id": "ns",
+          "r": 0,
+          "c": 0,
+          "form": "cornū",
+          "pieces": [
+            {
+              "text": "corn",
+              "role": "stem"
+            },
+            {
+              "text": "ū",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 20,
+          "freqTier": 1,
+          "homographs": [
+            "noun.cornu.decl4n:as",
+            "noun.cornu.decl4n:bs",
+            "noun.cornu.decl4n:ds",
+            "noun.cornu.decl4n:vs"
+          ]
+        },
+        {
+          "id": "gs",
+          "r": 1,
+          "c": 0,
+          "form": "cornūs",
+          "pieces": [
+            {
+              "text": "corn",
+              "role": "stem"
+            },
+            {
+              "text": "ūs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 20,
+          "freqTier": 1
+        },
+        {
+          "id": "ds",
+          "r": 2,
+          "c": 0,
+          "form": "cornū",
+          "pieces": [
+            {
+              "text": "corn",
+              "role": "stem"
+            },
+            {
+              "text": "ū",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 20,
+          "freqTier": 1,
+          "homographs": [
+            "noun.cornu.decl4n:as",
+            "noun.cornu.decl4n:bs",
+            "noun.cornu.decl4n:ns",
+            "noun.cornu.decl4n:vs"
+          ]
+        },
+        {
+          "id": "as",
+          "r": 3,
+          "c": 0,
+          "form": "cornū",
+          "pieces": [
+            {
+              "text": "corn",
+              "role": "stem"
+            },
+            {
+              "text": "ū",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 20,
+          "freqTier": 1,
+          "homographs": [
+            "noun.cornu.decl4n:bs",
+            "noun.cornu.decl4n:ds",
+            "noun.cornu.decl4n:ns",
+            "noun.cornu.decl4n:vs"
+          ]
+        },
+        {
+          "id": "bs",
+          "r": 4,
+          "c": 0,
+          "form": "cornū",
+          "pieces": [
+            {
+              "text": "corn",
+              "role": "stem"
+            },
+            {
+              "text": "ū",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 20,
+          "freqTier": 1,
+          "homographs": [
+            "noun.cornu.decl4n:as",
+            "noun.cornu.decl4n:ds",
+            "noun.cornu.decl4n:ns",
+            "noun.cornu.decl4n:vs"
+          ]
+        },
+        {
+          "id": "vs",
+          "r": 5,
+          "c": 0,
+          "form": "cornū",
+          "pieces": [
+            {
+              "text": "corn",
+              "role": "stem"
+            },
+            {
+              "text": "ū",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 20,
+          "freqTier": 3,
+          "homographs": [
+            "noun.cornu.decl4n:as",
+            "noun.cornu.decl4n:bs",
+            "noun.cornu.decl4n:ds",
+            "noun.cornu.decl4n:ns"
+          ]
+        },
+        {
+          "id": "np",
+          "r": 0,
+          "c": 1,
+          "form": "cornua",
+          "pieces": [
+            {
+              "text": "corn",
+              "role": "stem"
+            },
+            {
+              "text": "ua",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 20,
+          "freqTier": 1,
+          "homographs": [
+            "noun.cornu.decl4n:ap",
+            "noun.cornu.decl4n:vp"
+          ]
+        },
+        {
+          "id": "gp",
+          "r": 1,
+          "c": 1,
+          "form": "cornuum",
+          "pieces": [
+            {
+              "text": "corn",
+              "role": "stem"
+            },
+            {
+              "text": "uum",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 20,
+          "freqTier": 1
+        },
+        {
+          "id": "dp",
+          "r": 2,
+          "c": 1,
+          "form": "cornibus",
+          "pieces": [
+            {
+              "text": "corn",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 20,
+          "freqTier": 1,
+          "homographs": [
+            "noun.cornu.decl4n:bp"
+          ]
+        },
+        {
+          "id": "ap",
+          "r": 3,
+          "c": 1,
+          "form": "cornua",
+          "pieces": [
+            {
+              "text": "corn",
+              "role": "stem"
+            },
+            {
+              "text": "ua",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 20,
+          "freqTier": 1,
+          "homographs": [
+            "noun.cornu.decl4n:np",
+            "noun.cornu.decl4n:vp"
+          ]
+        },
+        {
+          "id": "bp",
+          "r": 4,
+          "c": 1,
+          "form": "cornibus",
+          "pieces": [
+            {
+              "text": "corn",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 20,
+          "freqTier": 1,
+          "homographs": [
+            "noun.cornu.decl4n:dp"
+          ]
+        },
+        {
+          "id": "vp",
+          "r": 5,
+          "c": 1,
+          "form": "cornua",
+          "pieces": [
+            {
+              "text": "corn",
+              "role": "stem"
+            },
+            {
+              "text": "ua",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 20,
+          "freqTier": 3,
+          "homographs": [
+            "noun.cornu.decl4n:ap",
+            "noun.cornu.decl4n:np"
+          ]
+        }
+      ]
+    }
+  ]
+}

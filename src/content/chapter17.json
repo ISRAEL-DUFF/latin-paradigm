@@ -1,0 +1,730 @@
+{
+  "chapter": 17,
+  "title": "The relative pronoun quī, quae, quod",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "pron.qui.sg",
+      "kind": "pron",
+      "lemma": "quī",
+      "system": "relative pronoun",
+      "label": "quī — who, which (singular)",
+      "short": "quī sg",
+      "chapterIntroduced": 17,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ]
+      },
+      "notes": "cuius and cui serve all three genders — Lookup will demand every cell, exactly as with huius.",
+      "cells": [
+        {
+          "id": "nm",
+          "r": 0,
+          "c": 0,
+          "form": "quī",
+          "pieces": [
+            {
+              "text": "quī",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 17,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.pl:nm"
+          ]
+        },
+        {
+          "id": "nf",
+          "r": 0,
+          "c": 1,
+          "form": "quae",
+          "pieces": [
+            {
+              "text": "quae",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 17,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.pl:an",
+            "pron.qui.pl:nf",
+            "pron.qui.pl:nn"
+          ]
+        },
+        {
+          "id": "nn",
+          "r": 0,
+          "c": 2,
+          "form": "quod",
+          "pieces": [
+            {
+              "text": "quod",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 17,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.sg:an"
+          ]
+        },
+        {
+          "id": "gm",
+          "r": 1,
+          "c": 0,
+          "form": "cuius",
+          "pieces": [
+            {
+              "text": "cuius",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 17,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.sg:gf",
+            "pron.qui.sg:gn",
+            "pron.quis.sg:gc",
+            "pron.quis.sg:gn"
+          ]
+        },
+        {
+          "id": "gf",
+          "r": 1,
+          "c": 1,
+          "form": "cuius",
+          "pieces": [
+            {
+              "text": "cuius",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 17,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.sg:gm",
+            "pron.qui.sg:gn",
+            "pron.quis.sg:gc",
+            "pron.quis.sg:gn"
+          ]
+        },
+        {
+          "id": "gn",
+          "r": 1,
+          "c": 2,
+          "form": "cuius",
+          "pieces": [
+            {
+              "text": "cuius",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 17,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.sg:gf",
+            "pron.qui.sg:gm",
+            "pron.quis.sg:gc",
+            "pron.quis.sg:gn"
+          ]
+        },
+        {
+          "id": "dm",
+          "r": 2,
+          "c": 0,
+          "form": "cui",
+          "pieces": [
+            {
+              "text": "cui",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 17,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.sg:df",
+            "pron.qui.sg:dn",
+            "pron.quis.sg:dc",
+            "pron.quis.sg:dn"
+          ]
+        },
+        {
+          "id": "df",
+          "r": 2,
+          "c": 1,
+          "form": "cui",
+          "pieces": [
+            {
+              "text": "cui",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 17,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.sg:dm",
+            "pron.qui.sg:dn",
+            "pron.quis.sg:dc",
+            "pron.quis.sg:dn"
+          ]
+        },
+        {
+          "id": "dn",
+          "r": 2,
+          "c": 2,
+          "form": "cui",
+          "pieces": [
+            {
+              "text": "cui",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 17,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.sg:df",
+            "pron.qui.sg:dm",
+            "pron.quis.sg:dc",
+            "pron.quis.sg:dn"
+          ]
+        },
+        {
+          "id": "am",
+          "r": 3,
+          "c": 0,
+          "form": "quem",
+          "pieces": [
+            {
+              "text": "quem",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 17,
+          "freqTier": 1,
+          "homographs": [
+            "pron.quis.sg:ac"
+          ]
+        },
+        {
+          "id": "af",
+          "r": 3,
+          "c": 1,
+          "form": "quam",
+          "pieces": [
+            {
+              "text": "quam",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 17,
+          "freqTier": 1
+        },
+        {
+          "id": "an",
+          "r": 3,
+          "c": 2,
+          "form": "quod",
+          "pieces": [
+            {
+              "text": "quod",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 17,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.sg:nn"
+          ]
+        },
+        {
+          "id": "bm",
+          "r": 4,
+          "c": 0,
+          "form": "quō",
+          "pieces": [
+            {
+              "text": "quō",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 17,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.sg:bn",
+            "pron.quis.sg:bc",
+            "pron.quis.sg:bn"
+          ]
+        },
+        {
+          "id": "bf",
+          "r": 4,
+          "c": 1,
+          "form": "quā",
+          "pieces": [
+            {
+              "text": "quā",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 17,
+          "freqTier": 1
+        },
+        {
+          "id": "bn",
+          "r": 4,
+          "c": 2,
+          "form": "quō",
+          "pieces": [
+            {
+              "text": "quō",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 17,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.sg:bm",
+            "pron.quis.sg:bc",
+            "pron.quis.sg:bn"
+          ]
+        }
+      ],
+      "drillClass": "wholeForm"
+    },
+    {
+      "id": "pron.qui.pl",
+      "kind": "pron",
+      "lemma": "quī",
+      "system": "relative pronoun",
+      "label": "quī — who, which (plural)",
+      "short": "quī pl",
+      "chapterIntroduced": 17,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ]
+      },
+      "notes": "quae answers to four cells across the two tables — feminine singular, feminine plural, neuter plural twice.",
+      "cells": [
+        {
+          "id": "nm",
+          "r": 0,
+          "c": 0,
+          "form": "quī",
+          "pieces": [
+            {
+              "text": "quī",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 17,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.sg:nm"
+          ]
+        },
+        {
+          "id": "nf",
+          "r": 0,
+          "c": 1,
+          "form": "quae",
+          "pieces": [
+            {
+              "text": "quae",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 17,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.pl:an",
+            "pron.qui.pl:nn",
+            "pron.qui.sg:nf"
+          ]
+        },
+        {
+          "id": "nn",
+          "r": 0,
+          "c": 2,
+          "form": "quae",
+          "pieces": [
+            {
+              "text": "quae",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 17,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.pl:an",
+            "pron.qui.pl:nf",
+            "pron.qui.sg:nf"
+          ]
+        },
+        {
+          "id": "gm",
+          "r": 1,
+          "c": 0,
+          "form": "quōrum",
+          "pieces": [
+            {
+              "text": "quōrum",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 17,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.pl:gn"
+          ]
+        },
+        {
+          "id": "gf",
+          "r": 1,
+          "c": 1,
+          "form": "quārum",
+          "pieces": [
+            {
+              "text": "quārum",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 17,
+          "freqTier": 1
+        },
+        {
+          "id": "gn",
+          "r": 1,
+          "c": 2,
+          "form": "quōrum",
+          "pieces": [
+            {
+              "text": "quōrum",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 17,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.pl:gm"
+          ]
+        },
+        {
+          "id": "dm",
+          "r": 2,
+          "c": 0,
+          "form": "quibus",
+          "pieces": [
+            {
+              "text": "quibus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 17,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.pl:bf",
+            "pron.qui.pl:bm",
+            "pron.qui.pl:bn",
+            "pron.qui.pl:df",
+            "pron.qui.pl:dn"
+          ]
+        },
+        {
+          "id": "df",
+          "r": 2,
+          "c": 1,
+          "form": "quibus",
+          "pieces": [
+            {
+              "text": "quibus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 17,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.pl:bf",
+            "pron.qui.pl:bm",
+            "pron.qui.pl:bn",
+            "pron.qui.pl:dm",
+            "pron.qui.pl:dn"
+          ]
+        },
+        {
+          "id": "dn",
+          "r": 2,
+          "c": 2,
+          "form": "quibus",
+          "pieces": [
+            {
+              "text": "quibus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 17,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.pl:bf",
+            "pron.qui.pl:bm",
+            "pron.qui.pl:bn",
+            "pron.qui.pl:df",
+            "pron.qui.pl:dm"
+          ]
+        },
+        {
+          "id": "am",
+          "r": 3,
+          "c": 0,
+          "form": "quōs",
+          "pieces": [
+            {
+              "text": "quōs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 17,
+          "freqTier": 1
+        },
+        {
+          "id": "af",
+          "r": 3,
+          "c": 1,
+          "form": "quās",
+          "pieces": [
+            {
+              "text": "quās",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 17,
+          "freqTier": 1
+        },
+        {
+          "id": "an",
+          "r": 3,
+          "c": 2,
+          "form": "quae",
+          "pieces": [
+            {
+              "text": "quae",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 17,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.pl:nf",
+            "pron.qui.pl:nn",
+            "pron.qui.sg:nf"
+          ]
+        },
+        {
+          "id": "bm",
+          "r": 4,
+          "c": 0,
+          "form": "quibus",
+          "pieces": [
+            {
+              "text": "quibus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 17,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.pl:bf",
+            "pron.qui.pl:bn",
+            "pron.qui.pl:df",
+            "pron.qui.pl:dm",
+            "pron.qui.pl:dn"
+          ]
+        },
+        {
+          "id": "bf",
+          "r": 4,
+          "c": 1,
+          "form": "quibus",
+          "pieces": [
+            {
+              "text": "quibus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 17,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.pl:bm",
+            "pron.qui.pl:bn",
+            "pron.qui.pl:df",
+            "pron.qui.pl:dm",
+            "pron.qui.pl:dn"
+          ]
+        },
+        {
+          "id": "bn",
+          "r": 4,
+          "c": 2,
+          "form": "quibus",
+          "pieces": [
+            {
+              "text": "quibus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 17,
+          "freqTier": 1,
+          "homographs": [
+            "pron.qui.pl:bf",
+            "pron.qui.pl:bm",
+            "pron.qui.pl:df",
+            "pron.qui.pl:dm",
+            "pron.qui.pl:dn"
+          ]
+        }
+      ],
+      "drillClass": "wholeForm"
+    }
+  ]
+}

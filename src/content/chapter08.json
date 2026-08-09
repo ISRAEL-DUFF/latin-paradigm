@@ -1,0 +1,605 @@
+{
+  "chapter": 8,
+  "title": "Third conjugation — agō",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "verb.ago.pres.act.ind",
+      "kind": "verb",
+      "lemma": "agō",
+      "system": "third conjugation",
+      "label": "agō — Present Indicative",
+      "short": "agō",
+      "chapterIntroduced": 8,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "The third conjugation has no long stem vowel to lean on — the short -i- in agis, agimus is the giveaway.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "agō",
+          "pieces": [
+            {
+              "text": "ag",
+              "role": "stem"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 8,
+          "freqTier": 1,
+          "homographs": [
+            "pp.ago:i"
+          ]
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "agis",
+          "pieces": [
+            {
+              "text": "ag",
+              "role": "stem"
+            },
+            {
+              "text": "is",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 8,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "agit",
+          "pieces": [
+            {
+              "text": "ag",
+              "role": "stem"
+            },
+            {
+              "text": "it",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 8,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "agimus",
+          "pieces": [
+            {
+              "text": "ag",
+              "role": "stem"
+            },
+            {
+              "text": "imus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 8,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "agitis",
+          "pieces": [
+            {
+              "text": "ag",
+              "role": "stem"
+            },
+            {
+              "text": "itis",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 8,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "agunt",
+          "pieces": [
+            {
+              "text": "ag",
+              "role": "stem"
+            },
+            {
+              "text": "unt",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 8,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "verb.ago.fut.act.ind",
+      "kind": "verb",
+      "lemma": "agō",
+      "system": "third conjugation future",
+      "label": "agō — Future Indicative",
+      "short": "Fut agō",
+      "chapterIntroduced": 8,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "No -b- here: the third conjugation futures in -am, -ēs, -et. agēs (future) vs agis (present) — one vowel apart.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "agam",
+          "pieces": [
+            {
+              "text": "ag",
+              "role": "stem"
+            },
+            {
+              "text": "am",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 8,
+          "freqTier": 1,
+          "homographs": [
+            "verb.ago.pres.act.subj:1s"
+          ]
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "agēs",
+          "pieces": [
+            {
+              "text": "ag",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 8,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "aget",
+          "pieces": [
+            {
+              "text": "ag",
+              "role": "stem"
+            },
+            {
+              "text": "et",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 8,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "agēmus",
+          "pieces": [
+            {
+              "text": "ag",
+              "role": "stem"
+            },
+            {
+              "text": "ēmus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 8,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "agētis",
+          "pieces": [
+            {
+              "text": "ag",
+              "role": "stem"
+            },
+            {
+              "text": "ētis",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 8,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "agent",
+          "pieces": [
+            {
+              "text": "ag",
+              "role": "stem"
+            },
+            {
+              "text": "ent",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 8,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "verb.ago.impf.act.ind",
+      "kind": "verb",
+      "lemma": "agō",
+      "system": "third conjugation imperfect",
+      "label": "agō — Imperfect Indicative",
+      "short": "Impf agō",
+      "chapterIntroduced": 8,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "The third conjugation borrows -ēbā- for its imperfect; the shortening rule is unchanged.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "agēbam",
+          "pieces": [
+            {
+              "text": "ag",
+              "role": "stem"
+            },
+            {
+              "text": "ēbā",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "m",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ām",
+              "to": "am"
+            }
+          ],
+          "chapterMax": 8,
+          "freqTier": 1
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "agēbās",
+          "pieces": [
+            {
+              "text": "ag",
+              "role": "stem"
+            },
+            {
+              "text": "ēbā",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "s",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 8,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "agēbat",
+          "pieces": [
+            {
+              "text": "ag",
+              "role": "stem"
+            },
+            {
+              "text": "ēbā",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "t",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "āt",
+              "to": "at"
+            }
+          ],
+          "chapterMax": 8,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "agēbāmus",
+          "pieces": [
+            {
+              "text": "ag",
+              "role": "stem"
+            },
+            {
+              "text": "ēbā",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "mus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 8,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "agēbātis",
+          "pieces": [
+            {
+              "text": "ag",
+              "role": "stem"
+            },
+            {
+              "text": "ēbā",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "tis",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 8,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "agēbant",
+          "pieces": [
+            {
+              "text": "ag",
+              "role": "stem"
+            },
+            {
+              "text": "ēbā",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "nt",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ānt",
+              "to": "ant"
+            }
+          ],
+          "chapterMax": 8,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "verb.ago.impv.pres",
+      "kind": "verb",
+      "lemma": "agō",
+      "system": "present imperative",
+      "label": "agō — Present Imperative",
+      "short": "Impv age",
+      "chapterIntroduced": 8,
+      "drillClass": "wholeForm",
+      "layout": {
+        "rowLabels": [
+          "2nd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "age, agite — with the short -e- the third conjugation always shows.",
+      "cells": [
+        {
+          "id": "2s",
+          "r": 0,
+          "c": 0,
+          "form": "age",
+          "pieces": [
+            {
+              "text": "age",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 8,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 0,
+          "c": 1,
+          "form": "agite",
+          "pieces": [
+            {
+              "text": "agite",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 8,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "pp.ago",
+      "kind": "verb",
+      "lemma": "agō",
+      "drillClass": "principalParts",
+      "system": "principal parts",
+      "label": "agō — Principal Parts",
+      "short": "PP agō",
+      "chapterIntroduced": 8,
+      "layout": {
+        "rowLabels": [
+          "I",
+          "II",
+          "III",
+          "IV"
+        ],
+        "colLabels": [
+          "form"
+        ]
+      },
+      "notes": "ēgī — the perfect lengthens and loses the reduplication older Latin had. āctum feeds āctus and the passive system.",
+      "cells": [
+        {
+          "id": "i",
+          "r": 0,
+          "c": 0,
+          "form": "agō",
+          "pieces": [
+            {
+              "text": "agō",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 8,
+          "freqTier": 1,
+          "homographs": [
+            "verb.ago.pres.act.ind:1s"
+          ]
+        },
+        {
+          "id": "ii",
+          "r": 1,
+          "c": 0,
+          "form": "agere",
+          "pieces": [
+            {
+              "text": "agere",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 8,
+          "freqTier": 1
+        },
+        {
+          "id": "iii",
+          "r": 2,
+          "c": 0,
+          "form": "ēgī",
+          "pieces": [
+            {
+              "text": "ēgī",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 8,
+          "freqTier": 1
+        },
+        {
+          "id": "iv",
+          "r": 3,
+          "c": 0,
+          "form": "āctum",
+          "pieces": [
+            {
+              "text": "āctum",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 8,
+          "freqTier": 1
+        }
+      ]
+    }
+  ]
+}

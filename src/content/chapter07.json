@@ -1,0 +1,811 @@
+{
+  "chapter": 7,
+  "title": "Third declension nouns — rēx, virtūs, corpus",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "noun.rex.decl3",
+      "kind": "noun",
+      "lemma": "rēx",
+      "system": "third declension, masculine",
+      "label": "rēx — Third Declension (king)",
+      "short": "rēx",
+      "chapterIntroduced": 7,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl",
+          "Voc"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "The stem rēg- hides behind the nominative rēx (g+s → x). Nominative and accusative plural are both rēgēs — third declension levels them.",
+      "cells": [
+        {
+          "id": "ns",
+          "r": 0,
+          "c": 0,
+          "form": "rēx",
+          "pieces": [
+            {
+              "text": "rēx",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 1,
+          "homographs": [
+            "noun.rex.decl3:vs"
+          ]
+        },
+        {
+          "id": "gs",
+          "r": 1,
+          "c": 0,
+          "form": "rēgis",
+          "pieces": [
+            {
+              "text": "rēg",
+              "role": "stem"
+            },
+            {
+              "text": "is",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 1
+        },
+        {
+          "id": "ds",
+          "r": 2,
+          "c": 0,
+          "form": "rēgī",
+          "pieces": [
+            {
+              "text": "rēg",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 1
+        },
+        {
+          "id": "as",
+          "r": 3,
+          "c": 0,
+          "form": "rēgem",
+          "pieces": [
+            {
+              "text": "rēg",
+              "role": "stem"
+            },
+            {
+              "text": "em",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 1
+        },
+        {
+          "id": "bs",
+          "r": 4,
+          "c": 0,
+          "form": "rēge",
+          "pieces": [
+            {
+              "text": "rēg",
+              "role": "stem"
+            },
+            {
+              "text": "e",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 1
+        },
+        {
+          "id": "vs",
+          "r": 5,
+          "c": 0,
+          "form": "rēx",
+          "pieces": [
+            {
+              "text": "rēx",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 3,
+          "homographs": [
+            "noun.rex.decl3:ns"
+          ]
+        },
+        {
+          "id": "np",
+          "r": 0,
+          "c": 1,
+          "form": "rēgēs",
+          "pieces": [
+            {
+              "text": "rēg",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 1,
+          "homographs": [
+            "noun.rex.decl3:ap",
+            "noun.rex.decl3:vp"
+          ]
+        },
+        {
+          "id": "gp",
+          "r": 1,
+          "c": 1,
+          "form": "rēgum",
+          "pieces": [
+            {
+              "text": "rēg",
+              "role": "stem"
+            },
+            {
+              "text": "um",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 1
+        },
+        {
+          "id": "dp",
+          "r": 2,
+          "c": 1,
+          "form": "rēgibus",
+          "pieces": [
+            {
+              "text": "rēg",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 1,
+          "homographs": [
+            "noun.rex.decl3:bp"
+          ]
+        },
+        {
+          "id": "ap",
+          "r": 3,
+          "c": 1,
+          "form": "rēgēs",
+          "pieces": [
+            {
+              "text": "rēg",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 1,
+          "homographs": [
+            "noun.rex.decl3:np",
+            "noun.rex.decl3:vp"
+          ]
+        },
+        {
+          "id": "bp",
+          "r": 4,
+          "c": 1,
+          "form": "rēgibus",
+          "pieces": [
+            {
+              "text": "rēg",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 1,
+          "homographs": [
+            "noun.rex.decl3:dp"
+          ]
+        },
+        {
+          "id": "vp",
+          "r": 5,
+          "c": 1,
+          "form": "rēgēs",
+          "pieces": [
+            {
+              "text": "rēg",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 3,
+          "homographs": [
+            "noun.rex.decl3:ap",
+            "noun.rex.decl3:np"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "noun.virtus.decl3",
+      "kind": "noun",
+      "lemma": "virtūs",
+      "system": "third declension, feminine",
+      "label": "virtūs — Third Declension (virtue)",
+      "short": "virtūs",
+      "chapterIntroduced": 7,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl",
+          "Voc"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "Stem virtūt-; the nominative drops the t before s. Gender must be memorized — most -tūs abstracts are feminine.",
+      "cells": [
+        {
+          "id": "ns",
+          "r": 0,
+          "c": 0,
+          "form": "virtūs",
+          "pieces": [
+            {
+              "text": "virtūs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 1,
+          "homographs": [
+            "noun.virtus.decl3:vs"
+          ]
+        },
+        {
+          "id": "gs",
+          "r": 1,
+          "c": 0,
+          "form": "virtūtis",
+          "pieces": [
+            {
+              "text": "virtūt",
+              "role": "stem"
+            },
+            {
+              "text": "is",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 1
+        },
+        {
+          "id": "ds",
+          "r": 2,
+          "c": 0,
+          "form": "virtūtī",
+          "pieces": [
+            {
+              "text": "virtūt",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 1
+        },
+        {
+          "id": "as",
+          "r": 3,
+          "c": 0,
+          "form": "virtūtem",
+          "pieces": [
+            {
+              "text": "virtūt",
+              "role": "stem"
+            },
+            {
+              "text": "em",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 1
+        },
+        {
+          "id": "bs",
+          "r": 4,
+          "c": 0,
+          "form": "virtūte",
+          "pieces": [
+            {
+              "text": "virtūt",
+              "role": "stem"
+            },
+            {
+              "text": "e",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 1
+        },
+        {
+          "id": "vs",
+          "r": 5,
+          "c": 0,
+          "form": "virtūs",
+          "pieces": [
+            {
+              "text": "virtūs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 3,
+          "homographs": [
+            "noun.virtus.decl3:ns"
+          ]
+        },
+        {
+          "id": "np",
+          "r": 0,
+          "c": 1,
+          "form": "virtūtēs",
+          "pieces": [
+            {
+              "text": "virtūt",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 1,
+          "homographs": [
+            "noun.virtus.decl3:ap",
+            "noun.virtus.decl3:vp"
+          ]
+        },
+        {
+          "id": "gp",
+          "r": 1,
+          "c": 1,
+          "form": "virtūtum",
+          "pieces": [
+            {
+              "text": "virtūt",
+              "role": "stem"
+            },
+            {
+              "text": "um",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 1
+        },
+        {
+          "id": "dp",
+          "r": 2,
+          "c": 1,
+          "form": "virtūtibus",
+          "pieces": [
+            {
+              "text": "virtūt",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 1,
+          "homographs": [
+            "noun.virtus.decl3:bp"
+          ]
+        },
+        {
+          "id": "ap",
+          "r": 3,
+          "c": 1,
+          "form": "virtūtēs",
+          "pieces": [
+            {
+              "text": "virtūt",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 1,
+          "homographs": [
+            "noun.virtus.decl3:np",
+            "noun.virtus.decl3:vp"
+          ]
+        },
+        {
+          "id": "bp",
+          "r": 4,
+          "c": 1,
+          "form": "virtūtibus",
+          "pieces": [
+            {
+              "text": "virtūt",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 1,
+          "homographs": [
+            "noun.virtus.decl3:dp"
+          ]
+        },
+        {
+          "id": "vp",
+          "r": 5,
+          "c": 1,
+          "form": "virtūtēs",
+          "pieces": [
+            {
+              "text": "virtūt",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 3,
+          "homographs": [
+            "noun.virtus.decl3:ap",
+            "noun.virtus.decl3:np"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "noun.corpus.decl3n",
+      "kind": "noun",
+      "lemma": "corpus",
+      "system": "third declension, neuter",
+      "label": "corpus — Third Declension Neuter (body)",
+      "short": "corpus",
+      "chapterIntroduced": 7,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl",
+          "Voc"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "Neuter law again — corpus/corpus/corpus, corpora/corpora/corpora — and the stem swaps s for r: corpor-.",
+      "cells": [
+        {
+          "id": "ns",
+          "r": 0,
+          "c": 0,
+          "form": "corpus",
+          "pieces": [
+            {
+              "text": "corpus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 1,
+          "homographs": [
+            "noun.corpus.decl3n:as",
+            "noun.corpus.decl3n:vs"
+          ]
+        },
+        {
+          "id": "gs",
+          "r": 1,
+          "c": 0,
+          "form": "corporis",
+          "pieces": [
+            {
+              "text": "corpor",
+              "role": "stem"
+            },
+            {
+              "text": "is",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 1
+        },
+        {
+          "id": "ds",
+          "r": 2,
+          "c": 0,
+          "form": "corporī",
+          "pieces": [
+            {
+              "text": "corpor",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 1
+        },
+        {
+          "id": "as",
+          "r": 3,
+          "c": 0,
+          "form": "corpus",
+          "pieces": [
+            {
+              "text": "corpus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 1,
+          "homographs": [
+            "noun.corpus.decl3n:ns",
+            "noun.corpus.decl3n:vs"
+          ]
+        },
+        {
+          "id": "bs",
+          "r": 4,
+          "c": 0,
+          "form": "corpore",
+          "pieces": [
+            {
+              "text": "corpor",
+              "role": "stem"
+            },
+            {
+              "text": "e",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 1
+        },
+        {
+          "id": "vs",
+          "r": 5,
+          "c": 0,
+          "form": "corpus",
+          "pieces": [
+            {
+              "text": "corpus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 3,
+          "homographs": [
+            "noun.corpus.decl3n:as",
+            "noun.corpus.decl3n:ns"
+          ]
+        },
+        {
+          "id": "np",
+          "r": 0,
+          "c": 1,
+          "form": "corpora",
+          "pieces": [
+            {
+              "text": "corpor",
+              "role": "stem"
+            },
+            {
+              "text": "a",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 1,
+          "homographs": [
+            "noun.corpus.decl3n:ap",
+            "noun.corpus.decl3n:vp"
+          ]
+        },
+        {
+          "id": "gp",
+          "r": 1,
+          "c": 1,
+          "form": "corporum",
+          "pieces": [
+            {
+              "text": "corpor",
+              "role": "stem"
+            },
+            {
+              "text": "um",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 1
+        },
+        {
+          "id": "dp",
+          "r": 2,
+          "c": 1,
+          "form": "corporibus",
+          "pieces": [
+            {
+              "text": "corpor",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 1,
+          "homographs": [
+            "noun.corpus.decl3n:bp"
+          ]
+        },
+        {
+          "id": "ap",
+          "r": 3,
+          "c": 1,
+          "form": "corpora",
+          "pieces": [
+            {
+              "text": "corpor",
+              "role": "stem"
+            },
+            {
+              "text": "a",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 1,
+          "homographs": [
+            "noun.corpus.decl3n:np",
+            "noun.corpus.decl3n:vp"
+          ]
+        },
+        {
+          "id": "bp",
+          "r": 4,
+          "c": 1,
+          "form": "corporibus",
+          "pieces": [
+            {
+              "text": "corpor",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 1,
+          "homographs": [
+            "noun.corpus.decl3n:dp"
+          ]
+        },
+        {
+          "id": "vp",
+          "r": 5,
+          "c": 1,
+          "form": "corpora",
+          "pieces": [
+            {
+              "text": "corpor",
+              "role": "stem"
+            },
+            {
+              "text": "a",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 7,
+          "freqTier": 3,
+          "homographs": [
+            "noun.corpus.decl3n:ap",
+            "noun.corpus.decl3n:np"
+          ]
+        }
+      ]
+    }
+  ]
+}

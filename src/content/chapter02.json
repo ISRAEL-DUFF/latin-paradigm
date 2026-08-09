@@ -1,0 +1,281 @@
+{
+  "chapter": 2,
+  "title": "First declension nouns; the macron as meaning (puella vs puellā)",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "noun.puella.decl1",
+      "kind": "noun",
+      "lemma": "puella",
+      "system": "first declension",
+      "label": "puella — First Declension",
+      "short": "puella",
+      "chapterIntroduced": 2,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl",
+          "Voc"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "puellae is genitive singular, dative singular, nominative plural AND vocative plural — four cells, one spelling. And puella vs puellā: the macron alone separates nominative from ablative. This is why macrons are in the chips.",
+      "cells": [
+        {
+          "id": "ns",
+          "r": 0,
+          "c": 0,
+          "form": "puella",
+          "pieces": [
+            {
+              "text": "puell",
+              "role": "stem"
+            },
+            {
+              "text": "a",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 2,
+          "freqTier": 1,
+          "homographs": [
+            "noun.puella.decl1:vs"
+          ]
+        },
+        {
+          "id": "gs",
+          "r": 1,
+          "c": 0,
+          "form": "puellae",
+          "pieces": [
+            {
+              "text": "puell",
+              "role": "stem"
+            },
+            {
+              "text": "ae",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 2,
+          "freqTier": 1,
+          "homographs": [
+            "noun.puella.decl1:ds",
+            "noun.puella.decl1:np",
+            "noun.puella.decl1:vp"
+          ]
+        },
+        {
+          "id": "ds",
+          "r": 2,
+          "c": 0,
+          "form": "puellae",
+          "pieces": [
+            {
+              "text": "puell",
+              "role": "stem"
+            },
+            {
+              "text": "ae",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 2,
+          "freqTier": 1,
+          "homographs": [
+            "noun.puella.decl1:gs",
+            "noun.puella.decl1:np",
+            "noun.puella.decl1:vp"
+          ]
+        },
+        {
+          "id": "as",
+          "r": 3,
+          "c": 0,
+          "form": "puellam",
+          "pieces": [
+            {
+              "text": "puell",
+              "role": "stem"
+            },
+            {
+              "text": "am",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 2,
+          "freqTier": 1
+        },
+        {
+          "id": "bs",
+          "r": 4,
+          "c": 0,
+          "form": "puellā",
+          "pieces": [
+            {
+              "text": "puell",
+              "role": "stem"
+            },
+            {
+              "text": "ā",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 2,
+          "freqTier": 1
+        },
+        {
+          "id": "vs",
+          "r": 5,
+          "c": 0,
+          "form": "puella",
+          "pieces": [
+            {
+              "text": "puell",
+              "role": "stem"
+            },
+            {
+              "text": "a",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 2,
+          "freqTier": 3,
+          "homographs": [
+            "noun.puella.decl1:ns"
+          ]
+        },
+        {
+          "id": "np",
+          "r": 0,
+          "c": 1,
+          "form": "puellae",
+          "pieces": [
+            {
+              "text": "puell",
+              "role": "stem"
+            },
+            {
+              "text": "ae",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 2,
+          "freqTier": 1,
+          "homographs": [
+            "noun.puella.decl1:ds",
+            "noun.puella.decl1:gs",
+            "noun.puella.decl1:vp"
+          ]
+        },
+        {
+          "id": "gp",
+          "r": 1,
+          "c": 1,
+          "form": "puellārum",
+          "pieces": [
+            {
+              "text": "puell",
+              "role": "stem"
+            },
+            {
+              "text": "ārum",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 2,
+          "freqTier": 1
+        },
+        {
+          "id": "dp",
+          "r": 2,
+          "c": 1,
+          "form": "puellīs",
+          "pieces": [
+            {
+              "text": "puell",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 2,
+          "freqTier": 1,
+          "homographs": [
+            "noun.puella.decl1:bp"
+          ]
+        },
+        {
+          "id": "ap",
+          "r": 3,
+          "c": 1,
+          "form": "puellās",
+          "pieces": [
+            {
+              "text": "puell",
+              "role": "stem"
+            },
+            {
+              "text": "ās",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 2,
+          "freqTier": 1
+        },
+        {
+          "id": "bp",
+          "r": 4,
+          "c": 1,
+          "form": "puellīs",
+          "pieces": [
+            {
+              "text": "puell",
+              "role": "stem"
+            },
+            {
+              "text": "īs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 2,
+          "freqTier": 1,
+          "homographs": [
+            "noun.puella.decl1:dp"
+          ]
+        },
+        {
+          "id": "vp",
+          "r": 5,
+          "c": 1,
+          "form": "puellae",
+          "pieces": [
+            {
+              "text": "puell",
+              "role": "stem"
+            },
+            {
+              "text": "ae",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 2,
+          "freqTier": 3,
+          "homographs": [
+            "noun.puella.decl1:ds",
+            "noun.puella.decl1:gs",
+            "noun.puella.decl1:np"
+          ]
+        }
+      ]
+    }
+  ]
+}

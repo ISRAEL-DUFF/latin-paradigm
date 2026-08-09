@@ -1,0 +1,1239 @@
+{
+  "chapter": 16,
+  "title": "Third-declension adjectives — fortis, ācer",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "adj.fortis.sg",
+      "kind": "adj",
+      "lemma": "fortis",
+      "system": "third-declension adjective (i-stem)",
+      "label": "fortis — brave (singular)",
+      "short": "fortis sg",
+      "chapterIntroduced": 16,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "masc/fem",
+          "neuter"
+        ]
+      },
+      "notes": "The i-stem signature on an adjective: ablative fortī, never forte-with-short-e in prose. fortis is nominative AND genitive.",
+      "cells": [
+        {
+          "id": "nc",
+          "r": 0,
+          "c": 0,
+          "form": "fortis",
+          "pieces": [
+            {
+              "text": "fort",
+              "role": "stem"
+            },
+            {
+              "text": "is",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortis.sg:gc",
+            "adj.fortis.sg:gn"
+          ]
+        },
+        {
+          "id": "nn",
+          "r": 0,
+          "c": 1,
+          "form": "forte",
+          "pieces": [
+            {
+              "text": "fort",
+              "role": "stem"
+            },
+            {
+              "text": "e",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortis.sg:an"
+          ]
+        },
+        {
+          "id": "gc",
+          "r": 1,
+          "c": 0,
+          "form": "fortis",
+          "pieces": [
+            {
+              "text": "fort",
+              "role": "stem"
+            },
+            {
+              "text": "is",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortis.sg:gn",
+            "adj.fortis.sg:nc"
+          ]
+        },
+        {
+          "id": "gn",
+          "r": 1,
+          "c": 1,
+          "form": "fortis",
+          "pieces": [
+            {
+              "text": "fort",
+              "role": "stem"
+            },
+            {
+              "text": "is",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortis.sg:gc",
+            "adj.fortis.sg:nc"
+          ]
+        },
+        {
+          "id": "dc",
+          "r": 2,
+          "c": 0,
+          "form": "fortī",
+          "pieces": [
+            {
+              "text": "fort",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortis.sg:bc",
+            "adj.fortis.sg:bn",
+            "adj.fortis.sg:dn"
+          ]
+        },
+        {
+          "id": "dn",
+          "r": 2,
+          "c": 1,
+          "form": "fortī",
+          "pieces": [
+            {
+              "text": "fort",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortis.sg:bc",
+            "adj.fortis.sg:bn",
+            "adj.fortis.sg:dc"
+          ]
+        },
+        {
+          "id": "ac",
+          "r": 3,
+          "c": 0,
+          "form": "fortem",
+          "pieces": [
+            {
+              "text": "fort",
+              "role": "stem"
+            },
+            {
+              "text": "em",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1
+        },
+        {
+          "id": "an",
+          "r": 3,
+          "c": 1,
+          "form": "forte",
+          "pieces": [
+            {
+              "text": "fort",
+              "role": "stem"
+            },
+            {
+              "text": "e",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortis.sg:nn"
+          ]
+        },
+        {
+          "id": "bc",
+          "r": 4,
+          "c": 0,
+          "form": "fortī",
+          "pieces": [
+            {
+              "text": "fort",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortis.sg:bn",
+            "adj.fortis.sg:dc",
+            "adj.fortis.sg:dn"
+          ]
+        },
+        {
+          "id": "bn",
+          "r": 4,
+          "c": 1,
+          "form": "fortī",
+          "pieces": [
+            {
+              "text": "fort",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortis.sg:bc",
+            "adj.fortis.sg:dc",
+            "adj.fortis.sg:dn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adj.fortis.pl",
+      "kind": "adj",
+      "lemma": "fortis",
+      "system": "third-declension adjective (i-stem)",
+      "label": "fortis — brave (plural)",
+      "short": "fortis pl",
+      "chapterIntroduced": 16,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "masc/fem",
+          "neuter"
+        ]
+      },
+      "notes": "Genitive fortium, neuter fortia — the i shows up exactly where the i-stem nouns put it.",
+      "cells": [
+        {
+          "id": "nc",
+          "r": 0,
+          "c": 0,
+          "form": "fortēs",
+          "pieces": [
+            {
+              "text": "fort",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortis.pl:ac"
+          ]
+        },
+        {
+          "id": "nn",
+          "r": 0,
+          "c": 1,
+          "form": "fortia",
+          "pieces": [
+            {
+              "text": "fort",
+              "role": "stem"
+            },
+            {
+              "text": "ia",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortis.pl:an"
+          ]
+        },
+        {
+          "id": "gc",
+          "r": 1,
+          "c": 0,
+          "form": "fortium",
+          "pieces": [
+            {
+              "text": "fort",
+              "role": "stem"
+            },
+            {
+              "text": "ium",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortis.pl:gn"
+          ]
+        },
+        {
+          "id": "gn",
+          "r": 1,
+          "c": 1,
+          "form": "fortium",
+          "pieces": [
+            {
+              "text": "fort",
+              "role": "stem"
+            },
+            {
+              "text": "ium",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortis.pl:gc"
+          ]
+        },
+        {
+          "id": "dc",
+          "r": 2,
+          "c": 0,
+          "form": "fortibus",
+          "pieces": [
+            {
+              "text": "fort",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortis.pl:bc",
+            "adj.fortis.pl:bn",
+            "adj.fortis.pl:dn"
+          ]
+        },
+        {
+          "id": "dn",
+          "r": 2,
+          "c": 1,
+          "form": "fortibus",
+          "pieces": [
+            {
+              "text": "fort",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortis.pl:bc",
+            "adj.fortis.pl:bn",
+            "adj.fortis.pl:dc"
+          ]
+        },
+        {
+          "id": "ac",
+          "r": 3,
+          "c": 0,
+          "form": "fortēs",
+          "pieces": [
+            {
+              "text": "fort",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortis.pl:nc"
+          ]
+        },
+        {
+          "id": "an",
+          "r": 3,
+          "c": 1,
+          "form": "fortia",
+          "pieces": [
+            {
+              "text": "fort",
+              "role": "stem"
+            },
+            {
+              "text": "ia",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortis.pl:nn"
+          ]
+        },
+        {
+          "id": "bc",
+          "r": 4,
+          "c": 0,
+          "form": "fortibus",
+          "pieces": [
+            {
+              "text": "fort",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortis.pl:bn",
+            "adj.fortis.pl:dc",
+            "adj.fortis.pl:dn"
+          ]
+        },
+        {
+          "id": "bn",
+          "r": 4,
+          "c": 1,
+          "form": "fortibus",
+          "pieces": [
+            {
+              "text": "fort",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.fortis.pl:bc",
+            "adj.fortis.pl:dc",
+            "adj.fortis.pl:dn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adj.acer.sg",
+      "kind": "adj",
+      "lemma": "ācer",
+      "system": "third-declension adjective, three terminations",
+      "label": "ācer — keen (singular)",
+      "short": "ācer sg",
+      "chapterIntroduced": 16,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ]
+      },
+      "notes": "Three terminations only in the nominative singular — ācer, ācris, ācre; everything else is shared.",
+      "cells": [
+        {
+          "id": "nm",
+          "r": 0,
+          "c": 0,
+          "form": "ācer",
+          "pieces": [
+            {
+              "text": "ācer",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1
+        },
+        {
+          "id": "nf",
+          "r": 0,
+          "c": 1,
+          "form": "ācris",
+          "pieces": [
+            {
+              "text": "ācr",
+              "role": "stem"
+            },
+            {
+              "text": "is",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.acer.sg:gf",
+            "adj.acer.sg:gm",
+            "adj.acer.sg:gn"
+          ]
+        },
+        {
+          "id": "nn",
+          "r": 0,
+          "c": 2,
+          "form": "ācre",
+          "pieces": [
+            {
+              "text": "ācr",
+              "role": "stem"
+            },
+            {
+              "text": "e",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.acer.sg:an"
+          ]
+        },
+        {
+          "id": "gm",
+          "r": 1,
+          "c": 0,
+          "form": "ācris",
+          "pieces": [
+            {
+              "text": "ācr",
+              "role": "stem"
+            },
+            {
+              "text": "is",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.acer.sg:gf",
+            "adj.acer.sg:gn",
+            "adj.acer.sg:nf"
+          ]
+        },
+        {
+          "id": "gf",
+          "r": 1,
+          "c": 1,
+          "form": "ācris",
+          "pieces": [
+            {
+              "text": "ācr",
+              "role": "stem"
+            },
+            {
+              "text": "is",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.acer.sg:gm",
+            "adj.acer.sg:gn",
+            "adj.acer.sg:nf"
+          ]
+        },
+        {
+          "id": "gn",
+          "r": 1,
+          "c": 2,
+          "form": "ācris",
+          "pieces": [
+            {
+              "text": "ācr",
+              "role": "stem"
+            },
+            {
+              "text": "is",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.acer.sg:gf",
+            "adj.acer.sg:gm",
+            "adj.acer.sg:nf"
+          ]
+        },
+        {
+          "id": "dm",
+          "r": 2,
+          "c": 0,
+          "form": "ācrī",
+          "pieces": [
+            {
+              "text": "ācr",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.acer.sg:bf",
+            "adj.acer.sg:bm",
+            "adj.acer.sg:bn",
+            "adj.acer.sg:df",
+            "adj.acer.sg:dn"
+          ]
+        },
+        {
+          "id": "df",
+          "r": 2,
+          "c": 1,
+          "form": "ācrī",
+          "pieces": [
+            {
+              "text": "ācr",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.acer.sg:bf",
+            "adj.acer.sg:bm",
+            "adj.acer.sg:bn",
+            "adj.acer.sg:dm",
+            "adj.acer.sg:dn"
+          ]
+        },
+        {
+          "id": "dn",
+          "r": 2,
+          "c": 2,
+          "form": "ācrī",
+          "pieces": [
+            {
+              "text": "ācr",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.acer.sg:bf",
+            "adj.acer.sg:bm",
+            "adj.acer.sg:bn",
+            "adj.acer.sg:df",
+            "adj.acer.sg:dm"
+          ]
+        },
+        {
+          "id": "am",
+          "r": 3,
+          "c": 0,
+          "form": "ācrem",
+          "pieces": [
+            {
+              "text": "ācr",
+              "role": "stem"
+            },
+            {
+              "text": "em",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.acer.sg:af"
+          ]
+        },
+        {
+          "id": "af",
+          "r": 3,
+          "c": 1,
+          "form": "ācrem",
+          "pieces": [
+            {
+              "text": "ācr",
+              "role": "stem"
+            },
+            {
+              "text": "em",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.acer.sg:am"
+          ]
+        },
+        {
+          "id": "an",
+          "r": 3,
+          "c": 2,
+          "form": "ācre",
+          "pieces": [
+            {
+              "text": "ācr",
+              "role": "stem"
+            },
+            {
+              "text": "e",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.acer.sg:nn"
+          ]
+        },
+        {
+          "id": "bm",
+          "r": 4,
+          "c": 0,
+          "form": "ācrī",
+          "pieces": [
+            {
+              "text": "ācr",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.acer.sg:bf",
+            "adj.acer.sg:bn",
+            "adj.acer.sg:df",
+            "adj.acer.sg:dm",
+            "adj.acer.sg:dn"
+          ]
+        },
+        {
+          "id": "bf",
+          "r": 4,
+          "c": 1,
+          "form": "ācrī",
+          "pieces": [
+            {
+              "text": "ācr",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.acer.sg:bm",
+            "adj.acer.sg:bn",
+            "adj.acer.sg:df",
+            "adj.acer.sg:dm",
+            "adj.acer.sg:dn"
+          ]
+        },
+        {
+          "id": "bn",
+          "r": 4,
+          "c": 2,
+          "form": "ācrī",
+          "pieces": [
+            {
+              "text": "ācr",
+              "role": "stem"
+            },
+            {
+              "text": "ī",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.acer.sg:bf",
+            "adj.acer.sg:bm",
+            "adj.acer.sg:df",
+            "adj.acer.sg:dm",
+            "adj.acer.sg:dn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adj.acer.pl",
+      "kind": "adj",
+      "lemma": "ācer",
+      "system": "third-declension adjective, three terminations",
+      "label": "ācer — keen (plural)",
+      "short": "ācer pl",
+      "chapterIntroduced": 16,
+      "layout": {
+        "rowLabels": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Acc",
+          "Abl"
+        ],
+        "colLabels": [
+          "masculine",
+          "feminine",
+          "neuter"
+        ]
+      },
+      "notes": null,
+      "cells": [
+        {
+          "id": "nm",
+          "r": 0,
+          "c": 0,
+          "form": "ācrēs",
+          "pieces": [
+            {
+              "text": "ācr",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.acer.pl:af",
+            "adj.acer.pl:am",
+            "adj.acer.pl:nf"
+          ]
+        },
+        {
+          "id": "nf",
+          "r": 0,
+          "c": 1,
+          "form": "ācrēs",
+          "pieces": [
+            {
+              "text": "ācr",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.acer.pl:af",
+            "adj.acer.pl:am",
+            "adj.acer.pl:nm"
+          ]
+        },
+        {
+          "id": "nn",
+          "r": 0,
+          "c": 2,
+          "form": "ācria",
+          "pieces": [
+            {
+              "text": "ācr",
+              "role": "stem"
+            },
+            {
+              "text": "ia",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.acer.pl:an"
+          ]
+        },
+        {
+          "id": "gm",
+          "r": 1,
+          "c": 0,
+          "form": "ācrium",
+          "pieces": [
+            {
+              "text": "ācr",
+              "role": "stem"
+            },
+            {
+              "text": "ium",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.acer.pl:gf",
+            "adj.acer.pl:gn"
+          ]
+        },
+        {
+          "id": "gf",
+          "r": 1,
+          "c": 1,
+          "form": "ācrium",
+          "pieces": [
+            {
+              "text": "ācr",
+              "role": "stem"
+            },
+            {
+              "text": "ium",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.acer.pl:gm",
+            "adj.acer.pl:gn"
+          ]
+        },
+        {
+          "id": "gn",
+          "r": 1,
+          "c": 2,
+          "form": "ācrium",
+          "pieces": [
+            {
+              "text": "ācr",
+              "role": "stem"
+            },
+            {
+              "text": "ium",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.acer.pl:gf",
+            "adj.acer.pl:gm"
+          ]
+        },
+        {
+          "id": "dm",
+          "r": 2,
+          "c": 0,
+          "form": "ācribus",
+          "pieces": [
+            {
+              "text": "ācr",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.acer.pl:bf",
+            "adj.acer.pl:bm",
+            "adj.acer.pl:bn",
+            "adj.acer.pl:df",
+            "adj.acer.pl:dn"
+          ]
+        },
+        {
+          "id": "df",
+          "r": 2,
+          "c": 1,
+          "form": "ācribus",
+          "pieces": [
+            {
+              "text": "ācr",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.acer.pl:bf",
+            "adj.acer.pl:bm",
+            "adj.acer.pl:bn",
+            "adj.acer.pl:dm",
+            "adj.acer.pl:dn"
+          ]
+        },
+        {
+          "id": "dn",
+          "r": 2,
+          "c": 2,
+          "form": "ācribus",
+          "pieces": [
+            {
+              "text": "ācr",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.acer.pl:bf",
+            "adj.acer.pl:bm",
+            "adj.acer.pl:bn",
+            "adj.acer.pl:df",
+            "adj.acer.pl:dm"
+          ]
+        },
+        {
+          "id": "am",
+          "r": 3,
+          "c": 0,
+          "form": "ācrēs",
+          "pieces": [
+            {
+              "text": "ācr",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.acer.pl:af",
+            "adj.acer.pl:nf",
+            "adj.acer.pl:nm"
+          ]
+        },
+        {
+          "id": "af",
+          "r": 3,
+          "c": 1,
+          "form": "ācrēs",
+          "pieces": [
+            {
+              "text": "ācr",
+              "role": "stem"
+            },
+            {
+              "text": "ēs",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.acer.pl:am",
+            "adj.acer.pl:nf",
+            "adj.acer.pl:nm"
+          ]
+        },
+        {
+          "id": "an",
+          "r": 3,
+          "c": 2,
+          "form": "ācria",
+          "pieces": [
+            {
+              "text": "ācr",
+              "role": "stem"
+            },
+            {
+              "text": "ia",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.acer.pl:nn"
+          ]
+        },
+        {
+          "id": "bm",
+          "r": 4,
+          "c": 0,
+          "form": "ācribus",
+          "pieces": [
+            {
+              "text": "ācr",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.acer.pl:bf",
+            "adj.acer.pl:bn",
+            "adj.acer.pl:df",
+            "adj.acer.pl:dm",
+            "adj.acer.pl:dn"
+          ]
+        },
+        {
+          "id": "bf",
+          "r": 4,
+          "c": 1,
+          "form": "ācribus",
+          "pieces": [
+            {
+              "text": "ācr",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.acer.pl:bm",
+            "adj.acer.pl:bn",
+            "adj.acer.pl:df",
+            "adj.acer.pl:dm",
+            "adj.acer.pl:dn"
+          ]
+        },
+        {
+          "id": "bn",
+          "r": 4,
+          "c": 2,
+          "form": "ācribus",
+          "pieces": [
+            {
+              "text": "ācr",
+              "role": "stem"
+            },
+            {
+              "text": "ibus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 16,
+          "freqTier": 1,
+          "homographs": [
+            "adj.acer.pl:bf",
+            "adj.acer.pl:bm",
+            "adj.acer.pl:df",
+            "adj.acer.pl:dm",
+            "adj.acer.pl:dn"
+          ]
+        }
+      ]
+    }
+  ]
+}

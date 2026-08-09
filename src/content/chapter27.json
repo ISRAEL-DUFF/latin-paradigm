@@ -1,0 +1,213 @@
+{
+  "chapter": 27,
+  "title": "Irregular comparison — bonus/melior/optimus and kin",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "adj.cmp.irregular",
+      "kind": "adj",
+      "lemma": "bonus",
+      "drillClass": "wholeForm",
+      "system": "irregular comparison",
+      "label": "Irregular Comparison — the five that matter",
+      "short": "Irreg cmp",
+      "chapterIntroduced": 27,
+      "layout": {
+        "rowLabels": [
+          "bonus",
+          "malus",
+          "magnus",
+          "parvus",
+          "multus"
+        ],
+        "colLabels": [
+          "comparative",
+          "superlative"
+        ]
+      },
+      "notes": "Different roots entirely, as in English good/better/best: bonus, melior, optimus. plūs is grammatically a neuter noun in the singular.",
+      "cells": [
+        {
+          "id": "bc",
+          "r": 0,
+          "c": 0,
+          "form": "melior",
+          "pieces": [
+            {
+              "text": "melior",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 27,
+          "freqTier": 1
+        },
+        {
+          "id": "bs",
+          "r": 0,
+          "c": 1,
+          "form": "optimus",
+          "pieces": [
+            {
+              "text": "optimus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 27,
+          "freqTier": 1
+        },
+        {
+          "id": "mc",
+          "r": 1,
+          "c": 0,
+          "form": "peior",
+          "pieces": [
+            {
+              "text": "peior",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 27,
+          "freqTier": 1
+        },
+        {
+          "id": "ms",
+          "r": 1,
+          "c": 1,
+          "form": "pessimus",
+          "pieces": [
+            {
+              "text": "pessimus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 27,
+          "freqTier": 1
+        },
+        {
+          "id": "gc",
+          "r": 2,
+          "c": 0,
+          "form": "maior",
+          "pieces": [
+            {
+              "text": "maior",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 27,
+          "freqTier": 1
+        },
+        {
+          "id": "gs",
+          "r": 2,
+          "c": 1,
+          "form": "maximus",
+          "pieces": [
+            {
+              "text": "maximus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 27,
+          "freqTier": 1
+        },
+        {
+          "id": "pc",
+          "r": 3,
+          "c": 0,
+          "form": "minor",
+          "pieces": [
+            {
+              "text": "minor",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 27,
+          "freqTier": 1
+        },
+        {
+          "id": "ps",
+          "r": 3,
+          "c": 1,
+          "form": "minimus",
+          "pieces": [
+            {
+              "text": "minimus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 27,
+          "freqTier": 1
+        },
+        {
+          "id": "uc",
+          "r": 4,
+          "c": 0,
+          "form": "plūs",
+          "pieces": [
+            {
+              "text": "plūs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 27,
+          "freqTier": 1
+        },
+        {
+          "id": "us",
+          "r": 4,
+          "c": 1,
+          "form": "plūrimus",
+          "pieces": [
+            {
+              "text": "plūrimus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 27,
+          "freqTier": 1
+        }
+      ]
+    }
+  ]
+}

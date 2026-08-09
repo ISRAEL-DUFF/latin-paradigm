@@ -1,0 +1,573 @@
+{
+  "chapter": 37,
+  "title": "The irregular eō; place and time constructions",
+  "chapterMappingVerified": false,
+  "paradigms": [
+    {
+      "id": "verb.eo.pres.ind",
+      "kind": "verb",
+      "lemma": "eō",
+      "system": "irregular",
+      "label": "eō — Present Indicative",
+      "short": "eō",
+      "chapterIntroduced": 37,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "The verb 'go' is two letters at its longest stem: eō, īs, it. Before a vowel the stem is e-, before a consonant ī-.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "eō",
+          "pieces": [
+            {
+              "text": "eō",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 37,
+          "freqTier": 1,
+          "homographs": [
+            "pp.eo:i",
+            "pron.is.sg:bm",
+            "pron.is.sg:bn"
+          ]
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "īs",
+          "pieces": [
+            {
+              "text": "īs",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 37,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "it",
+          "pieces": [
+            {
+              "text": "it",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 37,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "īmus",
+          "pieces": [
+            {
+              "text": "īmus",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 37,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "ītis",
+          "pieces": [
+            {
+              "text": "ītis",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 37,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "eunt",
+          "pieces": [
+            {
+              "text": "eunt",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 37,
+          "freqTier": 1
+        }
+      ],
+      "drillClass": "wholeForm"
+    },
+    {
+      "id": "verb.eo.impf.ind",
+      "kind": "verb",
+      "lemma": "eō",
+      "system": "irregular imperfect",
+      "label": "eō — Imperfect Indicative",
+      "short": "Impf eō",
+      "chapterIntroduced": 37,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "Regular machinery on the tiny stem: ī + bā + m.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "ībam",
+          "pieces": [
+            {
+              "text": "ī",
+              "role": "stem"
+            },
+            {
+              "text": "bā",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "m",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ām",
+              "to": "am"
+            }
+          ],
+          "chapterMax": 37,
+          "freqTier": 1
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "ībās",
+          "pieces": [
+            {
+              "text": "ī",
+              "role": "stem"
+            },
+            {
+              "text": "bā",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "s",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 37,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "ībat",
+          "pieces": [
+            {
+              "text": "ī",
+              "role": "stem"
+            },
+            {
+              "text": "bā",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "t",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "āt",
+              "to": "at"
+            }
+          ],
+          "chapterMax": 37,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "ībāmus",
+          "pieces": [
+            {
+              "text": "ī",
+              "role": "stem"
+            },
+            {
+              "text": "bā",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "mus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 37,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "ībātis",
+          "pieces": [
+            {
+              "text": "ī",
+              "role": "stem"
+            },
+            {
+              "text": "bā",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "tis",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 37,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "ībant",
+          "pieces": [
+            {
+              "text": "ī",
+              "role": "stem"
+            },
+            {
+              "text": "bā",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "nt",
+              "role": "ending"
+            }
+          ],
+          "sandhi": [
+            {
+              "seq": "ānt",
+              "to": "ant"
+            }
+          ],
+          "chapterMax": 37,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "verb.eo.fut.ind",
+      "kind": "verb",
+      "lemma": "eō",
+      "system": "irregular future",
+      "label": "eō — Future Indicative",
+      "short": "Fut eō",
+      "chapterIntroduced": 37,
+      "layout": {
+        "rowLabels": [
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "colLabels": [
+          "singular",
+          "plural"
+        ]
+      },
+      "notes": "ībō — eō futures like a FIRST-conjugation verb, -b- and all.",
+      "cells": [
+        {
+          "id": "1s",
+          "r": 0,
+          "c": 0,
+          "form": "ībō",
+          "pieces": [
+            {
+              "text": "ī",
+              "role": "stem"
+            },
+            {
+              "text": "b",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "ō",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 37,
+          "freqTier": 1
+        },
+        {
+          "id": "2s",
+          "r": 1,
+          "c": 0,
+          "form": "ībis",
+          "pieces": [
+            {
+              "text": "ī",
+              "role": "stem"
+            },
+            {
+              "text": "b",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "is",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 37,
+          "freqTier": 1
+        },
+        {
+          "id": "3s",
+          "r": 2,
+          "c": 0,
+          "form": "ībit",
+          "pieces": [
+            {
+              "text": "ī",
+              "role": "stem"
+            },
+            {
+              "text": "b",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "it",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 37,
+          "freqTier": 1
+        },
+        {
+          "id": "1p",
+          "r": 0,
+          "c": 1,
+          "form": "ībimus",
+          "pieces": [
+            {
+              "text": "ī",
+              "role": "stem"
+            },
+            {
+              "text": "b",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "imus",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 37,
+          "freqTier": 1
+        },
+        {
+          "id": "2p",
+          "r": 1,
+          "c": 1,
+          "form": "ībitis",
+          "pieces": [
+            {
+              "text": "ī",
+              "role": "stem"
+            },
+            {
+              "text": "b",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "itis",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 37,
+          "freqTier": 1
+        },
+        {
+          "id": "3p",
+          "r": 2,
+          "c": 1,
+          "form": "ībunt",
+          "pieces": [
+            {
+              "text": "ī",
+              "role": "stem"
+            },
+            {
+              "text": "b",
+              "role": "tenseMarker"
+            },
+            {
+              "text": "unt",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 37,
+          "freqTier": 1
+        }
+      ]
+    },
+    {
+      "id": "pp.eo",
+      "kind": "verb",
+      "lemma": "eō",
+      "drillClass": "principalParts",
+      "system": "principal parts",
+      "label": "eō — Principal Parts",
+      "short": "PP eō",
+      "chapterIntroduced": 37,
+      "layout": {
+        "rowLabels": [
+          "I",
+          "II",
+          "III",
+          "IV"
+        ],
+        "colLabels": [
+          "form"
+        ]
+      },
+      "notes": "iī — the perfect of 'go' is two vowels.",
+      "cells": [
+        {
+          "id": "i",
+          "r": 0,
+          "c": 0,
+          "form": "eō",
+          "pieces": [
+            {
+              "text": "eō",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 37,
+          "freqTier": 1,
+          "homographs": [
+            "pron.is.sg:bm",
+            "pron.is.sg:bn",
+            "verb.eo.pres.ind:1s"
+          ]
+        },
+        {
+          "id": "ii",
+          "r": 1,
+          "c": 0,
+          "form": "īre",
+          "pieces": [
+            {
+              "text": "īre",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 37,
+          "freqTier": 1
+        },
+        {
+          "id": "iii",
+          "r": 2,
+          "c": 0,
+          "form": "iī",
+          "pieces": [
+            {
+              "text": "iī",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 37,
+          "freqTier": 1
+        },
+        {
+          "id": "iv",
+          "r": 3,
+          "c": 0,
+          "form": "itum",
+          "pieces": [
+            {
+              "text": "itum",
+              "role": "stem"
+            },
+            {
+              "text": "",
+              "role": "ending"
+            }
+          ],
+          "chapterMax": 37,
+          "freqTier": 1
+        }
+      ]
+    }
+  ]
+}
