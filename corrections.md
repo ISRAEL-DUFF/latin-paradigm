@@ -152,3 +152,26 @@ the founder's Wheelock 7th pass is THE remaining content gate; the spec's two-pe
 rule for irregular-verb tables (ferō/volō/nōlō/mālō/fīō/eō) names the founder as second
 verifier. Backlog unchanged: mīlle/mīlia, 3rd/4th impf+fut passives, quis-pl note,
 velim/nōlim/mālim subjunctives, gerundive plural (pattern-copy of magnus pl).
+
+## HUD polish + Lookup integrity, 2026-08-10 (founder-reported, both classical apps)
+
+1. **Race clock rebuilt as a first-class HUD element** (was a tiny text-sm
+   line): components/DrillHud.jsx `RaceClock` — a 76px draining SVG ring with
+   the seconds large in its center; calm blue above 20s, gold through the
+   middle third, alarm-red with a pulse under 10s (pulse suppressed under
+   prefers-reduced-motion). Best-time and the mode subtitle ride alongside.
+2. **LOOKUP answer-key leak closed** (founder: "when a table is fully gilded,
+   LOOKUP becomes worthless"). Root cause: gilded cells rendered their forms
+   as a trophy inside lookup mode, so a fully gilded table displayed every
+   answer. Ruling: reverse lookup tests WHERE a form lives, from memory — no
+   form is ever visible until found. Gold now shows as a tinted cell marker
+   and border only; the trophy survives, the leak does not. (Cell.jsx lookup
+   branch; comment records the founder report.)
+3. **IMPOSTOR and LOOKUP instructions promoted to `ModePrompt` banners**
+   (same visual rank as the fill/assembly ask banner): mode tag chip, colored
+   accent edge, instruction at reading size; the lookup prompt form renders
+   at display size in gold; impostor's banner tone tracks the message
+   (hunt = red, found = gold, genuine-tap = blue).
+
+Verified live in both apps (gilded-table lookup shows only dots; ring
+renders and drains; banners visible). Full suites + builds green.
