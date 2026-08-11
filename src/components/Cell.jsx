@@ -109,7 +109,7 @@ export default function Cell({ cell, paradigm, currentChapter, phase, mode, blan
        is ever visible until found. */
     if (fb === "correct") {
       content = (
-        <span className="gk text-xl" style={{ color: C.aegean }}>
+        <span className="gk text-xl lookup-hit" style={{ color: C.aegean }}>
           {cell.form}
         </span>
       );
