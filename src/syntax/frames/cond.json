@@ -1,0 +1,600 @@
+{
+  "id": "cond",
+  "label": "Conditions — the six types",
+  "short": "Conditions",
+  "taughtAt": 33,
+  "layout": {
+    "rowLabels": [
+      "Simple present",
+      "Simple past",
+      "Future more vivid",
+      "Future less vivid",
+      "Present contrary to fact",
+      "Past contrary to fact"
+    ],
+    "colLabels": [
+      "protasis (sī…)",
+      "apodosis (then…)"
+    ]
+  },
+  "notes": "Two questions settle every condition: is the verb INDICATIVE or SUBJUNCTIVE (fact vs. supposition), and WHICH tense? Indicative = the three plain types; subjunctive = should-would (present), contrary to fact now (imperfect), contrary to fact then (pluperfect). Negative protasis: nisi.",
+  "cells": [
+    {
+      "id": "sp-p",
+      "r": 0,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "sī",
+          "role": "signal"
+        },
+        {
+          "t": "present indicative",
+          "role": "verb"
+        }
+      ],
+      "tell": "sī + present indicative — a plain fact, no comment on its truth",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.pres.act.ind"
+      ],
+      "examples": [
+        {
+          "id": "sp1",
+          "pieces": [
+            {
+              "t": "Sī",
+              "role": "signal"
+            },
+            {
+              "t": "id",
+              "role": "plain"
+            },
+            {
+              "t": "facit",
+              "role": "verb"
+            },
+            {
+              "t": ", errat.",
+              "role": "plain"
+            }
+          ],
+          "translation": "If he is doing it, he is making a mistake.",
+          "source": "Wheelock 33 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 2,
+              "t": "faciat",
+              "fromCell": "flv-p",
+              "teaches": "faciat is present SUBJUNCTIVE — that makes it future-less-vivid ('should he do it'), not a simple fact.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp-a",
+      "r": 0,
+      "c": 1,
+      "recipe": [
+        {
+          "t": "present indicative",
+          "role": "verb"
+        }
+      ],
+      "tell": "present indicative in the apodosis too — both halves plain",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.pres.act.ind"
+      ],
+      "examples": [
+        {
+          "id": "sp2",
+          "pieces": [
+            {
+              "t": "Sī",
+              "role": "signal"
+            },
+            {
+              "t": "id",
+              "role": "plain"
+            },
+            {
+              "t": "facit",
+              "role": "verb"
+            },
+            {
+              "t": ", errat.",
+              "role": "verb"
+            }
+          ],
+          "translation": "If he is doing it, he is making a mistake.",
+          "source": "Wheelock 33 (pattern sentence)",
+          "fakes": []
+        }
+      ]
+    },
+    {
+      "id": "spast-p",
+      "r": 1,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "sī",
+          "role": "signal"
+        },
+        {
+          "t": "perfect/imperfect indicative",
+          "role": "verb"
+        }
+      ],
+      "tell": "sī + a past indicative — a plain past fact",
+      "freqTier": 2,
+      "requires": [
+        "verb.laudo.perf.act.ind"
+      ],
+      "examples": [
+        {
+          "id": "spast1",
+          "pieces": [
+            {
+              "t": "Sī",
+              "role": "signal"
+            },
+            {
+              "t": "id",
+              "role": "plain"
+            },
+            {
+              "t": "fēcit",
+              "role": "verb"
+            },
+            {
+              "t": ", errāvit.",
+              "role": "plain"
+            }
+          ],
+          "translation": "If he did it, he made a mistake.",
+          "source": "Wheelock 33 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 2,
+              "t": "fēcisset",
+              "fromCell": "pcf-p",
+              "teaches": "fēcisset is PLUPERFECT SUBJUNCTIVE — that turns the sentence contrary to fact ('had he done it'), denying it happened.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spast-a",
+      "r": 1,
+      "c": 1,
+      "recipe": [
+        {
+          "t": "past indicative",
+          "role": "verb"
+        }
+      ],
+      "tell": "past indicative answers past indicative",
+      "freqTier": 2,
+      "requires": [
+        "verb.laudo.perf.act.ind"
+      ],
+      "examples": [
+        {
+          "id": "spast2",
+          "pieces": [
+            {
+              "t": "Sī",
+              "role": "signal"
+            },
+            {
+              "t": "id",
+              "role": "plain"
+            },
+            {
+              "t": "fēcit",
+              "role": "verb"
+            },
+            {
+              "t": ", errāvit.",
+              "role": "verb"
+            }
+          ],
+          "translation": "If he did it, he made a mistake.",
+          "source": "Wheelock 33 (pattern sentence)",
+          "fakes": []
+        }
+      ]
+    },
+    {
+      "id": "fmv-p",
+      "r": 2,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "sī",
+          "role": "signal"
+        },
+        {
+          "t": "future indicative",
+          "role": "verb"
+        }
+      ],
+      "tell": "sī + FUTURE indicative — Latin is literal where English says 'if he does'",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.fut.act.ind"
+      ],
+      "examples": [
+        {
+          "id": "fmv1",
+          "pieces": [
+            {
+              "t": "Sī",
+              "role": "signal"
+            },
+            {
+              "t": "id",
+              "role": "plain"
+            },
+            {
+              "t": "faciet",
+              "role": "verb"
+            },
+            {
+              "t": ", errābit.",
+              "role": "plain"
+            }
+          ],
+          "translation": "If he does it (and he may well), he will make a mistake.",
+          "source": "Wheelock 33 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 2,
+              "t": "facit",
+              "fromCell": "sp-p",
+              "teaches": "facit is PRESENT — that is the simple-fact condition. The vivid future needs faciet.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fmv-a",
+      "r": 2,
+      "c": 1,
+      "recipe": [
+        {
+          "t": "future indicative",
+          "role": "verb"
+        }
+      ],
+      "tell": "future indicative — the consequence is expected to land",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.fut.act.ind"
+      ],
+      "examples": [
+        {
+          "id": "fmv2",
+          "pieces": [
+            {
+              "t": "Sī",
+              "role": "signal"
+            },
+            {
+              "t": "id",
+              "role": "plain"
+            },
+            {
+              "t": "faciet",
+              "role": "verb"
+            },
+            {
+              "t": ", errābit.",
+              "role": "verb"
+            }
+          ],
+          "translation": "If he does it, he will make a mistake.",
+          "source": "Wheelock 33 (pattern sentence)",
+          "fakes": []
+        }
+      ]
+    },
+    {
+      "id": "flv-p",
+      "r": 3,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "sī",
+          "role": "signal"
+        },
+        {
+          "t": "present subjunctive",
+          "role": "verb"
+        }
+      ],
+      "tell": "sī + present subjunctive — the 'should…would' condition",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.pres.act.subj"
+      ],
+      "examples": [
+        {
+          "id": "flv1",
+          "pieces": [
+            {
+              "t": "Sī",
+              "role": "signal"
+            },
+            {
+              "t": "id",
+              "role": "plain"
+            },
+            {
+              "t": "faciat",
+              "role": "verb"
+            },
+            {
+              "t": ", erret.",
+              "role": "plain"
+            }
+          ],
+          "translation": "If he should do it, he would make a mistake.",
+          "source": "Wheelock 33 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 2,
+              "t": "faceret",
+              "fromCell": "pcf-p",
+              "teaches": "faceret is IMPERFECT subjunctive — that is present contrary to fact ('were he doing it'), which denies he is.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flv-a",
+      "r": 3,
+      "c": 1,
+      "recipe": [
+        {
+          "t": "present subjunctive",
+          "role": "verb"
+        }
+      ],
+      "tell": "present subjunctive — the 'would' half",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.pres.act.subj"
+      ],
+      "examples": [
+        {
+          "id": "flv2",
+          "pieces": [
+            {
+              "t": "Sī",
+              "role": "signal"
+            },
+            {
+              "t": "id",
+              "role": "plain"
+            },
+            {
+              "t": "faciat",
+              "role": "verb"
+            },
+            {
+              "t": ", erret.",
+              "role": "verb"
+            }
+          ],
+          "translation": "If he should do it, he would make a mistake.",
+          "source": "Wheelock 33 (pattern sentence)",
+          "fakes": []
+        }
+      ]
+    },
+    {
+      "id": "pcf-p",
+      "r": 4,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "sī",
+          "role": "signal"
+        },
+        {
+          "t": "imperfect subjunctive",
+          "role": "verb"
+        }
+      ],
+      "tell": "sī + IMPERFECT subjunctive — and he is not doing it",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.impf.act.subj"
+      ],
+      "examples": [
+        {
+          "id": "pcf1",
+          "pieces": [
+            {
+              "t": "Sī",
+              "role": "signal"
+            },
+            {
+              "t": "id",
+              "role": "plain"
+            },
+            {
+              "t": "faceret",
+              "role": "verb"
+            },
+            {
+              "t": ", errāret.",
+              "role": "plain"
+            }
+          ],
+          "translation": "If he were doing it, he would be making a mistake (but he isn't).",
+          "source": "Wheelock 33 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 2,
+              "t": "faciat",
+              "fromCell": "flv-p",
+              "teaches": "faciat is PRESENT subjunctive — future less vivid, which leaves the door open. The imperfect slams it: he is not doing it.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pcf-a",
+      "r": 4,
+      "c": 1,
+      "recipe": [
+        {
+          "t": "imperfect subjunctive",
+          "role": "verb"
+        }
+      ],
+      "tell": "imperfect subjunctive — the unreal consequence",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.impf.act.subj"
+      ],
+      "examples": [
+        {
+          "id": "pcf2",
+          "pieces": [
+            {
+              "t": "Sī",
+              "role": "signal"
+            },
+            {
+              "t": "id",
+              "role": "plain"
+            },
+            {
+              "t": "faceret",
+              "role": "verb"
+            },
+            {
+              "t": ", errāret.",
+              "role": "verb"
+            }
+          ],
+          "translation": "If he were doing it, he would be making a mistake.",
+          "source": "Wheelock 33 (pattern sentence)",
+          "fakes": []
+        }
+      ]
+    },
+    {
+      "id": "pastcf-p",
+      "r": 5,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "sī",
+          "role": "signal"
+        },
+        {
+          "t": "pluperfect subjunctive",
+          "role": "verb"
+        }
+      ],
+      "tell": "sī + PLUPERFECT subjunctive — and he did not do it",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.plup.act.subj"
+      ],
+      "examples": [
+        {
+          "id": "pastcf1",
+          "pieces": [
+            {
+              "t": "Sī",
+              "role": "signal"
+            },
+            {
+              "t": "id",
+              "role": "plain"
+            },
+            {
+              "t": "fēcisset",
+              "role": "verb"
+            },
+            {
+              "t": ", errāvisset.",
+              "role": "plain"
+            }
+          ],
+          "translation": "If he had done it, he would have made a mistake (but he didn't).",
+          "source": "Wheelock 33 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 2,
+              "t": "fēcit",
+              "fromCell": "spast-p",
+              "teaches": "fēcit is the plain PERFECT — a simple past fact. The pluperfect subjunctive is what denies it ever happened.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pastcf-a",
+      "r": 5,
+      "c": 1,
+      "recipe": [
+        {
+          "t": "pluperfect subjunctive",
+          "role": "verb"
+        }
+      ],
+      "tell": "pluperfect subjunctive — the consequence that never came",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.plup.act.subj"
+      ],
+      "examples": [
+        {
+          "id": "pastcf2",
+          "pieces": [
+            {
+              "t": "Sī",
+              "role": "signal"
+            },
+            {
+              "t": "id",
+              "role": "plain"
+            },
+            {
+              "t": "fēcisset",
+              "role": "verb"
+            },
+            {
+              "t": ", errāvisset.",
+              "role": "verb"
+            }
+          ],
+          "translation": "If he had done it, he would have made a mistake.",
+          "source": "Wheelock 33 (pattern sentence)",
+          "fakes": []
+        }
+      ]
+    }
+  ],
+  "sourceVerified": false
+}

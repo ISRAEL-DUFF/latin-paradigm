@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, useMemo, useCallback } from "react";
 import { C, GOLD_AT, FAST_MS, MAX_CHAPTER } from "./theme.js";
 import {
+  ALL_PARADIGMS,
   unlockedParadigms,
   unlockedCells,
   paradigmsIntroducedAt,
@@ -39,6 +40,12 @@ import {
   gradeScramble,
 } from "./grading.js";
 import TopBar from "./components/TopBar.jsx";
+import SyntaxSection from "./components/SyntaxSection.jsx";
+import FramesPanel from "./components/FramesPanel.jsx";
+import SyntaxModesPanel from "./components/SyntaxModesPanel.jsx";
+import { FRAME_TABLES, framesAt } from "./syntax/index.js";
+import { tableModes } from "./syntax/scheduler.js";
+import { loadSyntaxMastery } from "./db.js";
 import Sheet from "./components/Sheet.jsx";
 import TablesPanel from "./components/TablesPanel.jsx";
 import ModesPanel from "./components/ModesPanel.jsx";
@@ -84,6 +91,17 @@ function labelFor(paradigm, cell) {
 export default function App() {
   /* ---------- persisted state, loaded at boot ---------- */
   const [ready, setReady] = useState(false);
+  /* THE TWO-DOOR RULE (syntax-section-spec §3). Morphology is the default
+     door and its behaviour is untouched; syntax is a separate room the user
+     enters deliberately. This is the ONLY morphology-side change the syntax
+     section required. */
+  const [door, setDoor] = useState("morphology");
+  /* The syntax door's current frame and mode live in App for the same reason
+     morphology's do: the TopBar breadcrumb and the sheets have to drive them. */
+  const [syntaxTableId, setSyntaxTableId] = useState(null);
+  const [syntaxMode, setSyntaxMode] = useState("read");
+  const [syntaxProg, setSyntaxProg] = useState(null);
+  const [syntaxMastery, setSyntaxMastery] = useState({});
   const [masteryMap, setMasteryMap] = useState({});
   const [studied, setStudied] = useState({});
   const [currentChapter, setCurrentUnit] = useState(1);
@@ -129,15 +147,18 @@ export default function App() {
   useEffect(() => {
     (async () => {
       await applyDecay();
-      const [m, s, chapter, syl, sFlow, bests] = await Promise.all([
+      const [m, s, chapter, syl, sFlow, bests, savedDoor] = await Promise.all([
         loadMastery(),
         loadStudied(),
         getMeta("currentChapter", 1),
         getMeta("syllabus", null),
         getMeta("scrambleFlow", "same"),
         getMeta("raceBest", {}),
+        getMeta("door", "morphology"),
       ]);
       setRaceBests(bests);
+      setDoor(savedDoor);
+      loadSyntaxMastery().then(setSyntaxMastery);
       setScrambleFlow(sFlow);
       setMasteryMap(m);
       setStudied(s);
@@ -900,6 +921,17 @@ export default function App() {
   /* The breadcrumb and the gild rule both name WHAT IS ON THE BOARD — so they
      read off shownParadigms, not the table last picked. That is what makes
      Snipe's jumps and Twin's pair come out right without special-casing. */
+  const syntaxTables = framesAt(currentChapter);
+  const syntaxTable =
+    syntaxTables.find((t) => t.id === syntaxTableId) ?? syntaxTables[0] ?? null;
+  const pickSyntaxTable = (id) => {
+    setSyntaxTableId(id);
+    const t = FRAME_TABLES.find((x) => x.id === id);
+    /* never strand the user in a mode this table cannot host */
+    if (t && !tableModes(t).includes(syntaxMode)) setSyntaxMode("read");
+    setSheet(null);
+  };
+
   const barTables = shownParadigms.map((p) => ({
     id: p.id,
     short: p.short,
@@ -996,9 +1028,77 @@ export default function App() {
         onOpenTables={() => setSheet("tables")}
         onOpenModes={() => setSheet("modes")}
         onOpenSettings={() => setSheet("settings")}
+        door={door}
+        syntaxTable={syntaxTable}
+        syntaxMode={syntaxMode}
+        onOpenFrames={() => setSheet("frames")}
+        onOpenSyntaxModes={() => setSheet("syntax-modes")}
       />
 
-      <div className="w-full flex flex-1 min-h-0">
+      {/* THE TWO DOORS. Morphology below is untouched — the syntax section is
+          a sibling room, not a mode inside this one. */}
+      <div className="w-full flex justify-center pt-3 pb-1">
+        <div className="flex rounded-full p-0.5" style={{ background: C.panel, border: `1px solid ${C.line}` }}>
+          {[["morphology", "MORPHOLOGY"], ["syntax", "SYNTAX"]].map(([id, label]) => (
+            <button
+              key={id}
+              onClick={async () => { setDoor(id); await setMeta("door", id); }}
+              className="rounded-full px-4 py-1.5 text-xs tracking-[0.12em]"
+              style={{
+                background: door === id ? C.aegeanDeep : "transparent",
+                color: door === id ? "#fff" : C.faint,
+              }}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {door === "syntax" && (
+        <div className="w-full flex flex-1 min-h-0">
+          {wide && (
+            <aside
+              data-test="frames-rail"
+              className="shrink-0 overflow-y-auto px-4 py-4"
+              style={{
+                width: 320, borderRight: `1px solid ${C.line}`,
+                position: "sticky", top: 50, height: "calc(100vh - 50px)",
+              }}
+            >
+              <div className="text-xs pb-2" style={{ color: C.faint, letterSpacing: "0.14em" }}>
+                {syntaxTables.length} FRAMES
+                {syntaxProg ? ` · ${syntaxProg.gilded}/${syntaxProg.total} GILDED` : ""}
+              </div>
+              <FramesPanel
+                tables={syntaxTables}
+                activeId={syntaxTable?.id}
+                chapter={currentChapter}
+                mastery={syntaxMastery}
+                onPick={pickSyntaxTable}
+              />
+            </aside>
+          )}
+        <SyntaxSection
+          chapter={currentChapter}
+          tableId={syntaxTable?.id}
+          mode={syntaxMode}
+          onPickTable={pickSyntaxTable}
+          onPickMode={setSyntaxMode}
+          onProgress={setSyntaxProg}
+          onOpenParadigm={(pid) => {
+            /* a locked frame links to the morphology it waits on — the one
+               direction the dependency runs (spec §3) */
+            setDoor("morphology");
+            setMeta("door", "morphology");
+            const p = ALL_PARADIGMS.find((x) => x.id === pid);
+            if (p) { setParadigmId(p.id); startRound("fill", p); }
+          }}
+        />
+        </div>
+      )}
+
+      <div className="w-full flex flex-1 min-h-0" hidden={door === "syntax"}>
         {/* Desktop: the whole syllabus is permanently in view. Same
             container-agnostic TablesPanel the sheet renders — only the box
             around it differs, which is the contract set in Phase 2. */}
@@ -1427,6 +1527,34 @@ export default function App() {
         meta={paradigm.short}
       >
         <ModesPanel mode={mode} onPick={changeMode} />
+      </Sheet>
+
+      <Sheet
+        open={!wide && sheet === "frames"}
+        onClose={() => setSheet(null)}
+        title="Frames"
+        meta={`${syntaxTables.length} IN REACH${syntaxProg ? ` · ${syntaxProg.gilded} GILDED` : ""}`}
+      >
+        <FramesPanel
+          tables={syntaxTables}
+          activeId={syntaxTable?.id}
+          chapter={currentChapter}
+          mastery={syntaxMastery}
+          onPick={pickSyntaxTable}
+        />
+      </Sheet>
+
+      <Sheet
+        open={sheet === "syntax-modes"}
+        onClose={() => setSheet(null)}
+        title="How to drill syntax"
+        meta={syntaxTable?.short}
+      >
+        <SyntaxModesPanel
+          mode={syntaxMode}
+          table={syntaxTable}
+          onPick={(m) => { setSyntaxMode(m); setSheet(null); }}
+        />
       </Sheet>
 
       <Sheet

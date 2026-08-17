@@ -1,0 +1,238 @@
+{
+  "id": "cum",
+  "label": "Cum-clauses — one word, four jobs",
+  "short": "Cum",
+  "taughtAt": 31,
+  "layout": {
+    "rowLabels": [
+      "Temporal",
+      "Circumstantial",
+      "Causal",
+      "Concessive"
+    ],
+    "colLabels": [
+      "mood + sense"
+    ]
+  },
+  "notes": "cum + INDICATIVE means only 'when'. cum + SUBJUNCTIVE opens three doors — circumstantial, causal ('since'), concessive ('although', usually with tamen in the main clause) — and only sense decides between them. Learn the mood split first; the three subjunctive senses come with reading.",
+  "cells": [
+    {
+      "id": "temporal",
+      "r": 0,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "cum",
+          "role": "signal"
+        },
+        {
+          "t": "indicative",
+          "role": "verb"
+        }
+      ],
+      "tell": "cum + indicative = purely WHEN",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.pres.act.ind"
+      ],
+      "examples": [
+        {
+          "id": "cum-t",
+          "pieces": [
+            {
+              "t": "Cum",
+              "role": "signal"
+            },
+            {
+              "t": "id",
+              "role": "plain"
+            },
+            {
+              "t": "faciēbat",
+              "role": "verb"
+            },
+            {
+              "t": ", eum vīdī.",
+              "role": "plain"
+            }
+          ],
+          "translation": "When he was doing it, I saw him.",
+          "source": "Wheelock 31 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 2,
+              "t": "faceret",
+              "fromCell": "circum",
+              "teaches": "faceret is SUBJUNCTIVE — that makes the clause circumstantial ('since/when, in those circumstances'), not a bare time-stamp.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "circum",
+      "r": 1,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "cum",
+          "role": "signal"
+        },
+        {
+          "t": "subjunctive",
+          "role": "verb"
+        }
+      ],
+      "tell": "cum + subjunctive = the circumstances in which — 'when' with atmosphere",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.impf.act.subj"
+      ],
+      "examples": [
+        {
+          "id": "cum-c",
+          "pieces": [
+            {
+              "t": "Cum",
+              "role": "signal"
+            },
+            {
+              "t": "id",
+              "role": "plain"
+            },
+            {
+              "t": "faceret",
+              "role": "verb"
+            },
+            {
+              "t": ", eum vīdī.",
+              "role": "plain"
+            }
+          ],
+          "translation": "When he was doing it (in those circumstances), I saw him.",
+          "source": "Wheelock 31 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 2,
+              "t": "faciēbat",
+              "fromCell": "temporal",
+              "teaches": "faciēbat is INDICATIVE — that flattens the clause to a plain time-stamp and loses the circumstantial colour.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "causal",
+      "r": 2,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "cum",
+          "role": "signal"
+        },
+        {
+          "t": "subjunctive",
+          "role": "verb"
+        }
+      ],
+      "tell": "cum + subjunctive = SINCE — context supplies the cause",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.pres.act.subj"
+      ],
+      "examples": [
+        {
+          "id": "cum-caus",
+          "pieces": [
+            {
+              "t": "Cum",
+              "role": "signal"
+            },
+            {
+              "t": "id",
+              "role": "plain"
+            },
+            {
+              "t": "faciat",
+              "role": "verb"
+            },
+            {
+              "t": ", errat.",
+              "role": "plain"
+            }
+          ],
+          "translation": "Since he is doing it, he is making a mistake.",
+          "source": "Wheelock 31 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 2,
+              "t": "facit",
+              "fromCell": "temporal",
+              "teaches": "facit is INDICATIVE — cum + indicative can only mean 'when'. Causal 'since' requires the subjunctive.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "concess",
+      "r": 3,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "cum",
+          "role": "signal"
+        },
+        {
+          "t": "subjunctive",
+          "role": "verb"
+        },
+        {
+          "t": "(tamen)",
+          "role": "plain"
+        }
+      ],
+      "tell": "cum + subjunctive = ALTHOUGH — often answered by tamen",
+      "freqTier": 2,
+      "requires": [
+        "verb.laudo.pres.act.subj"
+      ],
+      "examples": [
+        {
+          "id": "cum-conc",
+          "pieces": [
+            {
+              "t": "Cum",
+              "role": "signal"
+            },
+            {
+              "t": "id",
+              "role": "plain"
+            },
+            {
+              "t": "faciat",
+              "role": "verb"
+            },
+            {
+              "t": ", tamen nōn errat.",
+              "role": "plain"
+            }
+          ],
+          "translation": "Although he is doing it, he is nevertheless not making a mistake.",
+          "source": "Wheelock 31 (pattern sentence)",
+          "fakes": []
+        }
+      ]
+    }
+  ],
+  "sourceVerified": false,
+  "drillModes": [
+    "read",
+    "impostor",
+    "identify"
+  ]
+}

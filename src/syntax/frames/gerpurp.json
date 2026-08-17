@@ -1,0 +1,127 @@
+{
+  "id": "gerpurp",
+  "label": "Gerund and gerundive — expressing purpose",
+  "short": "Gerundive purpose",
+  "taughtAt": 39,
+  "layout": {
+    "rowLabels": [
+      "ad + accusative",
+      "genitive + causā/grātiā"
+    ],
+    "colLabels": [
+      "form"
+    ]
+  },
+  "notes": "Latin has four ways to say purpose and the infinitive is not one of them: ut/nē + subjunctive (Ch.28), ad + gerundive accusative, gerundive genitive + causā/grātiā, and the supine after verbs of motion (Ch.38). When the gerund would take a direct object, Latin prefers the gerundive agreeing with that object — 'gerundive attraction'.",
+  "cells": [
+    {
+      "id": "ad",
+      "r": 0,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "ad",
+          "role": "signal"
+        },
+        {
+          "t": "gerundive in the accusative",
+          "role": "verb"
+        }
+      ],
+      "tell": "ad + gerundive = 'for the purpose of …-ing'",
+      "freqTier": 1,
+      "requires": [
+        "ptcp.laudandus.sg"
+      ],
+      "examples": [
+        {
+          "id": "gp1",
+          "pieces": [
+            {
+              "t": "Vēnit",
+              "role": "plain"
+            },
+            {
+              "t": "ad",
+              "role": "signal"
+            },
+            {
+              "t": "urbem videndam",
+              "role": "verb"
+            },
+            {
+              "t": ".",
+              "role": "plain"
+            }
+          ],
+          "translation": "He came to see the city.",
+          "source": "Wheelock 39 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 2,
+              "t": "urbem vidēre",
+              "fromCell": "n/a",
+              "teaches": "An infinitive cannot express purpose in Latin prose — that is an English habit. Latin uses ad + gerundive, causā + gerundive, ut + subjunctive, or the supine.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "causa",
+      "r": 1,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "gerundive in the genitive",
+          "role": "verb"
+        },
+        {
+          "t": "causā / grātiā",
+          "role": "signal"
+        }
+      ],
+      "tell": "genitive gerundive + causā = 'for the sake of …-ing'",
+      "freqTier": 1,
+      "requires": [
+        "ptcp.laudandus.sg"
+      ],
+      "examples": [
+        {
+          "id": "gp2",
+          "pieces": [
+            {
+              "t": "Vēnit",
+              "role": "plain"
+            },
+            {
+              "t": "urbis videndae",
+              "role": "verb"
+            },
+            {
+              "t": "causā",
+              "role": "signal"
+            },
+            {
+              "t": ".",
+              "role": "plain"
+            }
+          ],
+          "translation": "He came for the sake of seeing the city.",
+          "source": "Wheelock 39 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 1,
+              "t": "urbem videndam",
+              "fromCell": "ad",
+              "teaches": "That is the ACCUSATIVE gerundive, which belongs after ad. causā and grātiā govern the genitive — and they follow their noun.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceVerified": false
+}

@@ -9,6 +9,14 @@ db.version(1).stores({
   meta: "key", // currentChapter, lastUnlockShownFor
   studied: "paradigmId", // has the study phase been shown for this table
 });
+/* v2 — the SYNTAX section (syntax-section-spec §3, two-door rule). Its own
+   tables, deliberately: syntax gold never mixes with morphology gold, and
+   clearing one section leaves the other intact. Additive migration only;
+   morphology stores are untouched by this version. */
+db.version(2).stores({
+  syntaxMastery: "frameKey", // "tableId:cellId" — same 0–3 ladder, own space
+  syntaxStudied: "tableId",
+});
 
 /* ---------- time decay (build plan §3.3) ----------
    Gold older than 4 days dulls to 2; older than 10 days, to 1. */
@@ -83,6 +91,49 @@ export async function recordAccent(key, correct) {
   rec.updatedAt = Date.now();
   await db.mastery.put(rec);
   return rec;
+}
+
+/* ---------- syntax section (own space; mirrors the morphology helpers) ---------- */
+export async function loadSyntaxMastery() {
+  const all = await db.syntaxMastery.toArray();
+  return Object.fromEntries(all.map((r) => [r.frameKey, r]));
+}
+export async function applySyntaxDecay(now = Date.now()) {
+  const all = await db.syntaxMastery.toArray();
+  const changed = [];
+  for (const rec of all) {
+    const lvl = decayedLevel(rec.level, rec.lastSeenAt, now);
+    if (lvl !== rec.level) changed.push({ ...rec, level: lvl, updatedAt: now });
+  }
+  if (changed.length) await db.syntaxMastery.bulkPut(changed);
+  return changed.length;
+}
+export async function recordSyntaxAnswer({ key, correct, fast, latencyMs, wrongChip }) {
+  const now = Date.now();
+  const rec = (await db.syntaxMastery.get(key)) ?? {
+    frameKey: key, id: crypto.randomUUID(), level: 0, attempts: 0, correct: 0,
+    meanLatencyMs: latencyMs, lastSeenAt: 0, confusions: {},
+  };
+  rec.attempts += 1;
+  if (correct) {
+    rec.correct += 1;
+    rec.level = Math.min(GOLD_AT, rec.level + (fast ? 2 : 1));
+  } else {
+    rec.level = Math.max(0, rec.level - 1);
+    if (wrongChip) rec.confusions[wrongChip] = (rec.confusions[wrongChip] || 0) + 1;
+  }
+  rec.meanLatencyMs = rec.meanLatencyMs * 0.7 + latencyMs * 0.3;
+  rec.lastSeenAt = now;
+  rec.updatedAt = now;
+  await db.syntaxMastery.put(rec);
+  return rec;
+}
+export async function loadSyntaxStudied() {
+  const all = await db.syntaxStudied.toArray();
+  return Object.fromEntries(all.map((r) => [r.tableId, true]));
+}
+export async function markSyntaxStudied(tableId) {
+  await db.syntaxStudied.put({ tableId, id: crypto.randomUUID(), updatedAt: Date.now() });
 }
 
 /* ---------- meta ---------- */

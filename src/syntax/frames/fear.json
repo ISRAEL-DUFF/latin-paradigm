@@ -1,0 +1,131 @@
+{
+  "id": "fear",
+  "label": "Fear clauses — the negatives invert",
+  "short": "Fear",
+  "taughtAt": 40,
+  "layout": {
+    "rowLabels": [
+      "Fear that something WILL happen",
+      "Fear that something will NOT happen"
+    ],
+    "colLabels": [
+      "form"
+    ]
+  },
+  "notes": "After timeō, metuō and vereor the negatives turn upside down: nē means 'that', and ut (or nē nōn) means 'that not'. Latin is thinking 'may it not happen…', so its negative particle carries the positive fear. Read the sense, not the particle.",
+  "cells": [
+    {
+      "id": "pos",
+      "r": 0,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "nē",
+          "role": "signal"
+        },
+        {
+          "t": "subjunctive",
+          "role": "verb"
+        }
+      ],
+      "tell": "nē after a verb of fearing means 'that' — the thing you dread",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.pres.act.subj"
+      ],
+      "examples": [
+        {
+          "id": "fe1",
+          "pieces": [
+            {
+              "t": "Timeō",
+              "role": "plain"
+            },
+            {
+              "t": "nē",
+              "role": "signal"
+            },
+            {
+              "t": "veniat",
+              "role": "verb"
+            },
+            {
+              "t": ".",
+              "role": "plain"
+            }
+          ],
+          "translation": "I fear that he will come.",
+          "source": "Wheelock 40 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 1,
+              "t": "ut",
+              "fromCell": "neg",
+              "teaches": "ut after timeō means the OPPOSITE — 'I fear that he will NOT come'. The negatives invert after verbs of fearing.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neg",
+      "r": 1,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "ut",
+          "role": "signal"
+        },
+        {
+          "t": "subjunctive",
+          "role": "verb"
+        },
+        {
+          "t": "(or nē nōn)",
+          "role": "plain"
+        }
+      ],
+      "tell": "ut (or nē nōn) means 'that … not' — the thing you hope for",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.pres.act.subj"
+      ],
+      "examples": [
+        {
+          "id": "fe2",
+          "pieces": [
+            {
+              "t": "Timeō",
+              "role": "plain"
+            },
+            {
+              "t": "ut",
+              "role": "signal"
+            },
+            {
+              "t": "veniat",
+              "role": "verb"
+            },
+            {
+              "t": ".",
+              "role": "plain"
+            }
+          ],
+          "translation": "I fear that he will not come.",
+          "source": "Wheelock 40 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 1,
+              "t": "nē",
+              "fromCell": "pos",
+              "teaches": "nē reverses the sense — 'I fear that he WILL come'. This inversion is the whole difficulty of fear clauses.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceVerified": false
+}

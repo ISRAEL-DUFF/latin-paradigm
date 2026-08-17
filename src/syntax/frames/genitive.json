@@ -1,0 +1,194 @@
+{
+  "id": "genitive",
+  "label": "The genitive — its uses",
+  "short": "Genitive uses",
+  "taughtAt": 20,
+  "layout": {
+    "rowLabels": [
+      "Possession",
+      "Partitive (of the whole)",
+      "Description",
+      "With special adjectives"
+    ],
+    "colLabels": [
+      "form"
+    ]
+  },
+  "notes": "Most genitives answer 'whose?' or 'of what whole?'. Two others are worth flagging: description (always with an adjective — vir magnae virtūtis) and the genitive that certain adjectives simply require (plēnus, cupidus, perītus). English 'of' is a rough guide but not a reliable one.",
+  "cells": [
+    {
+      "id": "poss",
+      "r": 0,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "genitive",
+          "role": "verb"
+        },
+        {
+          "t": "noun",
+          "role": "plain"
+        }
+      ],
+      "tell": "whose it is — the everyday genitive",
+      "freqTier": 1,
+      "requires": [
+        "noun.puella.decl1"
+      ],
+      "examples": [
+        {
+          "id": "g1",
+          "pieces": [
+            {
+              "t": "Liber",
+              "role": "plain"
+            },
+            {
+              "t": "puellae",
+              "role": "signal"
+            },
+            {
+              "t": "est.",
+              "role": "plain"
+            }
+          ],
+          "translation": "It is the girl's book.",
+          "source": "Wheelock 20 (pattern sentence)",
+          "fakes": []
+        }
+      ]
+    },
+    {
+      "id": "part",
+      "r": 1,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "word of quantity",
+          "role": "plain"
+        },
+        {
+          "t": "genitive",
+          "role": "verb"
+        }
+      ],
+      "tell": "the whole from which a part is taken — pars urbis",
+      "freqTier": 1,
+      "requires": [
+        "noun.puella.decl1"
+      ],
+      "examples": [
+        {
+          "id": "g2",
+          "pieces": [
+            {
+              "t": "Pars",
+              "role": "signal"
+            },
+            {
+              "t": "urbis",
+              "role": "verb"
+            },
+            {
+              "t": "capta est.",
+              "role": "plain"
+            }
+          ],
+          "translation": "Part of the city was captured.",
+          "source": "Wheelock 20 (pattern sentence)",
+          "fakes": []
+        }
+      ]
+    },
+    {
+      "id": "descr",
+      "r": 2,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "genitive",
+          "role": "verb"
+        },
+        {
+          "t": "adjective",
+          "role": "plain"
+        }
+      ],
+      "tell": "a genitive of description always carries an adjective",
+      "freqTier": 2,
+      "requires": [
+        "noun.puella.decl1"
+      ],
+      "examples": [
+        {
+          "id": "g3",
+          "pieces": [
+            {
+              "t": "Vir",
+              "role": "plain"
+            },
+            {
+              "t": "magnae virtūtis",
+              "role": "signal"
+            },
+            {
+              "t": "est.",
+              "role": "plain"
+            }
+          ],
+          "translation": "He is a man of great courage.",
+          "source": "Wheelock 20 (pattern sentence)",
+          "fakes": []
+        }
+      ]
+    },
+    {
+      "id": "adj",
+      "r": 3,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "plēnus / cupidus / perītus",
+          "role": "signal"
+        },
+        {
+          "t": "genitive",
+          "role": "verb"
+        }
+      ],
+      "tell": "some adjectives govern a genitive of their own",
+      "freqTier": 3,
+      "requires": [
+        "noun.puella.decl1"
+      ],
+      "examples": [
+        {
+          "id": "g4",
+          "pieces": [
+            {
+              "t": "Plēnus",
+              "role": "signal"
+            },
+            {
+              "t": "virtūtis",
+              "role": "verb"
+            },
+            {
+              "t": "est.",
+              "role": "plain"
+            }
+          ],
+          "translation": "He is full of courage.",
+          "source": "Wheelock 20 (pattern sentence)",
+          "fakes": []
+        }
+      ]
+    }
+  ],
+  "sourceVerified": false,
+  "drillModes": [
+    "read",
+    "impostor",
+    "identify"
+  ]
+}

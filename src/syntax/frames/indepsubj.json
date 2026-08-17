@@ -1,0 +1,158 @@
+{
+  "id": "indepsubj",
+  "label": "The subjunctive standing alone",
+  "short": "Indep. subj.",
+  "taughtAt": 28,
+  "layout": {
+    "rowLabels": [
+      "Jussive / hortatory",
+      "Deliberative",
+      "Optative"
+    ],
+    "colLabels": [
+      "form"
+    ]
+  },
+  "notes": "Before it does any subordinate work, the subjunctive has jobs of its own: jussive/hortatory (let him, let us), deliberative (what am I to do?), and optative with utinam (would that…). Negatives take nē. Meeting a main-clause subjunctive, run this short list.",
+  "cells": [
+    {
+      "id": "juss",
+      "r": 0,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "(nē)",
+          "role": "signal"
+        },
+        {
+          "t": "present subjunctive",
+          "role": "verb"
+        }
+      ],
+      "tell": "a command in the subjunctive: 'let him…', 'let us…'",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.pres.act.subj"
+      ],
+      "examples": [
+        {
+          "id": "is1",
+          "pieces": [
+            {
+              "t": "Faciāmus",
+              "role": "signal"
+            },
+            {
+              "t": "hoc.",
+              "role": "plain"
+            }
+          ],
+          "translation": "Let us do this.",
+          "source": "Wheelock 28 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 0,
+              "t": "Facimus",
+              "fromCell": "n/a",
+              "teaches": "Facimus is INDICATIVE — 'we are doing this', a statement. The subjunctive is what turns it into an exhortation.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "delib",
+      "r": 1,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "present subjunctive",
+          "role": "verb"
+        },
+        {
+          "t": "?",
+          "role": "signal"
+        }
+      ],
+      "tell": "a question that asks what one is TO do, not what one does",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.pres.act.subj"
+      ],
+      "examples": [
+        {
+          "id": "is2",
+          "pieces": [
+            {
+              "t": "Quid",
+              "role": "signal"
+            },
+            {
+              "t": "faciam",
+              "role": "verb"
+            },
+            {
+              "t": "?",
+              "role": "plain"
+            }
+          ],
+          "translation": "What am I to do?",
+          "source": "Wheelock 28 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 1,
+              "t": "faciō",
+              "fromCell": "n/a",
+              "teaches": "faciō is INDICATIVE — 'what am I doing?', a request for information. The subjunctive asks for guidance: 'what AM I TO do?'",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opt",
+      "r": 2,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "utinam",
+          "role": "signal"
+        },
+        {
+          "t": "subjunctive",
+          "role": "verb"
+        }
+      ],
+      "tell": "utinam + subjunctive = 'would that…', a wish",
+      "freqTier": 2,
+      "requires": [
+        "verb.laudo.pres.act.subj"
+      ],
+      "examples": [
+        {
+          "id": "is3",
+          "pieces": [
+            {
+              "t": "Utinam",
+              "role": "signal"
+            },
+            {
+              "t": "veniat",
+              "role": "verb"
+            },
+            {
+              "t": "!",
+              "role": "plain"
+            }
+          ],
+          "translation": "Would that he might come!",
+          "source": "Wheelock 28 (pattern sentence)",
+          "fakes": []
+        }
+      ]
+    }
+  ],
+  "sourceVerified": false
+}

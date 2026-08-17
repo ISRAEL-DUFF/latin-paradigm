@@ -1,0 +1,111 @@
+{
+  "id": "datspecial",
+  "label": "The dative with special verbs and compounds",
+  "short": "Dat. special",
+  "taughtAt": 35,
+  "layout": {
+    "rowLabels": [
+      "Special verbs (a short list to memorize)",
+      "Compound verbs"
+    ],
+    "colLabels": [
+      "form"
+    ]
+  },
+  "notes": "A short, high-frequency list of verbs takes a DATIVE where English expects a direct object: noceō, parcō, serviō, crēdō, ignōscō, imperō, persuādeō, placeō, studeō. Many verbs compounded with a preposition do the same. In the passive these verbs go impersonal: mihi persuādētur, 'I am persuaded'.",
+  "cells": [
+    {
+      "id": "special",
+      "r": 0,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "special verb",
+          "role": "plain"
+        },
+        {
+          "t": "dative object",
+          "role": "verb"
+        }
+      ],
+      "tell": "noceō, parcō, serviō, crēdō, ignōscō, persuādeō, placeō, studeō take the dative",
+      "freqTier": 1,
+      "requires": [
+        "noun.puella.decl1"
+      ],
+      "examples": [
+        {
+          "id": "ds1",
+          "pieces": [
+            {
+              "t": "Nocet",
+              "role": "signal"
+            },
+            {
+              "t": "puellae",
+              "role": "verb"
+            },
+            {
+              "t": ".",
+              "role": "plain"
+            }
+          ],
+          "translation": "He harms the girl.",
+          "source": "Wheelock 35 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 1,
+              "t": "puellam",
+              "fromCell": "n/a",
+              "teaches": "puellam is ACCUSATIVE — the English 'harms the girl' invites it, but noceō governs the dative. These verbs must be learned with their case.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compound",
+      "r": 1,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "compound verb",
+          "role": "plain"
+        },
+        {
+          "t": "dative",
+          "role": "verb"
+        }
+      ],
+      "tell": "verbs compounded with ad, con, in, inter, ob, prae, sub, super often take the dative",
+      "freqTier": 2,
+      "requires": [
+        "noun.amicus.decl2m"
+      ],
+      "examples": [
+        {
+          "id": "ds2",
+          "pieces": [
+            {
+              "t": "Praeest",
+              "role": "signal"
+            },
+            {
+              "t": "amīcō",
+              "role": "verb"
+            },
+            {
+              "t": ".",
+              "role": "plain"
+            }
+          ],
+          "translation": "He is in charge of his friend.",
+          "source": "Wheelock 35 (pattern sentence)",
+          "fakes": []
+        }
+      ]
+    }
+  ],
+  "sourceVerified": false
+}

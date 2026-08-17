@@ -1,0 +1,178 @@
+{
+  "id": "jussive",
+  "label": "Jussive noun clauses — and the iubeō trap",
+  "short": "Jussive clause",
+  "taughtAt": 36,
+  "layout": {
+    "rowLabels": [
+      "Positive (ut)",
+      "Negative (nē)",
+      "iubeō — the exception"
+    ],
+    "colLabels": [
+      "form"
+    ]
+  },
+  "notes": "Most verbs of commanding, urging and persuading (imperō, moneō, hortor, persuādeō, petō, rogō) take ut/nē + subjunctive. iubeō is the famous exception — it takes accusative + infinitive, like a verb of saying. Learn the verb WITH its construction.",
+  "cells": [
+    {
+      "id": "pos",
+      "r": 0,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "ut",
+          "role": "signal"
+        },
+        {
+          "t": "subjunctive",
+          "role": "verb"
+        }
+      ],
+      "tell": "verbs of urging/commanding + ut + subjunctive",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.pres.act.subj"
+      ],
+      "examples": [
+        {
+          "id": "j1",
+          "pieces": [
+            {
+              "t": "Imperat",
+              "role": "plain"
+            },
+            {
+              "t": "ut",
+              "role": "signal"
+            },
+            {
+              "t": "veniant",
+              "role": "verb"
+            },
+            {
+              "t": ".",
+              "role": "plain"
+            }
+          ],
+          "translation": "He commands that they come.",
+          "source": "Wheelock 36 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 1,
+              "t": "nē",
+              "fromCell": "neg",
+              "teaches": "nē makes the command negative — 'he commands that they NOT come'. The positive clause takes ut.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neg",
+      "r": 1,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "nē",
+          "role": "signal"
+        },
+        {
+          "t": "subjunctive",
+          "role": "verb"
+        }
+      ],
+      "tell": "the negative jussive clause takes nē, like purpose",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.pres.act.subj"
+      ],
+      "examples": [
+        {
+          "id": "j2",
+          "pieces": [
+            {
+              "t": "Monet",
+              "role": "plain"
+            },
+            {
+              "t": "nē",
+              "role": "signal"
+            },
+            {
+              "t": "id",
+              "role": "plain"
+            },
+            {
+              "t": "faciant",
+              "role": "verb"
+            },
+            {
+              "t": ".",
+              "role": "plain"
+            }
+          ],
+          "translation": "He warns them not to do it.",
+          "source": "Wheelock 36 (pattern sentence)",
+          "fakes": []
+        }
+      ]
+    },
+    {
+      "id": "iubeo",
+      "r": 2,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "accusative subject",
+          "role": "plain"
+        },
+        {
+          "t": "infinitive",
+          "role": "verb"
+        }
+      ],
+      "tell": "iubeō breaks the pattern: accusative + infinitive, never ut",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.inf"
+      ],
+      "examples": [
+        {
+          "id": "j3",
+          "pieces": [
+            {
+              "t": "Iubet",
+              "role": "signal"
+            },
+            {
+              "t": "eōs",
+              "role": "plain"
+            },
+            {
+              "t": "venīre",
+              "role": "verb"
+            },
+            {
+              "t": ".",
+              "role": "plain"
+            }
+          ],
+          "translation": "He orders them to come.",
+          "source": "Wheelock 36 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 2,
+              "t": "ut veniant",
+              "fromCell": "pos",
+              "teaches": "ut + subjunctive is right for imperō and moneō — but iubeō takes accusative + infinitive. The verb decides the construction.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceVerified": false
+}

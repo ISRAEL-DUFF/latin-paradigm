@@ -1,0 +1,172 @@
+{
+  "id": "result",
+  "label": "Result clauses — ut / ut nōn + subjunctive",
+  "short": "Result",
+  "taughtAt": 29,
+  "layout": {
+    "rowLabels": [
+      "Positive (ut)",
+      "Negative (ut nōn)"
+    ],
+    "colLabels": [
+      "form"
+    ]
+  },
+  "notes": "Result looks at what actually followed. Two tells separate it from purpose: a signpost word in the main clause (tam, ita, sīc, tantus, tālis) and, in the negative, ut nōn instead of nē.",
+  "cells": [
+    {
+      "id": "res-pos",
+      "r": 0,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "tam/ita/sīc…",
+          "role": "plain"
+        },
+        {
+          "t": "ut",
+          "role": "signal"
+        },
+        {
+          "t": "subjunctive",
+          "role": "verb"
+        }
+      ],
+      "tell": "a signpost word (tam, ita, sīc, tantus) + ut + subjunctive = so … that",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.pres.act.subj"
+      ],
+      "examples": [
+        {
+          "id": "res1",
+          "pieces": [
+            {
+              "t": "Tam",
+              "role": "plain"
+            },
+            {
+              "t": "fortis",
+              "role": "plain"
+            },
+            {
+              "t": "est",
+              "role": "plain"
+            },
+            {
+              "t": "ut",
+              "role": "signal"
+            },
+            {
+              "t": "omnēs",
+              "role": "plain"
+            },
+            {
+              "t": "eum",
+              "role": "plain"
+            },
+            {
+              "t": "laudent",
+              "role": "verb"
+            },
+            {
+              "t": ".",
+              "role": "plain"
+            }
+          ],
+          "translation": "He is so brave that everyone praises him.",
+          "source": "Wheelock 29 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 6,
+              "t": "laudant",
+              "fromCell": "n/a",
+              "teaches": "laudant is INDICATIVE — Latin marks a RESULT clause with the subjunctive even though the result actually happens.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "res-neg",
+      "r": 1,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "tam/ita/sīc…",
+          "role": "plain"
+        },
+        {
+          "t": "ut",
+          "role": "signal"
+        },
+        {
+          "t": "nōn",
+          "role": "plain"
+        },
+        {
+          "t": "subjunctive",
+          "role": "verb"
+        }
+      ],
+      "tell": "ut … nōn = so … that … not (contrast: purpose uses nē)",
+      "freqTier": 2,
+      "requires": [
+        "verb.laudo.pres.act.subj"
+      ],
+      "examples": [
+        {
+          "id": "res2",
+          "pieces": [
+            {
+              "t": "Tam",
+              "role": "plain"
+            },
+            {
+              "t": "fortis",
+              "role": "plain"
+            },
+            {
+              "t": "est",
+              "role": "plain"
+            },
+            {
+              "t": "ut",
+              "role": "signal"
+            },
+            {
+              "t": "nōn",
+              "role": "plain"
+            },
+            {
+              "t": "erret",
+              "role": "verb"
+            },
+            {
+              "t": ".",
+              "role": "plain"
+            }
+          ],
+          "translation": "He is so brave that he does not make a mistake.",
+          "source": "Wheelock 29 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 3,
+              "t": "nē",
+              "fromCell": "neg",
+              "teaches": "nē is the PURPOSE negative. Result negates with ut … nōn — the difference between 'so that he won't' and 'so … that he doesn't'.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceVerified": false,
+  "drillModes": [
+    "read",
+    "impostor",
+    "identify"
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "id": "indstat",
+  "label": "Indirect statement — accusative + infinitive",
+  "short": "Ind. statement",
+  "taughtAt": 25,
+  "layout": {
+    "rowLabels": [
+      "Same time as the main verb",
+      "Time before",
+      "Time after"
+    ],
+    "colLabels": [
+      "infinitive"
+    ]
+  },
+  "notes": "The subject goes ACCUSATIVE and the verb goes INFINITIVE. The infinitive's tense is relative, not absolute: present = same time as the head verb, perfect = before it, future = after it. 'Dīxit eum errāre' is therefore 'he said that he WAS making a mistake'.",
+  "cells": [
+    {
+      "id": "contemp",
+      "r": 0,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "accusative subject",
+          "role": "plain"
+        },
+        {
+          "t": "present infinitive",
+          "role": "verb"
+        }
+      ],
+      "tell": "present infinitive = the same time as the head verb, whatever that time is",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.inf"
+      ],
+      "examples": [
+        {
+          "id": "is1",
+          "pieces": [
+            {
+              "t": "Dīcit",
+              "role": "signal"
+            },
+            {
+              "t": "eum",
+              "role": "plain"
+            },
+            {
+              "t": "errāre",
+              "role": "verb"
+            },
+            {
+              "t": ".",
+              "role": "plain"
+            }
+          ],
+          "translation": "He says that he is making a mistake.",
+          "source": "Wheelock 25 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 2,
+              "t": "errāvisse",
+              "fromCell": "prior",
+              "teaches": "errāvisse is the PERFECT infinitive — it would push the mistake earlier than the saying ('that he made a mistake').",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prior",
+      "r": 1,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "accusative subject",
+          "role": "plain"
+        },
+        {
+          "t": "perfect infinitive",
+          "role": "verb"
+        }
+      ],
+      "tell": "perfect infinitive = before the head verb",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.inf"
+      ],
+      "examples": [
+        {
+          "id": "is2",
+          "pieces": [
+            {
+              "t": "Dīcit",
+              "role": "signal"
+            },
+            {
+              "t": "eum",
+              "role": "plain"
+            },
+            {
+              "t": "errāvisse",
+              "role": "verb"
+            },
+            {
+              "t": ".",
+              "role": "plain"
+            }
+          ],
+          "translation": "He says that he made a mistake.",
+          "source": "Wheelock 25 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 2,
+              "t": "errāre",
+              "fromCell": "contemp",
+              "teaches": "errāre is the PRESENT infinitive — same time as the saying, so 'he is making a mistake' now, not earlier.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subseq",
+      "r": 2,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "accusative subject",
+          "role": "plain"
+        },
+        {
+          "t": "future infinitive",
+          "role": "verb"
+        }
+      ],
+      "tell": "future infinitive = after the head verb",
+      "freqTier": 2,
+      "requires": [
+        "verb.laudo.inf"
+      ],
+      "examples": [
+        {
+          "id": "is3",
+          "pieces": [
+            {
+              "t": "Dīcit",
+              "role": "signal"
+            },
+            {
+              "t": "eum",
+              "role": "plain"
+            },
+            {
+              "t": "errātūrum esse",
+              "role": "verb"
+            },
+            {
+              "t": ".",
+              "role": "plain"
+            }
+          ],
+          "translation": "He says that he will make a mistake.",
+          "source": "Wheelock 25 (pattern sentence)",
+          "fakes": []
+        }
+      ]
+    }
+  ],
+  "sourceVerified": false
+}

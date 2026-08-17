@@ -1,0 +1,198 @@
+{
+  "id": "dative",
+  "label": "The dative — its uses",
+  "short": "Dative uses",
+  "taughtAt": 35,
+  "layout": {
+    "rowLabels": [
+      "Indirect object",
+      "Reference / interest",
+      "Purpose (double dative)",
+      "Possession"
+    ],
+    "colLabels": [
+      "form"
+    ]
+  },
+  "notes": "Beyond the indirect object, the dative marks the person a statement is ABOUT: interest or disadvantage (mihi), purpose in the double-dative pattern (auxiliō nōbīs), and possession with sum (liber mihi est, 'I have a book'). Notice that the last one collides with the possessive genitive in spelling — the verb tells you which.",
+  "cells": [
+    {
+      "id": "io",
+      "r": 0,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "dative",
+          "role": "verb"
+        },
+        {
+          "t": "after a verb of giving/telling",
+          "role": "plain"
+        }
+      ],
+      "tell": "to whom something is given, said or shown",
+      "freqTier": 1,
+      "requires": [
+        "noun.puella.decl1"
+      ],
+      "examples": [
+        {
+          "id": "d1",
+          "pieces": [
+            {
+              "t": "Librum",
+              "role": "plain"
+            },
+            {
+              "t": "puellae",
+              "role": "signal"
+            },
+            {
+              "t": "dat.",
+              "role": "plain"
+            }
+          ],
+          "translation": "He gives the book to the girl.",
+          "source": "Wheelock 35 (pattern sentence)",
+          "fakes": []
+        }
+      ]
+    },
+    {
+      "id": "ref",
+      "r": 1,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "dative",
+          "role": "verb"
+        },
+        {
+          "t": "of the person concerned",
+          "role": "plain"
+        }
+      ],
+      "tell": "the person in whose interest — or to whose cost — it happens",
+      "freqTier": 2,
+      "requires": [
+        "noun.puella.decl1"
+      ],
+      "examples": [
+        {
+          "id": "d2",
+          "pieces": [
+            {
+              "t": "Mihi",
+              "role": "signal"
+            },
+            {
+              "t": "id fēcit.",
+              "role": "plain"
+            }
+          ],
+          "translation": "He did it for me (as far as I am concerned).",
+          "source": "Wheelock 35 (pattern sentence)",
+          "fakes": []
+        }
+      ]
+    },
+    {
+      "id": "purp",
+      "r": 2,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "dative of purpose",
+          "role": "verb"
+        },
+        {
+          "t": "dative of reference",
+          "role": "plain"
+        }
+      ],
+      "tell": "the double dative: 'for a help TO someone'",
+      "freqTier": 3,
+      "requires": [
+        "noun.puella.decl1"
+      ],
+      "examples": [
+        {
+          "id": "d3",
+          "pieces": [
+            {
+              "t": "Auxiliō",
+              "role": "signal"
+            },
+            {
+              "t": "nōbīs vēnit.",
+              "role": "plain"
+            }
+          ],
+          "translation": "He came as a help to us.",
+          "source": "Wheelock 35 (pattern sentence)",
+          "fakes": []
+        }
+      ]
+    },
+    {
+      "id": "poss",
+      "r": 3,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "dative",
+          "role": "verb"
+        },
+        {
+          "t": "sum",
+          "role": "signal"
+        }
+      ],
+      "tell": "sum + dative = 'X has' — the thing owned is the SUBJECT",
+      "freqTier": 1,
+      "requires": [
+        "noun.puella.decl1"
+      ],
+      "examples": [
+        {
+          "id": "d4",
+          "pieces": [
+            {
+              "t": "Liber",
+              "role": "plain"
+            },
+            {
+              "t": "puellae",
+              "role": "verb"
+            },
+            {
+              "t": "est",
+              "role": "signal"
+            },
+            {
+              "t": ".",
+              "role": "plain"
+            }
+          ],
+          "translation": "The girl has a book (there is a book to the girl).",
+          "source": "Wheelock 35 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 1,
+              "t": "puellā",
+              "fromCell": "n/a",
+              "teaches": "puellā is ABLATIVE. Possession with sum takes the DATIVE — and note the trap: liber puellae est can also be the plain genitive 'it is the girl's book'. Only context decides.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceVerified": false,
+  "drillModes": [
+    "read",
+    "impostor",
+    "identify"
+  ]
+}

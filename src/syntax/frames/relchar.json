@@ -1,0 +1,137 @@
+{
+  "id": "relchar",
+  "label": "Relative clauses — fact or characteristic?",
+  "short": "Rel. of char.",
+  "taughtAt": 38,
+  "layout": {
+    "rowLabels": [
+      "Ordinary relative (a definite person)",
+      "Relative of characteristic (the SORT who)"
+    ],
+    "colLabels": [
+      "mood"
+    ]
+  },
+  "notes": "The mood does the work. quī + indicative points at somebody definite; quī + subjunctive sketches a type — 'he is the sort who…'. Watch for the giveaway openers: sunt quī, nēmō est quī, quis est quī, dignus est quī.",
+  "cells": [
+    {
+      "id": "fact",
+      "r": 0,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "quī",
+          "role": "signal"
+        },
+        {
+          "t": "indicative",
+          "role": "verb"
+        }
+      ],
+      "tell": "quī + indicative describes someone actual and definite",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.pres.act.ind",
+        "pron.qui.sg"
+      ],
+      "examples": [
+        {
+          "id": "rc1",
+          "pieces": [
+            {
+              "t": "Sunt hominēs",
+              "role": "plain"
+            },
+            {
+              "t": "quī",
+              "role": "signal"
+            },
+            {
+              "t": "hoc",
+              "role": "plain"
+            },
+            {
+              "t": "faciunt",
+              "role": "verb"
+            },
+            {
+              "t": ".",
+              "role": "plain"
+            }
+          ],
+          "translation": "There are men who do this (these particular men).",
+          "source": "Wheelock 38 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 3,
+              "t": "faciant",
+              "fromCell": "char",
+              "teaches": "faciant is SUBJUNCTIVE — that turns the clause into a description of a TYPE ('the sort who would do this') rather than of actual men.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "char",
+      "r": 1,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "quī",
+          "role": "signal"
+        },
+        {
+          "t": "subjunctive",
+          "role": "verb"
+        }
+      ],
+      "tell": "quī + subjunctive describes a TYPE — 'the kind of person who'",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.pres.act.subj",
+        "pron.qui.sg"
+      ],
+      "examples": [
+        {
+          "id": "rc2",
+          "pieces": [
+            {
+              "t": "Sunt",
+              "role": "plain"
+            },
+            {
+              "t": "quī",
+              "role": "signal"
+            },
+            {
+              "t": "hoc",
+              "role": "plain"
+            },
+            {
+              "t": "faciant",
+              "role": "verb"
+            },
+            {
+              "t": ".",
+              "role": "plain"
+            }
+          ],
+          "translation": "There are those who would do this (that sort of person).",
+          "source": "Wheelock 38 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 3,
+              "t": "faciunt",
+              "fromCell": "fact",
+              "teaches": "faciunt is INDICATIVE — that points at particular people who actually do it. The subjunctive describes a character, not a census.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceVerified": false
+}

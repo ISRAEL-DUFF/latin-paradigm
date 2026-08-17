@@ -1,0 +1,73 @@
+{
+  "id": "ablabs",
+  "label": "The ablative absolute",
+  "short": "Abl. absolute",
+  "taughtAt": 24,
+  "layout": {
+    "rowLabels": [
+      "Noun + participle, both ablative"
+    ],
+    "colLabels": [
+      "form"
+    ]
+  },
+  "notes": "When the participle's noun plays NO part in the main clause, both go into the ablative and the phrase stands apart: Urbe captā, 'the city having been captured'. Translate loosely — 'when/since/after/although the city was captured' — and let the context choose. If the noun already has a job in the main clause, use an ordinary agreeing participle instead.",
+  "cells": [
+    {
+      "id": "aa",
+      "r": 0,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "noun in the ablative",
+          "role": "plain"
+        },
+        {
+          "t": "participle in the ablative",
+          "role": "verb"
+        }
+      ],
+      "tell": "a noun and participle in the ablative, grammatically free of the sentence",
+      "freqTier": 1,
+      "requires": [
+        "ptcp.laudans.sg"
+      ],
+      "examples": [
+        {
+          "id": "aa1",
+          "pieces": [
+            {
+              "t": "Urbe",
+              "role": "signal"
+            },
+            {
+              "t": "captā",
+              "role": "verb"
+            },
+            {
+              "t": ", omnēs discessērunt.",
+              "role": "plain"
+            }
+          ],
+          "translation": "The city having been captured, everyone departed.",
+          "source": "Wheelock 24 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 0,
+              "t": "Urbem",
+              "fromCell": "n/a",
+              "teaches": "Urbem is ACCUSATIVE — then the phrase would be the object of the main verb. The ablative is what cuts it loose from the sentence.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceVerified": false,
+  "drillModes": [
+    "read",
+    "impostor",
+    "identify"
+  ]
+}

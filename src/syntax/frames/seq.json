@@ -1,0 +1,204 @@
+{
+  "id": "seq",
+  "label": "Sequence of tenses — which subjunctive follows which main verb",
+  "short": "Sequence",
+  "taughtAt": 30,
+  "layout": {
+    "rowLabels": [
+      "Primary main verb (present/future/fut. perfect)",
+      "Secondary main verb (imperfect/perfect/pluperfect)"
+    ],
+    "colLabels": [
+      "same time or after",
+      "time before"
+    ]
+  },
+  "notes": "One rule governs every subjunctive clause in the language. Primary main verb → present subjunctive (same time/after) or perfect (before). Secondary main verb → imperfect (same time/after) or pluperfect (before). Learn this grid and purpose, result, indirect question, and fear clauses all fall into place.",
+  "cells": [
+    {
+      "id": "prim-contemp",
+      "r": 0,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "present subjunctive",
+          "role": "verb"
+        }
+      ],
+      "tell": "primary + present subjunctive = same time or later",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.pres.act.subj"
+      ],
+      "examples": [
+        {
+          "id": "seq1",
+          "pieces": [
+            {
+              "t": "Rogat",
+              "role": "plain"
+            },
+            {
+              "t": "quid",
+              "role": "signal"
+            },
+            {
+              "t": "faciās",
+              "role": "verb"
+            },
+            {
+              "t": ".",
+              "role": "plain"
+            }
+          ],
+          "translation": "He asks what you are doing.",
+          "source": "Wheelock 30 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 2,
+              "t": "facerēs",
+              "fromCell": "sec-contemp",
+              "teaches": "facerēs is IMPERFECT subjunctive — secondary sequence. After the present 'rogat', the present subjunctive is required.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prim-prior",
+      "r": 0,
+      "c": 1,
+      "recipe": [
+        {
+          "t": "perfect subjunctive",
+          "role": "verb"
+        }
+      ],
+      "tell": "primary + perfect subjunctive = earlier than the main verb",
+      "freqTier": 2,
+      "requires": [
+        "verb.laudo.perf.act.subj"
+      ],
+      "examples": [
+        {
+          "id": "seq2",
+          "pieces": [
+            {
+              "t": "Rogat",
+              "role": "plain"
+            },
+            {
+              "t": "quid",
+              "role": "signal"
+            },
+            {
+              "t": "fēcerīs",
+              "role": "verb"
+            },
+            {
+              "t": ".",
+              "role": "plain"
+            }
+          ],
+          "translation": "He asks what you did.",
+          "source": "Wheelock 30 (pattern sentence)",
+          "fakes": []
+        }
+      ]
+    },
+    {
+      "id": "sec-contemp",
+      "r": 1,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "imperfect subjunctive",
+          "role": "verb"
+        }
+      ],
+      "tell": "secondary + imperfect subjunctive = same time or later",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.impf.act.subj"
+      ],
+      "examples": [
+        {
+          "id": "seq3",
+          "pieces": [
+            {
+              "t": "Rogāvit",
+              "role": "plain"
+            },
+            {
+              "t": "quid",
+              "role": "signal"
+            },
+            {
+              "t": "facerēs",
+              "role": "verb"
+            },
+            {
+              "t": ".",
+              "role": "plain"
+            }
+          ],
+          "translation": "He asked what you were doing.",
+          "source": "Wheelock 30 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 2,
+              "t": "faciās",
+              "fromCell": "prim-contemp",
+              "teaches": "faciās is PRESENT subjunctive — primary sequence. After the perfect 'rogāvit', sequence demands the imperfect.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec-prior",
+      "r": 1,
+      "c": 1,
+      "recipe": [
+        {
+          "t": "pluperfect subjunctive",
+          "role": "verb"
+        }
+      ],
+      "tell": "secondary + pluperfect subjunctive = earlier than the main verb",
+      "freqTier": 2,
+      "requires": [
+        "verb.laudo.plup.act.subj"
+      ],
+      "examples": [
+        {
+          "id": "seq4",
+          "pieces": [
+            {
+              "t": "Rogāvit",
+              "role": "plain"
+            },
+            {
+              "t": "quid",
+              "role": "signal"
+            },
+            {
+              "t": "fēcissēs",
+              "role": "verb"
+            },
+            {
+              "t": ".",
+              "role": "plain"
+            }
+          ],
+          "translation": "He asked what you had done.",
+          "source": "Wheelock 30 (pattern sentence)",
+          "fakes": []
+        }
+      ]
+    }
+  ],
+  "sourceVerified": false
+}

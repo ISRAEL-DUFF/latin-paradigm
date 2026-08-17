@@ -1,0 +1,135 @@
+{
+  "id": "purpose",
+  "label": "Purpose clauses — ut / nē + subjunctive",
+  "short": "Purpose",
+  "taughtAt": 28,
+  "layout": {
+    "rowLabels": [
+      "Positive (ut)",
+      "Negative (nē)"
+    ],
+    "colLabels": [
+      "form"
+    ]
+  },
+  "notes": "Purpose looks forward: the action has not happened, so the mood is subjunctive. Present subjunctive after a primary main verb, imperfect after a secondary one (sequence of tenses, Ch.30). The negative is nē — never ut nōn.",
+  "cells": [
+    {
+      "id": "pos",
+      "r": 0,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "ut",
+          "role": "signal"
+        },
+        {
+          "t": "subjunctive",
+          "role": "verb"
+        }
+      ],
+      "tell": "ut + subjunctive = in order that / to",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.pres.act.subj"
+      ],
+      "examples": [
+        {
+          "id": "pur1",
+          "pieces": [
+            {
+              "t": "Discēdit",
+              "role": "plain"
+            },
+            {
+              "t": "ut",
+              "role": "signal"
+            },
+            {
+              "t": "nōs",
+              "role": "plain"
+            },
+            {
+              "t": "videat",
+              "role": "verb"
+            },
+            {
+              "t": ".",
+              "role": "plain"
+            }
+          ],
+          "translation": "He is leaving in order to see us.",
+          "source": "Wheelock 28 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 3,
+              "t": "videt",
+              "fromCell": "n/a",
+              "teaches": "videt is INDICATIVE — a purpose clause is never indicative; purpose is unrealized by definition.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neg",
+      "r": 1,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "nē",
+          "role": "signal"
+        },
+        {
+          "t": "subjunctive",
+          "role": "verb"
+        }
+      ],
+      "tell": "nē + subjunctive = in order that … not / lest",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.pres.act.subj"
+      ],
+      "examples": [
+        {
+          "id": "pur2",
+          "pieces": [
+            {
+              "t": "Discēdit",
+              "role": "plain"
+            },
+            {
+              "t": "nē",
+              "role": "signal"
+            },
+            {
+              "t": "nōs",
+              "role": "plain"
+            },
+            {
+              "t": "videat",
+              "role": "verb"
+            },
+            {
+              "t": ".",
+              "role": "plain"
+            }
+          ],
+          "translation": "He is leaving so that he may not see us.",
+          "source": "Wheelock 28 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 1,
+              "t": "ut nōn",
+              "fromCell": "res-neg",
+              "teaches": "ut nōn is the RESULT negative. A negative purpose takes nē — 'ut nōn' here would say 'with the result that he does not see us'.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceVerified": false
+}

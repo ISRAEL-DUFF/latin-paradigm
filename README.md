@@ -4,6 +4,13 @@ A paradigm-mastery game for **Latin**, keyed chapter-by-chapter to **Wheelock's 
 7th edition**. Sibling of Παράδειγμα (Greek): independent codebase, shared family
 conventions (see `../family-conventions.md`, copied spirit-for-spirit).
 
+**Two doors.** MORPHOLOGY (below) and **SYNTAX** — a separate section, entered
+deliberately, with its own content spine, its own gold, and its own Dexie
+tables. Phase S1 ships 6 frame tables / 27 cells for Wheelock 25–33
+(indirect statement, purpose, result, sequence of tenses, cum-clauses, and
+the six conditions), drillable in READ / FILL / ASSEMBLE / IMPOSTOR /
+IDENTIFY. See `../syntax-section-spec.md`.
+
 **Current coverage:** Chapters 1–40 (all of Wheelock) · 128 tables · 1,060 cells — every
 form attested against Wiktionary's macron-faithful inflection tables (1,060/1,060 exact,
 queue empty). Chapters 33, 35 and 40 introduce syntax only and ship as titled entries

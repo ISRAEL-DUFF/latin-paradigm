@@ -207,3 +207,184 @@ assembly (step chips tick to ✓ as each morpheme lands).
 Verified live in both apps across all three lookup states; the beat banner
 carries the 4px gold accent edge and the found cell pops. Suites green
 (Greek 101, Latin 95), builds clean.
+
+## Syntax section — phase S1 (the Latin pilot), 2026-08-10
+
+Spec approved same day; five of six decisions settled (Latin pilot,
+interleave inside the section, progress separate, build before the book
+pass). **6 frame tables / 27 cells / 27 cited examples / 17 authored fakes.**
+
+Shipped:
+- **The two-door rule holds in code, not just in intent.** MORPHOLOGY |
+  SYNTAX switch under the top bar, morphology default, door persisted. The
+  only morphology-side edits: the switch itself, a `hidden` guard on the
+  drill body, and TopBar dropping its table-breadcrumb/mode-pill/gild-rule
+  in the syntax room (offering morphology controls there was a real bug
+  found in live play). PROVEN SEPARATE: after a syntax session the dev DB
+  held 4 records in `syntaxMastery` and **0** in `mastery`; a test asserts a
+  fully-gilded morphology map moves syntax progress not at all, and another
+  asserts the syntax modules never import the morphology scheduler.
+- Dexie v2 adds `syntaxMastery` / `syntaxStudied` — additive migration,
+  morphology stores untouched.
+- Five modes live: READ (sentence refraction — signals gold, the drilled
+  mood/tense blue), FILL (recipe trays of confusable neighbours), ASSEMBLE
+  (ordered recipe chips), IMPOSTOR (authored swaps only), IDENTIFY (a cold
+  cited sentence → which construction).
+- `validate-syntax.mjs` joins `npm run validate`. It caught two real content
+  bugs on first run: indirect statement's examples had no signal piece (the
+  fix is linguistically right — the head verb of saying IS what triggers
+  acc+inf, so *Dīcit* is the signal that lights up), and a fake referenced
+  "result-neg" where the cell is "res-neg".
+
+Design notes:
+- `TIER_WEIGHT` is restated inside the syntax scheduler rather than imported
+  from morphology's — the section must not depend on that module. Same
+  numbers, deliberately duplicated.
+- **The locked-frame path is unreachable by construction.** The validator
+  enforces `requires.chapterIntroduced ≤ taughtAt`, and only frames at or
+  below the player's chapter are shown, so a frame can never appear before
+  its morphology. The lock UI (🔒 + a link into the paradigm) stays as a
+  guard for future content; it is not a state S1 can enter, and it is
+  honestly untested in live play.
+
+ACCEPTANCE (spec §9) — verified live at Chapter 33:
+✓ the conditions grid drillable in all five modes
+✓ an impostor round planting cum + INDICATIVE in a circumstantial clause,
+  teaching on discovery ("faciēbat is INDICATIVE — that flattens the clause
+  to a plain time-stamp and loses the circumstantial colour")
+✓ morphology regression: 95 morphology tests still pass, 109 total
+✓ the section is findable and enterable unprompted
+
+FOUNDER: every one of the 27 examples carries a Wheelock citation and needs
+your pass alongside the paradigm content. They are pattern sentences built
+on the chapter's own material, not quotations — verify wording and mark
+`sourceVerified: true` per frame table.
+
+## Syntax section — phase S2, the rest of the Latin inventory, 2026-08-10
+
+Twelve new frame tables complete spec §6. **Latin syntax now: 18 tables /
+62 cells / 62 cited examples / 36 authored fakes**, chapters 20–40.
+
+Constructions: indirect questions (30, the mood flip), jussive noun clauses
+(36, with the iubeō acc+inf exception as its trap), fear clauses (40, the
+inverted negatives), relative of characteristic (38), gerund/gerundive
+purpose (39), ablative absolute (24), passive periphrastic with its dative
+of agent (24), independent subjunctives (28). Case-use inventories, per the
+spec's "case-use rows ARE cells" ruling: ablative (8 uses), genitive (4),
+dative (4).
+
+**Two content-model defects surfaced by a live tray, both now structural:**
+
+1. **ALL-CAPS emphasis in recipes produced near-duplicate chips.** A tray
+   showed "pluperfect subjunctive" beside "PLUPERFECT subjunctive" — the
+   same answer twice to the eye, one marked wrong. Emphasis belongs in the
+   tell, not the recipe; all recipe slots normalized to lowercase, and a
+   test now fails any tray containing two chips that differ only in case.
+
+2. **Some frames cannot host a recipe drill at all.** A diagnostic across
+   all 18 tables found 10 with repeating recipe answers. Two different
+   causes, and they need different answers:
+   - Where the rows share a MOOD but differ by PARTICLE (purpose ut/nē,
+     fear nē/ut), the drill was asking about the identical part. New
+     `discriminatorRole()` computes what actually tells a table's rows
+     apart and drills THAT — verified live: fear now offers nē vs ut.
+   - Where rows differ by MEANING alone (the case-use inventories, cum's
+     three subjunctive senses, result's ut…nōn, and the single-cell
+     ablative absolute), no recipe slot can discriminate. Those tables now
+     declare `drillModes: ["read","impostor","identify"]` — the frame
+     analogue of morphology's `drillClass`. The validator ENFORCES the
+     rule: declaring fill/assemble without a discriminator is an error,
+     which is how the one-cell ablative absolute was caught.
+
+The UI honours the declaration — a case-use table shows only the three modes
+it can host, and switching to it from FILL drops you into READ rather than
+stranding you in a mode the table cannot answer.
+
+Also fixed here (same defect class as the S3 font leak): **structure notes,
+tells, translations and beat text now render language tokens in the language
+font.** "ab/dē/ex" was displaying as "ab/de7ex" in Jost. The `Mixed` renderer
+covers all prose surfaces in both apps.
+
+Gates: Latin 116 tests, Greek 119, both validators, both builds. Dev DB reset.
+
+FOUNDER: S2 adds 35 more cited examples to your Wheelock pass (62 total
+across 18 tables). The case-use tables are the ones most worth your eye —
+their row inventories are judgement calls about what Wheelock groups where.
+
+### Syntax chrome refactor — founder-reported, 2026-08-10
+
+Founder: "the syntax UI houses many UI problems we already solved for
+morphology — all the buttons and selections show up on the page." Correct,
+and the diagnosis was exact. At Chapter 40 the section rendered **18 frame
+chips across three wrapped rows plus five mode chips plus a progress line**
+before any content — roughly a third of the screen spent on navigation that
+morphology had long since moved into sheets.
+
+I built a second, worse navigation instead of reusing the solved one. Fixed
+by adopting morphology's chrome wholesale:
+- The frame lives in the **TopBar breadcrumb** and opens a **Frames sheet**
+  (new `FramesPanel`, container-agnostic like `TablesPanel`: grouped by
+  chapter, gold counts, active frame marked).
+- The mode lives in the **mode pill** and opens a **How-to-drill-syntax
+  sheet** (new `SyntaxModesPanel`) — which has room to say WHY a mode is
+  absent on a case-use table, instead of silently hiding it.
+- Wide screens get a **frames rail**, mirroring the tables rail.
+- `syntaxTableId` / `syntaxMode` lifted into App, exactly where morphology's
+  paradigm and mode already live; SyntaxSection now renders content only, and
+  one effect owns round-arming.
+
+Three defects surfaced while doing it:
+1. **"genitive + + noun"** — recipe pieces carried their own leading "+"
+   while the renderer also joined with "+". Stripped in content.
+2. **The font bug, third sighting** ("ut / ne¯+ subjunctive" in frame
+   labels). Stopped patching call sites: `Mixed` is now a shared component
+   with a stated rule — *if content can reach a surface, render it through
+   Mixed* — and it is applied to labels, notes, tells, translations, beats,
+   blurbs and the breadcrumb.
+3. The leak guards only covered four files, so the newly ported chrome was
+   unguarded. Widened to include TopBar and all three new components — and
+   it immediately caught **"CH. 8" in the Greek top bar** (my port map had no
+   rule for "CH.") plus a comment in Latin's TopBar reading "twins can cross
+   units", a leftover from the original Greek→Latin copy long before syntax.
+
+Gates: Latin 116, Greek 119, both validators, both builds. Verified live on a
+375px viewport in both apps.
+
+## Dark-mode legibility — live-user report, 2026-08-10
+
+Founder, from deployed use: "the texts are hard to read on dark mode… can the
+text color be sharper?" Measured rather than guessed, against the actual
+panel grounds.
+
+**Where it actually was.** The primaries were never the problem — marble
+13.28:1, gold 9.00:1, aegean 7.21:1, all AAA. The fault was `faint`, at
+**5.18:1** while carrying **~44 text sites per app**, nearly all of them at
+12px. WCAG's 4.5:1 floor is written for ~16px body text; at 12px it buys you
+a pass and a squint. `wrong` was similar at 4.51:1 — and it is the colour the
+app uses to tell you something went wrong.
+
+**What changed** (hue and saturation preserved; only value moves, so the
+palette's character is intact):
+- faint  #8b8fa3 → #a9aec7   5.18 → 7.57
+- wrong  #c96a5e → #eb7c6e   4.51 → 6.04
+- marble #e9e6da → #efece0  13.28 → 14.03 (free, since it was being touched)
+
+line, goldDeep and aegeanDeep stay exactly as they were: they are borders and
+fills, never text, and lifting them would flatten the depth the panels rely on.
+
+**Colour was only half of it.** Light strokes on a dark field bloom
+(irradiation), which smears the glyph edge and reads as "fuzzy" no matter the
+contrast. Added explicit grayscale smoothing on `html`
+(`-webkit-font-smoothing: antialiased`, `-moz-osx-font-smoothing: grayscale`,
+`text-rendering: optimizeLegibility`) to kill the sub-pixel colour fringing,
+and bumped small text (`text-xs`, 11px, 10px) from weight 400 to **450** —
+enough to hold a stem against the bloom, not enough to read as emphasis.
+
+Verified in the running app by sampling live DOM nodes: every small-text
+sample now computes ≥7.39:1 at weight 450, smoothing confirmed active. Worst
+case anywhere — faint on the lightest panel (panelUp) — is 6.76:1, still
+comfortably above AA.
+
+The palette header in theme.js was marked "locked from v0, do not change";
+that note is now replaced with this reasoning, since a live-user readability
+report outranks it.

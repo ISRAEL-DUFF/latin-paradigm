@@ -1,0 +1,123 @@
+{
+  "id": "indquest",
+  "label": "Indirect questions — the mood flips",
+  "short": "Ind. question",
+  "taughtAt": 30,
+  "layout": {
+    "rowLabels": [
+      "Direct question",
+      "Indirect question"
+    ],
+    "colLabels": [
+      "mood"
+    ]
+  },
+  "notes": "Latin marks a question as REPORTED by moving its verb to the subjunctive: Quid facis? but Rogō quid faciās. The interrogative word stays; only the mood changes. Which subjunctive tense follows the sequence-of-tenses grid (Ch.30).",
+  "cells": [
+    {
+      "id": "direct",
+      "r": 0,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "interrogative word",
+          "role": "signal"
+        },
+        {
+          "t": "indicative",
+          "role": "verb"
+        }
+      ],
+      "tell": "a question asked outright keeps the indicative",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.pres.act.ind"
+      ],
+      "examples": [
+        {
+          "id": "iq1",
+          "pieces": [
+            {
+              "t": "Quid",
+              "role": "signal"
+            },
+            {
+              "t": "facis",
+              "role": "verb"
+            },
+            {
+              "t": "?",
+              "role": "plain"
+            }
+          ],
+          "translation": "What are you doing?",
+          "source": "Wheelock 30 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 1,
+              "t": "faciās",
+              "fromCell": "indirect",
+              "teaches": "faciās is SUBJUNCTIVE — that belongs to a question reported inside another clause, not one asked outright.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "indirect",
+      "r": 1,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "interrogative word",
+          "role": "signal"
+        },
+        {
+          "t": "subjunctive",
+          "role": "verb"
+        }
+      ],
+      "tell": "the same question reported takes the subjunctive, tense by sequence",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.pres.act.subj"
+      ],
+      "examples": [
+        {
+          "id": "iq2",
+          "pieces": [
+            {
+              "t": "Rogō",
+              "role": "plain"
+            },
+            {
+              "t": "quid",
+              "role": "signal"
+            },
+            {
+              "t": "faciās",
+              "role": "verb"
+            },
+            {
+              "t": ".",
+              "role": "plain"
+            }
+          ],
+          "translation": "I ask what you are doing.",
+          "source": "Wheelock 30 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 2,
+              "t": "facis",
+              "fromCell": "direct",
+              "teaches": "facis is INDICATIVE — that would be quoting the question directly. Reported inside rogō, the verb must go subjunctive.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceVerified": false
+}

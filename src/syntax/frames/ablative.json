@@ -1,0 +1,362 @@
+{
+  "id": "ablative",
+  "label": "The ablative — its uses",
+  "short": "Ablative uses",
+  "taughtAt": 34,
+  "layout": {
+    "rowLabels": [
+      "Means / instrument",
+      "Manner",
+      "Accompaniment",
+      "Time when",
+      "Degree of difference",
+      "Specification",
+      "Comparison",
+      "Place from which"
+    ],
+    "colLabels": [
+      "preposition?"
+    ]
+  },
+  "notes": "The ablative is Latin's Swiss army knife, and the first question is always: IS THERE A PREPOSITION? Means, time, degree, specification and comparison go bare; accompaniment needs cum; place-from-which needs ab/dē/ex (except with city names). Manner sits in between — cum unless an adjective carries the phrase.",
+  "cells": [
+    {
+      "id": "means",
+      "r": 0,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "bare ablative",
+          "role": "verb"
+        },
+        {
+          "t": "(no preposition)",
+          "role": "plain"
+        }
+      ],
+      "tell": "the tool or means — never with cum",
+      "freqTier": 1,
+      "requires": [
+        "noun.puella.decl1"
+      ],
+      "examples": [
+        {
+          "id": "ab1",
+          "pieces": [
+            {
+              "t": "Gladiō",
+              "role": "signal"
+            },
+            {
+              "t": "pugnat.",
+              "role": "plain"
+            }
+          ],
+          "translation": "He fights with a sword.",
+          "source": "Wheelock 34 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 0,
+              "t": "Cum gladiō",
+              "fromCell": "accomp",
+              "teaches": "cum + ablative marks ACCOMPANIMENT — people you are with. A tool takes the bare ablative: gladiō.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "manner",
+      "r": 1,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "cum",
+          "role": "signal"
+        },
+        {
+          "t": "ablative",
+          "role": "verb"
+        },
+        {
+          "t": "(cum may drop if an adjective is present)",
+          "role": "plain"
+        }
+      ],
+      "tell": "the way in which — cum cūrā, or magnā cūrā",
+      "freqTier": 2,
+      "requires": [
+        "noun.puella.decl1"
+      ],
+      "examples": [
+        {
+          "id": "ab2",
+          "pieces": [
+            {
+              "t": "Cum",
+              "role": "signal"
+            },
+            {
+              "t": "cūrā",
+              "role": "verb"
+            },
+            {
+              "t": "id facit.",
+              "role": "plain"
+            }
+          ],
+          "translation": "He does it with care.",
+          "source": "Wheelock 34 (pattern sentence)",
+          "fakes": []
+        }
+      ]
+    },
+    {
+      "id": "accomp",
+      "r": 2,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "cum",
+          "role": "signal"
+        },
+        {
+          "t": "ablative",
+          "role": "verb"
+        }
+      ],
+      "tell": "the people you are with — cum is required",
+      "freqTier": 1,
+      "requires": [
+        "noun.amicus.decl2m"
+      ],
+      "examples": [
+        {
+          "id": "ab3",
+          "pieces": [
+            {
+              "t": "Cum",
+              "role": "signal"
+            },
+            {
+              "t": "amīcō",
+              "role": "verb"
+            },
+            {
+              "t": "vēnit.",
+              "role": "plain"
+            }
+          ],
+          "translation": "He came with his friend.",
+          "source": "Wheelock 34 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 0,
+              "t": "Ab",
+              "fromCell": "from",
+              "teaches": "ab + ablative is motion FROM — 'he came from his friend'. Accompaniment ('with') needs cum; the two prepositions are not interchangeable.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "time",
+      "r": 3,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "bare ablative",
+          "role": "verb"
+        }
+      ],
+      "tell": "time WHEN or WITHIN WHICH — no preposition",
+      "freqTier": 2,
+      "requires": [
+        "noun.puella.decl1"
+      ],
+      "examples": [
+        {
+          "id": "ab4",
+          "pieces": [
+            {
+              "t": "Eō tempore",
+              "role": "signal"
+            },
+            {
+              "t": "vēnit.",
+              "role": "plain"
+            }
+          ],
+          "translation": "At that time he came.",
+          "source": "Wheelock 34 (pattern sentence)",
+          "fakes": []
+        }
+      ]
+    },
+    {
+      "id": "degree",
+      "r": 4,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "bare ablative",
+          "role": "verb"
+        },
+        {
+          "t": "with a comparative",
+          "role": "plain"
+        }
+      ],
+      "tell": "by how much — multō, paulō",
+      "freqTier": 3,
+      "requires": [
+        "noun.puella.decl1"
+      ],
+      "examples": [
+        {
+          "id": "ab5",
+          "pieces": [
+            {
+              "t": "Multō",
+              "role": "signal"
+            },
+            {
+              "t": "melior est.",
+              "role": "plain"
+            }
+          ],
+          "translation": "He is better by much (much better).",
+          "source": "Wheelock 34 (pattern sentence)",
+          "fakes": []
+        }
+      ]
+    },
+    {
+      "id": "spec",
+      "r": 5,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "bare ablative",
+          "role": "verb"
+        }
+      ],
+      "tell": "in respect to what — 'brave IN spirit'",
+      "freqTier": 3,
+      "requires": [
+        "noun.puella.decl1"
+      ],
+      "examples": [
+        {
+          "id": "ab6",
+          "pieces": [
+            {
+              "t": "Animō",
+              "role": "signal"
+            },
+            {
+              "t": "fortis est.",
+              "role": "plain"
+            }
+          ],
+          "translation": "He is brave in spirit.",
+          "source": "Wheelock 34 (pattern sentence)",
+          "fakes": []
+        }
+      ]
+    },
+    {
+      "id": "comp",
+      "r": 6,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "bare ablative",
+          "role": "verb"
+        },
+        {
+          "t": "(replacing quam + nominative)",
+          "role": "plain"
+        }
+      ],
+      "tell": "than — the ablative of comparison",
+      "freqTier": 2,
+      "requires": [
+        "noun.puella.decl1"
+      ],
+      "examples": [
+        {
+          "id": "ab7",
+          "pieces": [
+            {
+              "t": "Melior",
+              "role": "plain"
+            },
+            {
+              "t": "amīcō",
+              "role": "signal"
+            },
+            {
+              "t": "est.",
+              "role": "plain"
+            }
+          ],
+          "translation": "He is better than his friend.",
+          "source": "Wheelock 34 (pattern sentence)",
+          "fakes": []
+        }
+      ]
+    },
+    {
+      "id": "from",
+      "r": 7,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "ab / dē / ex",
+          "role": "signal"
+        },
+        {
+          "t": "ablative",
+          "role": "verb"
+        }
+      ],
+      "tell": "motion away — the preposition is required for places",
+      "freqTier": 2,
+      "requires": [
+        "noun.amicus.decl2m"
+      ],
+      "examples": [
+        {
+          "id": "ab8",
+          "pieces": [
+            {
+              "t": "Ex",
+              "role": "signal"
+            },
+            {
+              "t": "urbe",
+              "role": "verb"
+            },
+            {
+              "t": "vēnit.",
+              "role": "plain"
+            }
+          ],
+          "translation": "He came out of the city.",
+          "source": "Wheelock 34 (pattern sentence)",
+          "fakes": []
+        }
+      ]
+    }
+  ],
+  "sourceVerified": false,
+  "drillModes": [
+    "read",
+    "impostor",
+    "identify"
+  ]
+}

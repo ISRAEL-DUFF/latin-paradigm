@@ -1,5 +1,26 @@
 @import "tailwindcss";
 
+/* ---------- legibility on the dark ground (founder report, 2026-08-10) ----------
+   Two things make light-on-dark type read as soft, and colour is only one of
+   them. Light strokes on a dark field bloom — irradiation — so the glyph edge
+   smears and thin faces look muddy rather than fine. Explicit grayscale
+   smoothing removes the sub-pixel colour fringing that causes most of it.
+
+   The second is weight: at 12px the interface face's 400 is genuinely thin
+   once bloom eats the stem. Secondary text gets 450 — enough to hold an edge,
+   not enough to read as emphasis. */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+.text-xs,
+.text-\[11px\],
+.text-\[10px\] {
+  font-weight: 450;
+}
+
+
 /* Latin forms: EB Garamond renders macrons cleanly at chip sizes (ā vs a is
    the exam-relevant discrimination — family-conventions §5, Latin row). */
 .gk {

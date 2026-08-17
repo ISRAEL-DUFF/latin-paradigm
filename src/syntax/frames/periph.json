@@ -1,0 +1,123 @@
+{
+  "id": "periph",
+  "label": "The passive periphrastic — obligation",
+  "short": "Periphrastic",
+  "taughtAt": 24,
+  "layout": {
+    "rowLabels": [
+      "The construction",
+      "Its agent"
+    ],
+    "colLabels": [
+      "form"
+    ]
+  },
+  "notes": "Gerundive + sum states obligation, and its agent is the one place Latin puts the doer in the DATIVE: Hoc mihi faciendum est, 'this must be done by me' — or more naturally, 'I must do this'.",
+  "cells": [
+    {
+      "id": "constr",
+      "r": 0,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "gerundive",
+          "role": "verb"
+        },
+        {
+          "t": "sum",
+          "role": "signal"
+        }
+      ],
+      "tell": "gerundive + a form of sum = 'must be …-ed', 'ought to be …-ed'",
+      "freqTier": 1,
+      "requires": [
+        "verb.laudo.periph.pass"
+      ],
+      "examples": [
+        {
+          "id": "pp1",
+          "pieces": [
+            {
+              "t": "Urbs",
+              "role": "plain"
+            },
+            {
+              "t": "dēfendenda",
+              "role": "verb"
+            },
+            {
+              "t": "est",
+              "role": "signal"
+            },
+            {
+              "t": ".",
+              "role": "plain"
+            }
+          ],
+          "translation": "The city must be defended.",
+          "source": "Wheelock 24 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 1,
+              "t": "dēfēnsa",
+              "fromCell": "n/a",
+              "teaches": "dēfēnsa is the PERFECT PASSIVE participle — 'the city has been defended', a fact. The gerundive (-nd-) is what carries obligation.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "r": 1,
+      "c": 0,
+      "recipe": [
+        {
+          "t": "dative of agent",
+          "role": "verb"
+        }
+      ],
+      "tell": "the doer goes in the DATIVE here, not ab + ablative",
+      "freqTier": 1,
+      "requires": [
+        "noun.puella.decl1"
+      ],
+      "examples": [
+        {
+          "id": "pp2",
+          "pieces": [
+            {
+              "t": "Urbs",
+              "role": "plain"
+            },
+            {
+              "t": "nōbīs",
+              "role": "verb"
+            },
+            {
+              "t": "dēfendenda est",
+              "role": "signal"
+            },
+            {
+              "t": ".",
+              "role": "plain"
+            }
+          ],
+          "translation": "The city must be defended by us.",
+          "source": "Wheelock 24 (pattern sentence)",
+          "fakes": [
+            {
+              "pieceIdx": 1,
+              "t": "ā nōbīs",
+              "fromCell": "n/a",
+              "teaches": "ā + ablative is the ordinary agent of a passive verb. The passive periphrastic is the exception — its agent is dative: nōbīs.",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceVerified": false
+}

@@ -1,4 +1,5 @@
 import { C } from "../theme.js";
+import Mixed from "./Mixed.jsx";
 
 /* ---------- the top bar ----------
    Replaces ~514px of stacked chrome with 48px. Everything it holds is a way
@@ -11,7 +12,15 @@ import { C } from "../theme.js";
 
    The gild rule beneath follows the same rule, and is deliberately table-local:
    it moves while you play, which a global 21/508 never visibly does. */
-export default function TopBar({ chapter, tables, mode, wide, onOpenTables, onOpenModes, onOpenSettings }) {
+export default function TopBar({
+  chapter, tables, mode, wide, onOpenTables, onOpenModes, onOpenSettings,
+  door = "morphology", syntaxTable, syntaxMode, onOpenFrames, onOpenSyntaxModes,
+}) {
+  /* In the SYNTAX room the bar keeps the chapter (one gate serves both doors)
+     and the settings key, but drops the table breadcrumb and the mode pill —
+     those drive morphology, and offering them here would hand the user
+     controls that belong to the other room. */
+  const syntaxDoor = door === "syntax";
   const twin = tables.length === 2;
   /* On a wide screen the Tables rail is permanently open beside the board, so
      the breadcrumb is a label rather than a way in — it still says where you
@@ -36,12 +45,12 @@ export default function TopBar({ chapter, tables, mode, wide, onOpenTables, onOp
         {/* min-w-0 is load-bearing: without it a long Greek label refuses to
             shrink and pushes the mode pill off the bar. */}
         <button
-          onClick={crumbOpens ? onOpenTables : undefined}
+          onClick={syntaxDoor ? (crumbOpens ? onOpenFrames : undefined) : (crumbOpens ? onOpenTables : undefined)}
           className="flex-1 min-w-0 flex items-baseline gap-2 text-left"
-          aria-label="choose table"
+          aria-label={syntaxDoor ? "choose frame" : "choose table"}
           style={{ cursor: crumbOpens ? "pointer" : "default" }}
         >
-          {/* In Twin the chapter label is dropped — twins can cross units, so it
+          {/* In Twin the chapter label is dropped — twins can cross chapters, so it
               would be ambiguous. Each table's chapter stays in its own header. */}
           {!twin && (
             <span
@@ -51,7 +60,12 @@ export default function TopBar({ chapter, tables, mode, wide, onOpenTables, onOp
               CH. {chapter}
             </span>
           )}
-          {tables.map((t, i) => (
+          {syntaxDoor && (
+            <span className="text-base truncate" style={{ color: C.marble, minWidth: 0 }}>
+              <Mixed text={syntaxTable?.short ?? "Syntax"} />
+            </span>
+          )}
+          {!syntaxDoor && tables.map((t, i) => (
             <span key={t.id} className="flex items-baseline gap-2 min-w-0">
               {i > 0 && (
                 <span className="shrink-0" style={{ color: C.aegean }}>
@@ -76,7 +90,7 @@ export default function TopBar({ chapter, tables, mode, wide, onOpenTables, onOp
 
         <button
           data-test="mode-pill"
-          onClick={onOpenModes}
+          onClick={syntaxDoor ? onOpenSyntaxModes : onOpenModes}
           className="shrink-0 px-3 py-1 rounded-full text-xs"
           style={{
             background: C.aegeanDeep,
@@ -85,11 +99,11 @@ export default function TopBar({ chapter, tables, mode, wide, onOpenTables, onOp
             letterSpacing: "0.08em",
           }}
         >
-          {mode.toUpperCase()}
+          {(syntaxDoor ? syntaxMode : mode).toUpperCase()}
         </button>
       </div>
 
-      <GildRule tables={tables} />
+      {!syntaxDoor && <GildRule tables={tables} />}
     </div>
   );
 }
